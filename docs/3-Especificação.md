@@ -1,133 +1,97 @@
-
 # 3. Especificações do Projeto
 
 <span style="color:red">Pré-requisitos: <a href="2-Planejamento-Projeto.md"> Planejamento do Projeto do Software (Cronograma) </a></span>
-
-> Nesta seção, você vai detalhar os requisitos do seu sistema e as restrições do projeto, organizando as funcionalidades e características que a solução deve ter.
 
 ---
 
 ## 3.1 Requisitos Funcionais
 
-Preencha o Quadro abaixo com os requisitos funcionais que **detalham as funcionalidades que seu sistema deverá oferecer**.  
-Cada requisito deve representar uma característica única da solução e ser claro para orientar o desenvolvimento.
+Os requisitos funcionais detalham as funcionalidades que o sistema **Recanto Imperial GSB Manager** deverá oferecer, garantindo clareza no desenvolvimento e validação.
 
-
-|ID     | Descrição do Requisito                                                                                            | Prioridade |
-|-------|-----------------------------------------------------------------------------------------------------------------|------------|
-|RF-01  | O sistema deve permitir que os usuários criem uma conta informando nome, e-mail, senha e endereço.                | ALTA       | 
-|RF-02  | O sistema deve permitir que os usuários adicionem produtos ao carrinho de compras.                                | MÉDIA      |
-|RF-03  | *(Descreva aqui o requisito funcional 3 do seu sistema)*                                                        | *(Alta/Média/Baixa)*  |
-|RF-04  | *(Descreva aqui o requisito funcional 4 do seu sistema)*                                                        | *(Alta/Média/Baixa)*  |
-|RF-05  | *(Descreva aqui o requisito funcional 5 do seu sistema)*                                                        | *(Alta/Média/Baixa)*  |
-|RF-06  | *(Descreva aqui o requisito funcional 6 do seu sistema)*                                                        | *(Alta/Média/Baixa)*  |
-|RF-07  | *(Descreva aqui o requisito funcional 7 do seu sistema)*                                                        | *(Alta/Média/Baixa)*  |
-|RF-08  | *(Descreva aqui o requisito funcional 8 do seu sistema)*                                                        | *(Alta/Média/Baixa)*  |
-|RF-09  | *(Descreva aqui o requisito funcional 9 do seu sistema)*                                                        | *(Alta/Média/Baixa)*  |
-|RF-10  | *(Descreva aqui o requisito funcional 10 do seu sistema)*                                                       | *(Alta/Média/Baixa)*  |
+|ID     | Descrição do Requisito                                                                                          | Prioridade |
+|-------|----------------------------------------------------------------------------------------------------------------|------------|
+|RF-01  | O sistema deve permitir o cadastro e gerenciamento de aves (GSB), incluindo dados como anilha, linhagem e idade.| ALTA       |
+|RF-02  | O sistema deve permitir o registro de cruzamentos entre aves, com histórico de genética e descendentes.         | ALTA       |
+|RF-03  | O sistema deve gerar relatórios em PDF com informações de aves, cruzamentos e genealogia.                       | MÉDIA      |
+|RF-04  | O sistema deve permitir a pesquisa e filtragem de aves por anilha, linhagem, idade e status.                    | ALTA       |
+|RF-05  | O sistema deve manter um histórico de eventos importantes (ex.: nascimento, óbito, venda de aves).              | MÉDIA      |
+|RF-06  | O sistema deve fornecer dashboards com indicadores básicos (número de aves ativas, cruzamentos realizados, etc).| MÉDIA      |
+|RF-07  | O sistema deve possibilitar backup e restauração de dados do banco local (SQLite).                              | ALTA       |
 
 ---
 
 ## 3.2 Histórias de Usuário
 
-> Cada história de usuário deve ser escrita no formato:  
->  
-> **Como [persona], eu quero [funcionalidade], para que [benefício/motivo].**  seguindo o modelo e conceitos ensinados na disciplina de       
-> Engenharia de Requisitos.   
----
-⚠️ **ATENÇÃO:** Escreva de forma que cada história de usuário esteja associada a um requisito funcional específico para facilitar o acompanhamento e validação. Por exemplo:
+As histórias de usuário foram adaptadas ao cenário real: **um único criatório com um único usuário**, sem necessidade de login, senha ou múltiplos perfis.
 
-> **História 1 (relacionada ao Requisito RF-001):**  
-> Como usuário, quero registrar minhas tarefas para não esquecer de fazê-las.  
->  
-> **História 2 (relacionada ao Requisito RF-002):**  
-> Como administrador, quero alterar permissões para controlar o acesso ao sistema.  
->  
-> Para melhor organização, as histórias podem ser agrupadas por contexto ou módulo funcional.
+- **História 1 (RF-01):**  
+  Como **criador do Recanto Imperial GSB**, quero cadastrar e gerenciar minhas aves com todos os dados relevantes, para manter controle genético e organizacional do plantel.
 
----
+- **História 2 (RF-02):**  
+  Como **criador**, quero registrar cruzamentos entre minhas aves, para garantir rastreabilidade e acompanhar a qualidade genética.
 
-### ✏️ Escreva aqui as histórias de usuário do seu projeto:
+- **História 3 (RF-03):**  
+  Como **criador**, quero gerar relatórios em PDF com informações completas, para documentar e compartilhar dados do criatório.
 
-<div style="border: 2px dashed #999999; padding: 15px; margin: 10px 0;">
-  
-<!-- Espaço para escrever o texto -->  
-**[Escreva aqui as histórias do seu projeto]**
+- **História 4 (RF-04):**  
+  Como **criador**, quero pesquisar minhas aves por anilha, linhagem ou idade, para localizar informações de forma rápida.
 
-- **História 1 (relacionada ao Requisito RF-01):** 
+- **História 5 (RF-05):**  
+  Como **criador**, quero registrar eventos como nascimento, óbito ou venda, para manter atualizado o histórico de cada ave.
 
-- **História 2 (relacionada ao Requisito RF-02):** 
+- **História 6 (RF-06):**  
+  Como **criador**, quero visualizar dashboards com indicadores do plantel, para acompanhar a evolução do meu criatório.
 
-
-
-
-</div>
+- **História 7 (RF-07):**  
+  Como **criador**, quero realizar backup e restauração dos dados, para garantir que nenhuma informação seja perdida.
 
 ---
 
 ## 3.3 Requisitos Não Funcionais
 
-Preencha o Quadro abaixo com os requisitos não funcionais que definem **características desejadas para o sistema que irão desenvolver**, como desempenho, segurança, usabilidade, etc.  
-> Lembre-se que esses requisitos são importantes para garantir a qualidade da solução.
+Os requisitos não funcionais definem as **características de qualidade** do sistema, garantindo segurança, desempenho e confiabilidade.
 
-|ID     | Descrição do Requisito                                                                              |Prioridade |
-|-------|-----------------------------------------------------------------------------------------------------|-----------|
-|RNF-01 | O sistema deve carregar as páginas em até 3 segundos para garantir uma boa experiência ao usuário.  | MÉDIA     | 
-|RNF-02 | O sistema deve proteger as informações dos clientes por meio de criptografia e medidas de segurança.| ALTA      | 
-|RNF-03 | *(Descreva aqui o requisito não funcional 3 do seu sistema)*                                       | *(Alta/Média/Baixa)*  |
-|RNF-04 | *(Descreva aqui o requisito não funcional 4 do seu sistema)*                                       | *(Alta/Média/Baixa)*  |
-|RNF-05 | *(Descreva aqui o requisito não funcional 5 do seu sistema)*                                       | *(Alta/Média/Baixa)*  |
-|RNF-06 | *(Descreva aqui o requisito não funcional 6 do seu sistema)*                                       | *(Alta/Média/Baixa)*  |
+|ID     | Descrição do Requisito                                                                              | Prioridade |
+|-------|-----------------------------------------------------------------------------------------------------|------------|
+|RNF-01 | O sistema deve carregar telas e consultas em até 3 segundos.                                        | MÉDIA      | 
+|RNF-02 | O sistema deve ser multiplataforma (compatível com Windows e Linux).                                | ALTA       |
+|RNF-03 | O sistema deve armazenar dados em banco local (SQLite) para simplicidade e portabilidade.            | ALTA       |
+|RNF-04 | O sistema deve ter interface simples e responsiva, de fácil uso mesmo para usuários com pouca experiência em tecnologia.| MÉDIA |
 
 ---
 
 ## 3.4 Restrições do Projeto
 
-> Restrições são limitações externas impostas ao projeto que devem ser rigorosamente obedecidas durante o desenvolvimento. Elas podem estar relacionadas a prazos, tecnologias obrigatórias ou proibidas, ambiente de execução, normas legais ou políticas internas da organização. Diferente dos requisitos não funcionais, que indicam características desejadas do sistema, as restrições determinam limites fixos que influenciam as decisões de projeto.
+As restrições representam **limitações técnicas, organizacionais e de prazo** que influenciam diretamente o desenvolvimento do projeto.
 
-O Quadro abaixo deve ser preenchida com as restrições específicas que **impactam seu projeto**. Caso não haja alguma restrição adicional além das já listadas, mantenha a tabela conforme está.
-
-| ID  | Restrição                                                              |
-|------|-----------------------------------------------------------------------|
-| R-01   | O projeto deverá ser entregue até o final do semestre.              |
-| R-02   | O sistema deve funcionar apenas dentro da rede interna da empresa.  |
-| R-03   | O software deve ser compatível com Windows e Linux.                 |
-| R-04   | *(Descreva aqui a restrição 4 do seu projeto)*                      |
-| R-05   | *(Descreva aqui a restrição 5 do seu projeto)*                      |
-| R-06   | *(Descreva aqui a restrição 6 do seu projeto)*                      |
-| R-07   | *(Descreva aqui a restrição 7 do seu projeto)*                      |
-| R-08   | *(Descreva aqui a restrição 8 do seu projeto)*                      |
+| ID   | Restrição                                                                 |
+|------|---------------------------------------------------------------------------|
+| R-01 | O projeto deverá ser entregue até o final do semestre acadêmico.          |
+| R-02 | O sistema deve ser desenvolvido utilizando **.NET ou JavaScript**.        |
+| R-03 | O banco de dados utilizado será **SQLite** para simplificar a integração. |
+| R-04 | O software deve ser compatível com **Windows e Linux**.                   |
+| R-05 | O sistema deverá operar **offline** (não depender de internet).           |
+| R-06 | O projeto deve seguir as normas de documentação definidas pela disciplina.|
+| R-07 | A interface deve ser desenvolvida em português (BR).                      |
+| R-08 | O código deve ser versionado e entregue em repositório GitHub.            |
 
 ---
+
 ## 3.5 Regras de Negócio
 
-> Regras de Negócio definem as condições e políticas que o sistema deve seguir para garantir o correto funcionamento alinhado ao negócio.  
->  
-> Elas indicam **quando** e **como** certas ações devem ocorrer, usando o padrão:  
->  
-> **Se (condição) for verdadeira, então (ação) deve ser tomada.**  
->  
-> Exemplo:  
-> - "Um usuário só poderá finalizar um cadastro se todos os dados forem inseridos e validados com sucesso."  
->  
-> Também pode ser escrito assim (if/then):  
-> - "Se o usuário tem saldo acima de X, então a opção de empréstimo estará liberada."
+As regras de negócio estabelecem as condições obrigatórias que o sistema deve obedecer, assegurando alinhamento com as práticas do criatório.
+
+|ID    | Regra de Negócio                                                                 |
+|-------|---------------------------------------------------------------------------------|
+|RN-01 | Cada ave deve possuir uma **anilha única** para identificação no sistema.        |
+|RN-02 | Um cruzamento só pode ser registrado se ambas as aves estiverem **ativas**.      |
+|RN-03 | Eventos de óbito ou venda devem alterar automaticamente o status da ave.         |
+|RN-04 | Apenas aves devidamente cadastradas podem ser associadas a cruzamentos.          |
+|RN-05 | Relatórios devem conter data/hora de emissão e identificação do criatório.       |
 
 ---
 
- A tabela abaixo deve ser preenchida com as regras de negócio que **impactam seu projeto**. Os textos no quadro são apenas ilustrativos.
+## 🔗 Links Úteis
 
-|ID    | Regra de Negócio                                                       |
-|-------|-----------------------------------------------------------------------|
-|RN-01 | Usuário só pode cadastrar até 10 tarefas por dia.                      |
-|RN-02 | Apenas administradores podem alterar permissões de usuários.           |
-|RN-03 | Tarefas vencidas devem ser destacadas em vermelho no sistema.          |
-|RN-04 | *(Descreva aqui a restrição 4 do seu projeto)*                         |
-|RN-05 | *(Descreva aqui a restrição 5 do seu projeto)*                         |
-
-💡 **Dica:** Explique sempre o motivo ou impacto da regra no sistema.
-
----
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+- [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)  
+- [Exemplos práticos de requisitos funcionais e não funcionais](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)  
