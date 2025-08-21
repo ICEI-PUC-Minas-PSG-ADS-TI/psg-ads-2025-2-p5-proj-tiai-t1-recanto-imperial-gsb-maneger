@@ -1,22 +1,24 @@
 ## 6. Conclusão
 
-<span style="color:red">Pré-requisitos: Ter terminado o desenvolvimento do projeto</a></span>
+O desenvolvimento do sistema **Recanto Imperial GSB Manager** proporcionou uma solução prática e direcionada para a gestão de um criatório de galinhas da raça Sertaneja Balão (GSB).  
+A implementação das principais funcionalidades — como cadastro de aves, registro de cruzamentos, geração de relatórios e acompanhamento por dashboards — permitiu melhorar a organização dos dados do plantel e garantir maior confiabilidade no controle genético.
 
-_Apresentem, aqui, a conclusão do trabalho, que deve conter uma síntese dos principais resultados obtidos com a melhoria dos processos, uma discussão das limitações da solução proposta e sugestões de novas linhas de estudo._
+Entre os resultados alcançados, destacam-se:
+- Centralização das informações do criatório em um único sistema.  
+- Rastreabilidade das aves por meio do histórico de cruzamentos e eventos (nascimento, óbito, venda).  
+- Automação de relatórios em PDF, facilitando auditorias, documentação e compartilhamento de informações.  
+- Interface simples e responsiva, adequada a usuários com pouca experiência em tecnologia.  
 
-_🗑️ **RECOMENDA-SE** apagar os textos dos exemplos antes de enviar, para deixar mais claras as informações sobre o projeto de software do grupo._
+Apesar dos avanços, o projeto apresenta algumas **limitações**:  
+- O sistema funciona apenas em ambiente local, não permitindo, nesta versão, acesso remoto ou multiusuário.  
+- Recursos de análise avançada de dados (como predição de linhagens) ainda não foram implementados.  
+- A exportação e importação de dados é restrita ao backup via SQLite, não havendo integração direta com sistemas externos.  
 
+Como **trabalhos futuros**, recomenda-se:  
+- Evoluir a aplicação para ambiente web, com acesso em nuvem e autenticação segura.  
+- Criar módulos de análise genética com apoio de inteligência artificial para sugerir cruzamentos ideais.  
+- Expandir o sistema para suportar múltiplos criatórios em uma mesma plataforma (modelo SaaS).  
+- Implementar relatórios gráficos mais interativos e personalizáveis.  
 
----
-
-**🗑️Exemplo 1 – Comércio eletrônico**  
-> A implementação da nova plataforma de vendas online resultou em um aumento de 35% no volume de pedidos e reduziu o tempo de finalização da compra de 7 para 4 minutos.  
-> Apesar dos avanços, ainda há necessidade de melhorar a experiência em dispositivos móveis, pois 20% dos clientes relataram dificuldades na navegação.  
-> Como trabalhos futuros, recomenda-se a otimização responsiva da interface e a integração com um sistema de recomendação baseado em inteligência artificial.
-
-**🗑️Exemplo 2 – Área da saúde**  
-> A criação do sistema de agendamento de consultas online reduziu em 50% o número de ligações telefônicas e melhorou a organização dos atendimentos.  
-> Entretanto, observou-se que pacientes idosos ainda apresentam dificuldades em utilizar a plataforma de forma autônoma.  
-> Sugere-se, para próximas etapas, a criação de um tutorial em vídeo e a disponibilização de um canal de suporte por chat.
----
-
+Em síntese, o sistema contribuiu para modernizar os processos de gestão do criatório, trazendo ganhos em organização, confiabilidade e eficiência.  
+Os pontos de melhoria identificados servem como base para novas versões, garantindo que o projeto possa crescer em funcionalidade e robustez no futuro.
