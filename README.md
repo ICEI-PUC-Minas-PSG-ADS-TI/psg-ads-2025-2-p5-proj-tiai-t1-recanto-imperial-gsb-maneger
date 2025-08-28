@@ -28,7 +28,7 @@ Este projeto foi desenvolvido utilizando metodologias ágeis (Kanban) e prioriza
 
 ## 👨‍🏫 Orientador
 
-* [Nome completo do professor orientador]  
+* Juliana Padilha 
 
 ---
 
