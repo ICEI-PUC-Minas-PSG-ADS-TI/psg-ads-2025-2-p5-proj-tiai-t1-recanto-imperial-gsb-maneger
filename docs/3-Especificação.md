@@ -8,15 +8,16 @@
 
 Os requisitos funcionais detalham as funcionalidades que o sistema **Recanto Imperial GSB Manager** deverá oferecer, garantindo clareza no desenvolvimento e validação.
 
-|ID     | Descrição do Requisito                                                                                          | Prioridade |
-|-------|----------------------------------------------------------------------------------------------------------------|------------|
-|RF-01  | O sistema deve permitir o cadastro e gerenciamento de aves (GSB), incluindo dados como anilha, linhagem e idade.| ALTA       |
-|RF-02  | O sistema deve permitir o registro de cruzamentos entre aves, com histórico de genética e descendentes.         | ALTA       |
-|RF-03  | O sistema deve gerar relatórios em PDF com informações de aves, cruzamentos e genealogia.                       | MÉDIA      |
-|RF-04  | O sistema deve permitir a pesquisa e filtragem de aves por anilha, linhagem, idade e status.                    | ALTA       |
-|RF-05  | O sistema deve manter um histórico de eventos importantes (ex.: nascimento, óbito, venda de aves).              | MÉDIA      |
-|RF-06  | O sistema deve fornecer dashboards com indicadores básicos (número de aves ativas, cruzamentos realizados, etc).| MÉDIA      |
-|RF-07  | O sistema deve possibilitar backup e restauração de dados do banco local (SQLite).                              | ALTA       |
+|ID     | Descrição do Requisito                                                                                                                      | Prioridade |
+|-------|---------------------------------------------------------------------------------------------------------------------------------------------|------------|
+|RF-01  | O sistema deve permitir o cadastro e gerenciamento de aves (GSB), incluindo dados como anilha, linhagem e idade.                            | ALTA       |
+|RF-02  | O sistema deve permitir o registro de cruzamentos entre aves, com histórico de genética e descendentes.                                     | ALTA       |
+|RF-03  | O sistema deve gerar relatórios em PDF com informações de aves, cruzamentos e genealogia.                                                   | MÉDIA      |
+|RF-04  | O sistema deve permitir a pesquisa e filtragem de aves por anilha, linhagem, idade e status.                                                | ALTA       |
+|RF-05  | O sistema deve manter um histórico de eventos importantes (ex.: nascimento, óbito, venda de aves).                                          | MÉDIA      |
+|RF-06  | O sistema deve fornecer dashboards com indicadores básicos (número de aves ativas, cruzamentos realizados, etc).                            | MÉDIA      |
+|RF-07  | O sistema deve permitir ao usuário criar backups do banco de dados local (SQLite) para um local especificado.                               | ALTA       |
+|RF-08  | O sistema deve permitir ao usuário restaurar o banco de dados local (SQLite) a partir de um backup pré-existente em um local especificado.  | ALTA       |
 
 ---
 
