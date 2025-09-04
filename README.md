@@ -22,7 +22,7 @@ Este projeto foi desenvolvido utilizando metodologias ágeis (Kanban) e prioriza
 
 * Messias Junio  
 * Luis Henrique Nikodemos  
-* Gabriel Marilho  
+* Gabriel Marinho  
 
 ---
 
