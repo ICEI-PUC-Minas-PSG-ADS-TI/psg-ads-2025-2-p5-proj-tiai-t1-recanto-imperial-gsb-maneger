@@ -22,8 +22,8 @@ O projeto será realizado em **4 sprints**, cada uma com foco específico:
 Durante o projeto, um integrante será escolhido como **Líder do Grupo** em cada sprint. Os demais membros assumirão papéis técnicos de acordo com suas competências:
 
 - **Messias Junio** – Documentação técnica, análise de requisitos e integração do sistema.  
-- **Luis Henrique Nikodemos** – Desenvolvimento back-end e modelagem de banco de dados.  
-- **Gabriel Marilho** – Desenvolvimento front-end, experiência do usuário (UX/UI) e testes.  
+- **Luis Henrique Nicodemos** – Desenvolvimento back-end e modelagem de banco de dados.  
+- **Gabriel Marinho** – Desenvolvimento front-end, experiência do usuário (UX/UI) e testes.  
 
 Exemplo de papéis por sprint (pode ser revezado ou adaptado):
 
@@ -104,8 +104,8 @@ Caso a equipe não utilize o GitHub Projects, este quadro servirá para informar
 | Responsável          | Função no Grupo   | Tarefa                                              | Início | Prazo | Status | Entrega       |
 |-----------------------|-------------------|-----------------------------------------------------|--------|-------|--------|---------------|
 | Messias Junio        | Líder/Documentação | Agendar e conduzir entrevista com o cliente         | 29/07  | 02/08 | ✔️      | Link/print    |
-| Gabriel Marilho       | Front-end/Relator  | Descrever o contexto e problemas atuais             | 01/08  | 05/08 | ✔️      | README.md     |
-| Luis Henrique Nikodemos | Back-end/Escritor técnico | Redigir proposta de sistema com base nos dados | 05/08  | 08/08 | ✔️      | README.md     |
+| Gabriel Marinho       | Front-end/Relator  | Descrever o contexto e problemas atuais             | 01/08  | 05/08 | ✔️      | README.md     |
+| Luis Henrique Nicodemos | Back-end/Escritor técnico | Redigir proposta de sistema com base nos dados | 05/08  | 08/08 | ✔️      | README.md     |
 | Todos                | Organização       | Revisar e validar conteúdo publicado                | 08/08  | 16/08 | ✔️      | GitHub Repo   |
 
 ---
@@ -118,8 +118,8 @@ Caso a equipe não utilize o GitHub Projects, este quadro servirá para informar
 | Responsável          | Função no Grupo  | Tarefa                                      | Início | Prazo | Status | Entrega   |
 |-----------------------|------------------|---------------------------------------------|--------|-------|--------|-----------|
 | Messias Junio        | Documentação     | Elaborar lista de requisitos                | 19/08  | 23/08 | ❌      | README.md |
-| Gabriel Marilho       | UX Designer     | Criar wireframes das principais telas        | 20/08  | 27/08 | ❌      | Imagens   |
-| Luis Henrique Nikodemos | Back-end      | Documentar histórias de usuário              | 22/08  | 29/08 | ❌      | README.md |
+| Gabriel Marinho       | UX Designer     | Criar wireframes das principais telas        | 20/08  | 27/08 | ❌      | Imagens   |
+| Luis Henrique Nicodemos | Back-end      | Documentar histórias de usuário              | 22/08  | 29/08 | ❌      | README.md |
 | Todos                | Revisão coletiva | Validar com cliente requisitos e protótipos | 30/08  | 06/09 | ❌      | GitHub    |
 
 ---
@@ -131,8 +131,8 @@ Caso a equipe não utilize o GitHub Projects, este quadro servirá para informar
 
 | Responsável          | Função no Grupo | Tarefa                                    | Início | Prazo | Status | Entrega   |
 |-----------------------|-----------------|-------------------------------------------|--------|-------|--------|-----------|
-| Gabriel Marilho       | Front-end Dev   | Desenvolver tela de login e home           | 09/09  | 17/09 | ❌      | Protótipo |
-| Luis Henrique Nikodemos | Back-end Dev  | Criar banco de dados e rotas básicas       | 10/09  | 20/09 | ❌      | Código    |
+| Gabriel Marinho       | Front-end Dev   | Desenvolver tela de login e home           | 09/09  | 17/09 | ❌      | Protótipo |
+| Luis Henrique Nicodemos | Back-end Dev  | Criar banco de dados e rotas básicas       | 10/09  | 20/09 | ❌      | Código    |
 | Messias Junio        | QA/Documentação | Testes iniciais e validação funcional      | 18/09  | 24/09 | ❌      | README.md |
 | Todos                | Organização     | Preparar apresentação parcial              | 25/09  | 30/09 | ❌      | Slides    |
 
@@ -145,8 +145,8 @@ Caso a equipe não utilize o GitHub Projects, este quadro servirá para informar
 
 | Responsável          | Função no Grupo | Tarefa                                   | Início | Prazo | Status | Entrega   |
 |-----------------------|-----------------|------------------------------------------|--------|-------|--------|-----------|
-| Luis Henrique Nikodemos | Back-end Dev  | Finalizar rotinas de persistência         | 01/10  | 08/10 | ❌      | Código    |
-| Gabriel Marilho       | Front-end Dev  | Finalizar interface e aplicar feedback UX | 02/10  | 10/10 | ❌      | Protótipo |
+| Luis Henrique Nicodemos | Back-end Dev  | Finalizar rotinas de persistência         | 01/10  | 08/10 | ❌      | Código    |
+| Gabriel Marinho       | Front-end Dev  | Finalizar interface e aplicar feedback UX | 02/10  | 10/10 | ❌      | Protótipo |
 | Messias Junio        | QA/Documentação | Testar sistema completo e consolidar relatório | 06/10 | 10/10 | ❌      | README.md + APC |
 | Todos                | Organização     | Entregar versão final e relatório no SGA  | 08/10  | 10/10 | ❌      | GitHub/SGA |
 
