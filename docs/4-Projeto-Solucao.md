@@ -113,43 +113,52 @@ Utilize o **[MySQL Workbench](https://www.mysql.com/products/workbench/)** para 
 
 ### 4.4.3 Modelo Físico
 
-O **Modelo Físico** é o script SQL que cria as tabelas no banco de dados.  
-Este script pode ser gerado automaticamente no MySQL Workbench a partir do esquema relacional.
+O modelo físico foi desenvolvido com base no DER do sistema de gerenciamento de aves, relatórios e cruzamentos. O objetivo é garantir persistência de dados confiável, integridade referencial e rastreamento das operações realizadas no criatório.
 
-**Exemplo:**
 ```sql
-CREATE TABLE Medico (
-    MedCodigo INT PRIMARY KEY,
-    MedNome VARCHAR(100) NOT NULL
+
+CREATE TABLE Relatorios (
+    idRelatorio INT AUTO_INCREMENT PRIMARY KEY,
+    tipo VARCHAR(50) NOT NULL,
+    dataGeracao DATE NOT NULL
 );
 
-CREATE TABLE Paciente (
-    PacCodigo INT PRIMARY KEY,
-    PacNome VARCHAR(100) NOT NULL
+CREATE TABLE Backups (
+    idBackup INT AUTO_INCREMENT PRIMARY KEY,
+    caminho VARCHAR(255) NOT NULL,
+    data DATE NOT NULL
 );
 
-CREATE TABLE Consulta (
-    ConCodigo INT PRIMARY KEY,
-    MedCodigo INT,
-    PacCodigo INT,
-    Data DATE,
-    FOREIGN KEY (MedCodigo) REFERENCES Medico(MedCodigo),
-    FOREIGN KEY (PacCodigo) REFERENCES Paciente(PacCodigo)
+CREATE TABLE Aves (
+    idAve INT AUTO_INCREMENT PRIMARY KEY,
+    anilha VARCHAR(50) UNIQUE NOT NULL,
+    linhagem VARCHAR(100),
+    idade INT,
+    status VARCHAR(50)
 );
 
-CREATE TABLE Medicamento (
-    MdcCodigo INT PRIMARY KEY,
-    MdcNome VARCHAR(100) NOT NULL
+CREATE TABLE Eventos (
+    idEventos INT AUTO_INCREMENT PRIMARY KEY,
+    idAve INT NOT NULL,
+    tipoEvento VARCHAR(100) NOT NULL,
+    data DATE NOT NULL,
+    FOREIGN KEY (idAve) REFERENCES Aves(idAve)
 );
 
-CREATE TABLE Prescricao (
-    ConCodigo INT,
-    MdcCodigo INT,
-    Posologia VARCHAR(200),
-    PRIMARY KEY (ConCodigo, MdcCodigo),
-    FOREIGN KEY (ConCodigo) REFERENCES Consulta(ConCodigo),
-    FOREIGN KEY (MdcCodigo) REFERENCES Medicamento(MdcCodigo)
+CREATE TABLE Cruzamento (
+    idCruzamento INT AUTO_INCREMENT PRIMARY KEY,
+    data DATE NOT NULL
 );
+
+CREATE TABLE Cruzamento_Aves (
+    idCruzamento INT NOT NULL,
+    idAve INT NOT NULL,
+    papel VARCHAR(50),
+    PRIMARY KEY (idCruzamento, idAve),
+    FOREIGN KEY (idCruzamento) REFERENCES Cruzamento(idCruzamento),
+    FOREIGN KEY (idAve) REFERENCES Aves(idAve)
+);
+
 ```
 ## 📌ATENÇÃO: salvar como banco.sql na pasta src/bd
 
