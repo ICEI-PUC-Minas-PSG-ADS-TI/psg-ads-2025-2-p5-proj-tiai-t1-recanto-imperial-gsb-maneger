@@ -1,4 +1,4 @@
-# 4. Projeto da Solução
+<img width="1366" height="768" alt="Relatório e Exportação 2" src="https://github.com/user-attachments/assets/1095294e-ab62-4e89-b7af-a9168344d746" /># 4. Projeto da Solução
 
 <span style="color:red">Pré-requisitos: <a href="03-Modelagem do Processo de Negocio.md"> Modelagem do Processo de Negocio</a></span>
 
@@ -25,30 +25,25 @@ Inclua um **diagrama de arquitetura** mostrando módulos, camadas e tecnologias 
 
 ## 4.2. Wireframe / Mockup
 
-Wireframe e Mockup são representações visuais das telas de um sistema **antes** do desenvolvimento do código.  
-Eles ajudam a planejar, comunicar ideias e validar a interface com antecedência.
-
-### Finalidade
-- **Planejamento da interface** → organizar elementos (botões, menus, campos, imagens) e definir a estrutura de navegação.  
-- **Comunicação da ideia** → facilitar o diálogo entre desenvolvedores, designers, clientes e usuários.  
-- **Validação antecipada** → coletar feedback antes de investir tempo e recursos na programação.  
-- **Guia para desenvolvimento** → servir como referência visual durante a implementação.
-
-💡 **_Diferença:_**
-- **Wireframe** → simples, sem cores ou imagens detalhadas; foca na estrutura e posicionamento.  
-- **Mockup** → mais próximo do visual final, com cores, fontes e imagens, mas sem interatividade completa.
-
-**Exemplo de wireframe:**
-![Exemplo de Wireframe](images/wireframe-example.png)
-
-📌 **Entrega:** incluir imagens ou links para os wireframes/mockups.
-
 **Wireframe 1 — Tela Principal**  
-*(inserir imagem ou diagrama)*
+<img width="1366" height="768" alt="HOME" src="https://github.com/user-attachments/assets/f92c7fc0-eb07-4b39-a525-0e0b31d82bac" />
 
-**Wireframe 2 — Tela de Login**  
-*(inserir imagem ou diagrama)*
+**Wireframe 2 — Cadastro de Ave**  
+<img width="1366" height="768" alt="Cadastrar Ave" src="https://github.com/user-attachments/assets/87b13201-603a-44fc-87bd-f844c4304882" />
 
+**Wireframe 2 — Registrar Cruzamento** 
+<img width="1366" height="768" alt="Registrar Cruzamento" src="https://github.com/user-attachments/assets/87278ca0-dc65-46ad-80e2-4fa985940509" />
+
+**Wireframe 2 — Eventos do Plantel** 
+<img width="1366" height="768" alt="Eventos do Plantel" src="https://github.com/user-attachments/assets/81b91903-631f-4ee5-84f1-0f50767083fd" />
+
+**Wireframe 2 — Relatório e Exportaçãn** 
+<img width="1366" height="768" alt="Relatório e Exportação" src="https://github.com/user-attachments/assets/b1cc3894-a56f-4917-93a9-7eac13ee405d" />
+<img width="1366" height="768" alt="Relatório e Exportação 2" src="https://github.com/user-attachments/assets/f4167901-f713-4ca1-b40a-ec33b9eacbd7" />
+<img width="1366" height="768" alt="Relatório e Exportação 3" src="https://github.com/user-attachments/assets/4d52232b-60c4-4f66-a843-c193fe840d68" />
+
+**Wireframe 2 — Backup e Restauração** 
+<img width="1366" height="768" alt="Backup e Restauração" src="https://github.com/user-attachments/assets/877dd635-3005-419f-959d-0fbd05c5976e" />
 
 ---
 **UML**
