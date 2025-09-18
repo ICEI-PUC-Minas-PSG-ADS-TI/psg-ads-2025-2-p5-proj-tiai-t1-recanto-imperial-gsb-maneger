@@ -117,8 +117,8 @@ Caso a equipe não utilize o GitHub Projects, este quadro servirá para informar
 
 | Responsável          | Função no Grupo  | Tarefa                                      | Início | Prazo | Status | Entrega   |
 |-----------------------|------------------|---------------------------------------------|--------|-------|--------|-----------|
-| Messias Junio        | Documentação     | Elaborar lista de requisitos                | 19/08  | 23/08 | ❌      | README.md |
-| Gabriel Marinho       | UX Designer     | Criar wireframes das principais telas        | 20/08  | 27/08 | ❌      | Imagens   |
+| Messias Junio        | Documentação     | Elaborar lista de requisitos                | 19/08  | 23/08 | ✔️      | README.md |
+| Gabriel Marinho       | UX Designer     | Criar wireframes das principais telas        | 20/08  | 27/08 | ✔️      | Imagens   |
 | Luis Henrique Nicodemos | Back-end      | Documentar histórias de usuário              | 22/08  | 29/08 | ❌      | README.md |
 | Todos                | Revisão coletiva | Validar com cliente requisitos e protótipos | 30/08  | 06/09 | ❌      | GitHub    |
 
