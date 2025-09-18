@@ -52,15 +52,12 @@ Inclua um **diagrama de arquitetura** mostrando módulos, camadas e tecnologias 
 <img width="1366" height="768" alt="Diagrama de Classes" src="https://github.com/user-attachments/assets/0b4baa99-564a-4727-96c3-b51973a22576" />
 
 
+
 **BANCO DE DADOS**
-
 ## 4.4. Modelo de Dados
+<img width="1366" height="768" alt="Modelo de Dados" src="https://github.com/user-attachments/assets/d0140996-2069-4017-b349-bea0a202c761" />
 
-A solução proposta exige um banco de dados capaz de armazenar e relacionar as informações necessárias para os processos mapeados, garantindo integridade e controle de acesso por perfil de usuário.
 
-O desenvolvimento deve seguir **três etapas**:
-
----
 
 ### 4.4.1 Diagrama Entidade-Relacionamento (DER)
 
