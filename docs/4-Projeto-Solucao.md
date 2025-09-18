@@ -117,10 +117,74 @@ CREATE TABLE Backups (
 CREATE TABLE Aves (
     idAve INT AUTO_INCREMENT PRIMARY KEY,
     anilha VARCHAR(50) UNIQUE NOT NULL,
+    nome VARCHAR(100) NULL,
     linhagem VARCHAR(100),
+    sexo ENUM('Macho','Fêmea') DEFAULT 'Fêmea',
+    dataNascimento DATE NULL,
     idade INT,
-    status VARCHAR(50)
+    peso DECIMAL(5,2) NULL,
+    status VARCHAR(50),
+
+    cor_bico VARCHAR(50) NULL,
+    canelas VARCHAR(50) NULL,
+    plumagem_pattern VARCHAR(50) NULL,
+    caracteristicas TEXT NULL,
+
+    auricula_despig_percent TINYINT UNSIGNED DEFAULT 0,
+    crista_tombamento ENUM('Nenhuma','TercoDistal','DoisTerços','Outro') DEFAULT 'Nenhuma',
+    barbela_desigualdade_percent DECIMAL(5,2) DEFAULT 0,
+
+    plumagem_barrada TINYINT(1) DEFAULT 0,
+    plumagem_frisada TINYINT(1) DEFAULT 0,
+    plumagem_carijo TINYINT(1) DEFAULT 0,
+    pescoco_pelado TINYINT(1) DEFAULT 0,
+    barbuda TINYINT(1) DEFAULT 0,
+    olhos_vermelhos TINYINT(1) DEFAULT 0,
+
+    auricula_points TINYINT GENERATED ALWAYS AS (
+        CASE
+            WHEN auricula_despig_percent BETWEEN 30 AND 50 THEN 1
+            WHEN auricula_despig_percent > 50 THEN 2
+            ELSE 0
+        END
+    ) STORED,
+
+    crista_points TINYINT GENERATED ALWAYS AS (
+        CASE
+            WHEN crista_tombamento = 'TercoDistal' THEN 1
+            WHEN crista_tombamento = 'DoisTerços' THEN 2
+            ELSE 0
+        END
+    ) STORED,
+
+    barbela_points TINYINT GENERATED ALWAYS AS (
+        CASE
+            WHEN barbela_desigualdade_percent > 5 THEN 2
+            WHEN barbela_desigualdade_percent > 0 THEN 1
+            ELSE 0
+        END
+    ) STORED,
+
+    pontos_totais INT GENERATED ALWAYS AS (
+        auricula_points + crista_points + barbela_points
+    ) STORED,
+
+    registro_resultado ENUM('Registrado','Pendente','Não Registrado')
+        GENERATED ALWAYS AS (
+            CASE
+                WHEN (plumagem_barrada = 1 OR plumagem_frisada = 1 OR plumagem_carijo = 1
+                      OR pescoco_pelado = 1 OR barbuda = 1 OR olhos_vermelhos = 1) THEN 'Não Registrado'
+                WHEN (auricula_points + crista_points + barbela_points) >= 2 THEN 'Não Registrado'
+                WHEN (auricula_points + crista_points + barbela_points) = 1 THEN 'Pendente'
+                ELSE 'Registrado'
+            END
+        ) STORED,
+
+    registro_observacoes TEXT NULL
 );
+
+CREATE INDEX idx_aves_registro_resultado ON Aves (registro_resultado);
+
 
 CREATE TABLE Eventos (
     idEventos INT AUTO_INCREMENT PRIMARY KEY,
