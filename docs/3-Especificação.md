@@ -71,9 +71,8 @@ Os requisitos não funcionais definem as **características de qualidade** do si
 |ID     | Descrição do Requisito                                                                              | Prioridade |
 |-------|-----------------------------------------------------------------------------------------------------|------------|
 |RNF-01 | O sistema deve carregar telas e consultas em até 3 segundos.                                        | MÉDIA      | 
-|RNF-02 | O sistema deve ser multiplataforma (compatível com Windows e Linux).                                | ALTA       |
-|RNF-03 | O sistema deve armazenar dados em banco local (SQLite) para simplicidade e portabilidade.            | ALTA       |
-|RNF-04 | O sistema deve ter interface simples e responsiva, de fácil uso mesmo para usuários com pouca experiência em tecnologia.| MÉDIA |
+|RNF-02 | O sistema deve armazenar dados em banco local (SQLite) para simplicidade e portabilidade.            | ALTA       |
+|RNF-03 | O sistema deve ter interface simples e responsiva, de fácil uso mesmo para usuários com pouca experiência em tecnologia.| MÉDIA |
 
 ---
 
