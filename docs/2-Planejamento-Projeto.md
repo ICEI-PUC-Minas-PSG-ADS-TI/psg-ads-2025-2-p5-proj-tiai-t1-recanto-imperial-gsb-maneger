@@ -104,8 +104,8 @@ Caso a equipe não utilize o GitHub Projects, este quadro servirá para informar
 | Responsável          | Função no Grupo   | Tarefa                                              | Início | Prazo | Status | Entrega       |
 |-----------------------|-------------------|-----------------------------------------------------|--------|-------|--------|---------------|
 | Messias Junio        | Líder/Documentação | Agendar e conduzir entrevista com o cliente         | 29/07  | 02/08 | ✔️      | Link/print    |
-| Gabriel Marinho       | Front-end/Relator  | Descrever o contexto e problemas atuais             | 01/08  | 05/08 | ✔️      | README.md     |
-| Luis Henrique Nicodemos | Back-end/Escritor técnico | Redigir proposta de sistema com base nos dados | 05/08  | 08/08 | ✔️      | README.md     |
+| Gabriel Marinho       | Front-end/Relator  | Descrever o contexto e problemas atuais             | 01/08  | 05/08 | ✔️      | contexto.md     |
+| Luis Henrique Nicodemos | Back-end/Escritor técnico | Redigir proposta de sistema com base nos dados | 05/08  | 08/08 | ✔️      | contexto.md     |
 | Todos                | Organização       | Revisar e validar conteúdo publicado                | 08/08  | 16/08 | ✔️      | GitHub Repo   |
 
 ---
