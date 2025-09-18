@@ -16,8 +16,9 @@ Os requisitos funcionais detalham as funcionalidades que o sistema **Recanto Imp
 |RF-04  | O sistema deve permitir a pesquisa e filtragem de aves por anilha, linhagem, idade e status.                                                | ALTA       |
 |RF-05  | O sistema deve manter um histórico de eventos importantes (ex.: nascimento, óbito, venda de aves).                                          | MÉDIA      |
 |RF-06  | O sistema deve fornecer dashboards com indicadores básicos (número de aves ativas, cruzamentos realizados, etc).                            | MÉDIA      |
-|RF-07  | O sistema deve permitir ao usuário criar backups do banco de dados local (SQLite) para um local especificado.                               | ALTA       |
-|RF-08  | O sistema deve permitir ao usuário restaurar o banco de dados local (SQLite) a partir de um backup pré-existente em um local especificado.  | ALTA       |
+|RF-07 | O sistema deve permitir gerar backup do banco SQLite em um diretório escolhido pelo usuário.              | ALTA       |
+|RF-08 | O sistema deve permitir restaurar o banco SQLite a partir de um backup existente, com aviso de confirmação.| ALTA       |
+
 
 ---
 
@@ -25,26 +26,41 @@ Os requisitos funcionais detalham as funcionalidades que o sistema **Recanto Imp
 
 As histórias de usuário foram adaptadas ao cenário real: **um único criatório com um único usuário**, sem necessidade de login, senha ou múltiplos perfis.
 
-- **História 1 (RF-01):**  
-  Como **criador do Recanto Imperial GSB**, quero cadastrar e gerenciar minhas aves com todos os dados relevantes, para manter controle genético e organizacional do plantel.
+- **História 1 (RF-01) – Cadastro de Aves**  
+  **Como** criador do Recanto Imperial GSB,  
+  **Quero** cadastrar e gerenciar minhas aves com todos os dados relevantes,  
+  **Para** manter controle genético e organizacional do plantel.
 
-- **História 2 (RF-02):**  
-  Como **criador**, quero registrar cruzamentos entre minhas aves, para garantir rastreabilidade e acompanhar a qualidade genética.
+- **História 2 (RF-02) – Registro de Cruzamentos**  
+  **Como** criador,  
+  **Quero** registrar cruzamentos entre minhas aves,  
+  **Para** garantir rastreabilidade e acompanhar a qualidade genética.
 
-- **História 3 (RF-03):**  
-  Como **criador**, quero gerar relatórios em PDF com informações completas, para documentar e compartilhar dados do criatório.
+- **História 3 (RF-03) – Relatórios em PDF**  
+  **Como** criador,  
+  **Quero** gerar relatórios em PDF com informações de aves, cruzamentos e histórico de eventos,  
+  **Para** documentar e compartilhar os dados do criatório.
 
-- **História 4 (RF-04):**  
-  Como **criador**, quero pesquisar minhas aves por anilha, linhagem ou idade, para localizar informações de forma rápida.
+- **História 4 (RF-04) – Pesquisa e Filtragem**  
+  **Como** criador,  
+  **Quero** pesquisar minhas aves por anilha, linhagem ou idade,  
+  **Para** localizar informações de forma rápida.
 
-- **História 5 (RF-05):**  
-  Como **criador**, quero registrar eventos como nascimento, óbito ou venda, para manter atualizado o histórico de cada ave.
+- **História 5 (RF-05) – Registro de Eventos**  
+  **Como** criador,  
+  **Quero** registrar eventos como nascimento, óbito ou venda,  
+  **Para** manter atualizado o histórico de cada ave.
 
-- **História 6 (RF-06):**  
-  Como **criador**, quero visualizar dashboards com indicadores do plantel, para acompanhar a evolução do meu criatório.
+- **História 6 (RF-06) – Dashboards e Indicadores**  
+  **Como** criador,  
+  **Quero** visualizar dashboards com indicadores do plantel (aves ativas, cruzamentos e eventos recentes),  
+  **Para** acompanhar a evolução do criatório e tomar decisões rápidas.
 
-- **História 7 (RF-07):**  
-  Como **criador**, quero realizar backup e restauração dos dados, para garantir que nenhuma informação seja perdida.
+- **História 7 (RF-07/08) – Backup e Restauração**  
+  **Como** criador,  
+  **Quero** fazer backup e restaurar os dados do sistema,  
+  **Para** garantir a segurança e integridade das informações do criatório.
+
 
 ---
 
