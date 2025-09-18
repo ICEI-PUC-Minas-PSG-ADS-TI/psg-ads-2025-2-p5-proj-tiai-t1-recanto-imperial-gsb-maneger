@@ -56,10 +56,16 @@ As histórias de usuário foram adaptadas ao cenário real: **um único criatór
   **Quero** visualizar dashboards com indicadores do plantel (aves ativas, cruzamentos e eventos recentes),  
   **Para** acompanhar a evolução do criatório e tomar decisões rápidas.
 
-- **História 7 (RF-07/08) – Backup e Restauração**  
-  **Como** criador,  
-  **Quero** fazer backup e restaurar os dados do sistema,  
-  **Para** garantir a segurança e integridade das informações do criatório.
+- **História 7 (RF-07) – Backup de Dados**  
+**Como** criador,  
+**Quero** realizar backup dos dados do sistema,  
+**Para** garantir a segurança das informações do criatório.
+
+- **História 8 (RF-08) – Restauração de Dados**  
+**Como** criador,  
+**Quero** restaurar o banco de dados a partir de backups existentes,  
+**Para** assegurar a integridade das informações do criatório.
+
 
 
 ---
