@@ -1,4 +1,4 @@
-<img width="1366" height="768" alt="Relatório e Exportação 2" src="https://github.com/user-attachments/assets/1095294e-ab62-4e89-b7af-a9168344d746" /># 4. Projeto da Solução
+## 4. Projeto da Solução
 
 <span style="color:red">Pré-requisitos: <a href="03-Modelagem do Processo de Negocio.md"> Modelagem do Processo de Negocio</a></span>
 
