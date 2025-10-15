@@ -49,7 +49,7 @@ Inclua um **diagrama de arquitetura** mostrando módulos, camadas e tecnologias 
 **UML**
 
 ## 4.3 Diagrama de Classes
-<img width="1366" height="768" alt="Diagrama de Classes" src="https://github.com/user-attachments/assets/0b4baa99-564a-4727-96c3-b51973a22576" />
+<img width="1366" height="768" alt="Diagrama de Classes" src="https://github.com/user-attachments/assets/02a90138-fe15-4b13-aacb-e720662b9b25" />
 
 
 
