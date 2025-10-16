@@ -28,6 +28,17 @@
 - Armazena todas as informações localmente (aves, cruzamentos, eventos e relatórios).
 - Implementa chaves primárias, estrangeiras e campos gerados automaticamente para manter integridade referencial e cálculo automático da classificação de registro.
 
+## Tecnologias Utilizadas
+
+| Componente              | Tecnologia / Ferramenta                 | Função Principal                                                  |
+|--------------------------|----------------------------------------|-------------------------------------------------------------------|
+| **Frontend (Interface)** | HTML5, CSS3, JavaScript                | Criação das telas, interação com o usuário e controle visual      |
+| **Linguagem principal**  | C# (.NET Framework / .NET 8)           | Lógica de negócio, controle de dados e integração com o SQLite    |
+| **Banco de dados local** | SQLite                                 | Armazenamento leve e persistente de aves, cruzamentos e eventos   |
+| **Interface gráfica**    | HTML + CSS + JS (frontend web local)   | Interface moderna e acessível para o usuário                     |
+| **Geração de relatórios**| .NET (C#) com iTextSharp **ou** JavaScript (PDF.js / jsPDF) | Exportação de dados e relatórios em PDF                          |
+| **Backup e restauração** | JavaScript (File System API) **+** .NET | Manipulação e salvamento de backups locais de forma integrada     |
+| **Versionamento**        | GitHub                                 | Controle de versões, colaboração e documentação do projeto        |
 
 
 **Exemplo de diagrama:**
