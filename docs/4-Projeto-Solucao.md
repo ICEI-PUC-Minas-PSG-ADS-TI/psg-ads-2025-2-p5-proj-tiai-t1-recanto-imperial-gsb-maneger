@@ -99,6 +99,7 @@ Utilize a ferramenta **[BR Modelo Web](https://www.brmodeloweb.com/lang/pt-br/in
 
 ![Diagrama ER - Exemplo](./images/DER.png)
 
+
 📌 **Entrega:** gere o diagrama no BR Modelo, exporte em **.png** e inclua-o nesta seção.
 
 
@@ -233,6 +234,7 @@ CREATE TABLE Cruzamento_Aves (
     FOREIGN KEY (idCruzamento) REFERENCES Cruzamento(idCruzamento),
     FOREIGN KEY (idAve) REFERENCES Aves(idAve)
 );
+
 
 ```
 ## 📌ATENÇÃO: salvar como banco.sql na pasta src/bd
