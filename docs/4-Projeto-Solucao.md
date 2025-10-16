@@ -6,7 +6,7 @@
 **ARQUITETURA DO SOFTWARE**
 ## 4.1. Arquitetura da Solução
 
-## 🧩 Estrutura da Arquitetura
+## Estrutura da Arquitetura
 
 **1. Interface do Usuário (Front-end):**
 - Desenvolvida em **.NET (Windows Forms/WPF)**.
