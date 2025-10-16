@@ -6,13 +6,29 @@
 **ARQUITETURA DO SOFTWARE**
 ## 4.1. Arquitetura da Solução
 
-Nesta seção, descreva como os componentes do sistema se organizam e interagem.  
-Inclua um **diagrama de arquitetura** mostrando módulos, camadas e tecnologias utilizadas.
+## 🧩 Estrutura da Arquitetura
 
-**Orientações:**
-- Indique quais módulos compõem a solução (ex.: frontend, backend, banco de dados, APIs externas).
-- Especifique as tecnologias e frameworks adotados (ex.: React, Node.js, MySQL).
-- Explique como ocorre a comunicação entre os módulos.
+**1. Interface do Usuário (Front-end):**
+- Desenvolvida em **.NET (Windows Forms/WPF)**.
+- Responsável pela interação direta com o usuário.
+- Exibe dashboards, formulários de cadastro de aves, cruzamentos, relatórios e eventos do plantel.
+- Interface projetada para uso offline, com foco em simplicidade e desempenho.
+
+**2. Lógica de Negócio (Back-end / Camada de Aplicação):**
+- Implementa as regras de negócio do criatório:
+  - Cálculo de pontuação genética das aves (baseado na cartilha oficial GSB);
+  - Controle de cruzamentos e geração de descendência;
+  - Alteração automática de status (ativo, vendido, falecido);
+  - Geração de relatórios e exportação em PDF;
+  - Backup e restauração do banco de dados.
+- Essa camada faz a mediação entre a interface e o banco de dados, garantindo consistência e integridade das operações.
+
+**3. Banco de Dados (Camada de Dados):**
+- Utiliza **SQLite**, um banco de dados leve e embarcado.
+- Armazena todas as informações localmente (aves, cruzamentos, eventos e relatórios).
+- Implementa chaves primárias, estrangeiras e campos gerados automaticamente para manter integridade referencial e cálculo automático da classificação de registro.
+
+
 
 **Exemplo de diagrama:**
  
