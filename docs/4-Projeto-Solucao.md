@@ -41,9 +41,8 @@
 | **Versionamento**        | GitHub                                 | Controle de versões, colaboração e documentação do projeto        |
 
 
-**Exemplo de diagrama:**
- 
- ![Exemplo de Arquitetura](./images/arquitetura-exemplo.png)
+**Diagrama:**
+
 <img width="1920" height="1080" alt="Design sem nome (2)" src="https://github.com/user-attachments/assets/b3643c63-fd0d-4b56-baa9-91e6f1b69994" />
 
  
