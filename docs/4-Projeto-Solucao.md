@@ -101,6 +101,7 @@ Utilize a ferramenta **[BR Modelo Web](https://www.brmodeloweb.com/lang/pt-br/in
 
 📌 **Entrega:** gere o diagrama no BR Modelo, exporte em **.png** e inclua-o nesta seção.
 
+![Diagrama ER](https://github.com/user-attachments/assets/901bdbc2-93b2-4479-8ee5-2435eb60187d)
 
 ---
 
@@ -115,6 +116,8 @@ Utilize o **[MySQL Workbench](https://www.mysql.com/products/workbench/)** para 
 - Configure as restrições de integridade (NOT NULL, UNIQUE, FOREIGN KEY, etc.).
 
 📌 **Entrega:** exporte o diagrama do Workbench e adicione a imagem aqui.
+![02](https://github.com/user-attachments/assets/5ee519a7-9bcb-44f9-bf2f-d4922dbcd14b)
+
 
 **Exemplo de imagem:**
 
