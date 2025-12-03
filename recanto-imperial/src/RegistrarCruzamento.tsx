@@ -48,10 +48,8 @@ export default function RegistrarCruzamento() {
   return (
     <div className="grid grid-cols-1 xl:grid-cols-[430px,1fr,350px] gap-8">
 
-      {/* FORM NOVO CRUZAMENTO */}
       <div className="rounded-[32px] border-[3px] border-amber-300 bg-[rgb(250,240,220)]/95 shadow-[0_18px_40px_rgba(0,0,0,0.45)] px-7 py-6">
 
-        {/* Título igual ao cadastro */}
         <div className="mb-5 pb-3 border-b border-amber-300">
           <h2 className="text-2xl md:text-3xl font-extrabold text-amber-700 tracking-[0.20em] uppercase text-center drop-shadow-[0_3px_0_rgba(0,0,0,0.85)]">
             NOVO CRUZAMENTO
@@ -116,7 +114,6 @@ export default function RegistrarCruzamento() {
         </form>
       </div>
 
-      {/* HISTÓRICO */}
       <div className="rounded-[32px] border-[3px] border-amber-300 bg-[rgb(250,240,220)]/95 shadow-[0_18px_40px_rgba(0,0,0,0.45)] p-6">
 
         <h2 className="text-2xl font-extrabold text-amber-700 tracking-[0.20em] uppercase mb-6 text-center drop-shadow-[0_3px_0_rgba(0,0,0,0.85)]">
@@ -156,7 +153,6 @@ export default function RegistrarCruzamento() {
 
       </div>
 
-      {/* BUSCA LATERAL */}
       <div className="rounded-[32px] border-[3px] border-amber-300 bg-[rgb(250,240,220)]/95 shadow-[0_18px_40px_rgba(0,0,0,0.45)] p-6">
 
         <h3 className="text-2xl font-extrabold text-amber-700 tracking-[0.20em] uppercase mb-6 text-center drop-shadow-[0_3px_0_rgba(0,0,0,0.85)]">
@@ -181,7 +177,6 @@ export default function RegistrarCruzamento() {
   );
 }
 
-/* ===== HELPERS ===== */
 function gerarId() {
   return `${Date.now()}-${Math.floor(Math.random() * 1e6)}`;
 }
@@ -191,7 +186,6 @@ function formatarDataBR(iso: string) {
   return `${d}/${m}/${y}`;
 }
 
-/* ===== COMPONENTES ===== */
 function Th({ children }: { children: ReactNode }) {
   return (
     <th className="px-4 py-3 text-sm font-extrabold tracking-wide text-stone-800">
