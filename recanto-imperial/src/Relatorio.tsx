@@ -1,6 +1,5 @@
 import { useMemo, useState, type ReactNode, type FormEvent } from "react";
 
-/* ---------------- TIPOS ---------------- */
 
 type Sexo = "Macho" | "Fêmea" | "Indefinido";
 
@@ -20,7 +19,6 @@ type Cruzamento = {
   observacao: string;
 };
 
-/* ---------------- COMPONENTE PRINCIPAL ---------------- */
 
 export default function RelatorioExportacao() {
   const [aves] = useState<Ave[]>([
@@ -40,7 +38,6 @@ export default function RelatorioExportacao() {
   const [buscaArvore, setBuscaArvore] = useState("");
   const [selecionada, setSelecionada] = useState("");
 
-  /* ---------------- FILTROS ---------------- */
 
   const avesFiltradas = useMemo(() => {
     const q = normalize(buscaAves);
@@ -68,7 +65,6 @@ export default function RelatorioExportacao() {
     return buildDummyTree(base ? base.nome : "—");
   }, [aves, buscaArvore]);
 
-  /* ---------------- EXPORTAÇÃO ---------------- */
 
   function exportCSV(nome: string, headers: string[], rows: string[][]) {
     const csv = [headers.join(","), ...rows.map(r => r.map(safeCSV).join(","))].join("\n");
@@ -103,12 +99,10 @@ export default function RelatorioExportacao() {
     );
   }
 
-  /* ---------------- LAYOUT ---------------- */
 
   return (
     <div className="space-y-12">
 
-      {/* -------- TABELA DE AVES -------- */}
       <Card>
         <SectionHeader title="TABELA DE AVES">
           <SearchBox value={buscaAves} onChange={setBuscaAves} />
@@ -158,7 +152,6 @@ export default function RelatorioExportacao() {
         <Center><ExportBtn onClick={exportAves}>EXPORTAR</ExportBtn></Center>
       </Card>
 
-      {/* -------- HISTÓRICO DE CRUZAMENTOS -------- */}
       <Card>
         <SectionHeader title="HISTÓRICO DE CRUZAMENTOS">
           <SearchBox value={buscaCruz} onChange={setBuscaCruz} />
@@ -192,7 +185,6 @@ export default function RelatorioExportacao() {
         <Center><ExportBtn onClick={exportCruz}>EXPORTAR</ExportBtn></Center>
       </Card>
 
-      {/* -------- ÁRVORE GENEALÓGICA -------- */}
       <Card>
         <h3 className="text-xl font-extrabold text-stone-900 mb-2 tracking-wide">ÁRVORE GENEALÓGICA</h3>
 
@@ -218,7 +210,6 @@ export default function RelatorioExportacao() {
   );
 }
 
-/* ---------------- COMPONENTES DE UI ---------------- */
 
 function Card({ children }: { children: ReactNode }) {
   return (
@@ -324,7 +315,6 @@ function Td({ children, className = "" }: { children: ReactNode; className?: str
   return <td className={`px-4 py-3 align-middle font-medium ${className}`}>{children}</td>;
 }
 
-/* ---------------- ÁRVORE GENEALÓGICA ---------------- */
 
 function GenealogiaVis({ tree, selecionada }: { tree: string[][]; selecionada: string }) {
   return (
@@ -358,7 +348,6 @@ function GenealogiaVis({ tree, selecionada }: { tree: string[][]; selecionada: s
   );
 }
 
-/* ---------------- FUNÇÕES AUXILIARES ---------------- */
 
 function genId() {
   return `${Date.now()}-${Math.floor(Math.random() * 1e6)}`;
