@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* opcional: cor de fundo padrão */
-body {
-  background-color:rgb(0, 233, 217);
-}
 @font-face {
   font-family: 'Unique';
   src: url('/assets/ui/font_unique.ttf') format('truetype');
