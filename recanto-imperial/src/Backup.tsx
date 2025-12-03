@@ -30,67 +30,116 @@ export default function Backup() {
   }
 
   return (
-    <div className="min-h-screen w-full bg-[rgb(242,233,217)] text-stone-800 flex flex-col items-center py-10 px-4">
-      {/* Cabeçalho */}
-      <div className="flex flex-col items-center mb-8">
-        <h1 className="text-4xl font-extrabold text-amber-900 mb-2">
-          BACKUP E RESTAURAÇÃO
-        </h1>
-        <p className="text-stone-600 font-medium text-center max-w-md">
-          Gerencie exportação e importação do banco de dados SQLite do sistema.
-        </p>
-      </div>
+    <div className="w-full max-w-5xl mx-auto space-y-10">
 
-      {/* Botões principais */}
-      <div className="bg-[rgb(248,241,227)] border-2 border-amber-200 rounded-3xl shadow-md p-8 w-full max-w-3xl mb-8 text-center">
-        <div className="flex flex-col md:flex-row justify-center gap-8">
-          {/* Botão Criar */}
-          <div className="flex flex-col items-center">
+      {/* CARD: AÇÕES DE BACKUP */}
+      <div
+        className="
+          rounded-[32px] border-[3px] border-amber-300 
+          bg-[rgb(250,240,220)]/95 
+          shadow-[0_18px_40px_rgba(0,0,0,0.45)]
+          px-8 py-6
+        "
+      >
+        <div className="mb-4 text-center">
+          <h2 className="text-2xl md:text-3xl font-extrabold text-amber-800 tracking-[0.18em] uppercase drop-shadow-[0_3px_0_rgba(0,0,0,0.75)]">
+            Backup & Restauração
+          </h2>
+          <p className="mt-3 text-sm md:text-base text-stone-700 max-w-2xl mx-auto">
+            Gerencie a exportação e importação do banco de dados SQLite do sistema 
+            <span className="font-semibold"> Recanto Imperial GSB Manager</span>.
+          </p>
+        </div>
+
+        <div className="mt-6 flex flex-col md:flex-row items-stretch justify-center gap-8">
+          {/* Criar backup */}
+          <div className="flex-1 flex flex-col items-center text-center">
             <button
               onClick={criarBackup}
-              className="bg-green-600 hover:bg-green-700 text-white font-extrabold text-lg px-6 py-3 rounded-xl shadow-md"
+              className="
+                w-full md:w-auto
+                rounded-2xl bg-emerald-600 hover:bg-emerald-700 
+                text-white font-extrabold tracking-[0.14em] uppercase
+                px-6 py-3
+                shadow-[0_5px_0_rgba(0,70,0,0.85)]
+                active:translate-y-[1px]
+              "
             >
-              CRIAR BACKUP
+              Criar Backup
             </button>
-            <p className="text-stone-700 mt-2 text-sm">
-              exporta o banco SQLite para a pasta escolhida.
+            <p className="text-stone-700 mt-3 text-sm max-w-xs">
+              Exporta o arquivo do banco SQLite para a pasta escolhida
+              (ex.: <span className="font-semibold">/backups/recanto</span>).
             </p>
           </div>
 
-          {/* Botão Restaurar */}
-          <div className="flex flex-col items-center">
+          {/* Restaurar backup */}
+          <div className="flex-1 flex flex-col items-center text-center">
             <button
               onClick={restaurarBackup}
-              className="bg-green-600 hover:bg-green-700 text-white font-extrabold text-lg px-6 py-3 rounded-xl shadow-md"
+              className="
+                w-full md:w-auto
+                rounded-2xl bg-emerald-600 hover:bg-emerald-700 
+                text-white font-extrabold tracking-[0.14em] uppercase
+                px-6 py-3
+                shadow-[0_5px_0_rgba(0,70,0,0.85)]
+                active:translate-y-[1px]
+              "
             >
-              RESTAURAR BACKUP
+              Restaurar Backup
             </button>
-            <p className="text-stone-700 mt-2 text-sm">
-              importa um banco existente.
+            <p className="text-stone-700 mt-3 text-sm max-w-xs">
+              Importa um arquivo de backup existente e substitui o banco atual.
             </p>
           </div>
         </div>
       </div>
 
-      {/* Logs */}
-      <div className="bg-[rgb(248,241,227)] border-2 border-amber-200 rounded-3xl shadow-md p-6 w-full max-w-3xl">
-        <h2 className="text-xl font-extrabold text-amber-900 mb-4">
-          LOGS DE BACKUPS
-        </h2>
+      {/* CARD: LOGS */}
+      <div
+        className="
+          rounded-[32px] border-[3px] border-amber-300 
+          bg-[rgb(250,240,220)]/95 
+          shadow-[0_18px_40px_rgba(0,0,0,0.45)]
+          px-8 py-6
+        "
+      >
+        <h3 className="text-2xl font-extrabold text-amber-800 tracking-[0.18em] uppercase mb-5 text-center drop-shadow-[0_3px_0_rgba(0,0,0,0.75)]">
+          Logs de Backups
+        </h3>
 
-        <div className="space-y-3">
-          {logs.map((log, i) => (
-            <div
-              key={i}
-              className="bg-amber-100/60 border border-amber-200 rounded-xl px-4 py-3 text-left"
-            >
-              <p className="font-extrabold text-amber-900">
-                {log.status.toUpperCase()} – {log.data}
-              </p>
-              <p className="text-stone-700 text-sm">{log.descricao}</p>
-            </div>
-          ))}
-        </div>
+        {logs.length === 0 ? (
+          <div className="rounded-2xl bg-amber-50 border border-amber-200 p-4 text-center text-stone-600">
+            Nenhum backup registrado ainda.
+          </div>
+        ) : (
+          <div className="space-y-3">
+            {logs.map((log, i) => (
+              <div
+                key={i}
+                className="
+                  rounded-2xl border border-amber-200 
+                  bg-amber-100/80 px-4 py-3 
+                  flex flex-col gap-1
+                "
+              >
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                  <span className="inline-flex items-center gap-2">
+                    <span className="inline-flex items-center rounded-full px-3 py-1 text-xs font-extrabold bg-emerald-200 text-emerald-800">
+                      {log.status.toUpperCase()}
+                    </span>
+                    <span className="font-semibold text-stone-800">
+                      {log.data}
+                    </span>
+                  </span>
+                </div>
+                <p className="text-stone-700 text-sm">
+                  {log.descricao}
+                </p>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

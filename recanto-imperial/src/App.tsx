@@ -1,7 +1,9 @@
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 import CadastroAve from "./CadastroAve";
 import RegistrarCruzamento from "./RegistrarCruzamento";
 import EventosPlantel from "./EventosPlantel";
+import Relatorio from "./Relatorio";
+import Backup from "./Backup";
 
 type Page =
   | "cadastro"
@@ -10,6 +12,13 @@ type Page =
   | "relatorios"
   | "pesquisa"
   | "backup";
+
+// 🔹 caminhos das imagens
+const IMG_LOGO = "/logo-recanto.png";
+const IMG_NAME = "/nome-recanto.png";
+const IMG_WOOD = "/woodbar.png";
+const IMG_BRASIL = "/icon-brasil.png";
+const IMG_MINAS = "/icon-minas.png";
 
 const PAGE_TITLE: Record<Page, string> = {
   cadastro: "CADASTRAR AVE",
@@ -20,54 +29,137 @@ const PAGE_TITLE: Record<Page, string> = {
   backup: "BACKUP E RESTAURAÇÃO",
 };
 
+const NAV_ITEMS: Array<{ key: Page; label: string }> = [
+  { key: "cadastro", label: "Cadastrar\nAve" },
+  { key: "cruzamento", label: "Registrar\nCruzamento" },
+  { key: "eventos", label: "Eventos do\nPlantel" },
+  { key: "relatorios", label: "Relatório &\nExportação" },
+  { key: "backup", label: "Backup &\nRestauração" },
+];
+
 export default function App() {
   const [page, setPage] = useState<Page>("cadastro");
 
+  function renderPage(): ReactNode {
+    switch (page) {
+      case "cadastro":
+        return <CadastroAve />;
+      case "cruzamento":
+        return <RegistrarCruzamento />;
+      case "eventos":
+        return <EventosPlantel />;
+      case "relatorios":
+        return <Relatorio />;
+      case "backup":
+        return <Backup />;
+      default:
+        return null;
+    }
+  }
+
   return (
-    <div className="min-h-screen w-full bg-[rgb(242,233,217)] text-stone-800">
-      {/* Topo fixo (único) */}
-      <div className="px-6 md:px-10 py-6 flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          <span className="inline-block rounded-full bg-amber-200/70 px-3 py-1 text-sm font-semibold text-amber-900 shadow-sm">
-            RECANTO IMPERIAL GSB
-          </span>
-          <span className="inline-block rounded-full bg-amber-100 px-3 py-1 text-sm font-medium text-stone-700 shadow-sm">
-            MANAGER
-          </span>
+    <div
+      className="min-h-screen w-full bg-cover bg-center bg-fixed text-stone-800"
+      style={{ backgroundImage: "url('/Fundo.png')" }}
+    >
+      {/* TOPO */}
+      <TopBar page={page} onChangePage={setPage} />
+
+      {/* TÍTULO DESTACADO */}
+      <div className="px-4 md:px-8 mt-2 mb-6 flex justify-center">
+        <div className="
+          inline-flex items-center justify-center 
+          rounded-3xl px-6 md:px-10 py-3 md:py-4
+          bg-black/55
+          shadow-[0_8px_20px_rgba(0,0,0,0.7)]
+        ">
+          <h1 className="
+            text-2xl md:text-4xl lg:text-5xl 
+            font-extrabold 
+            tracking-[0.28em]
+            text-amber-200
+            text-center
+            drop-shadow-[0_3px_0_rgba(0,0,0,0.9)]
+          ">
+            {PAGE_TITLE[page]}
+          </h1>
         </div>
       </div>
 
-      {/* Menu simples */}
-      <nav className="mx-6 md:mx-10 rounded-2xl bg-amber-200/60 border border-amber-300 shadow p-2">
-        <ul className="flex flex-wrap gap-2 md:gap-3">
-          <NavBtn active={page==="cadastro"} onClick={() => setPage("cadastro")}>Cadastrar Ave</NavBtn>
-          <NavBtn active={page==="cruzamento"} onClick={() => setPage("cruzamento")}>Registrar Cruzamento</NavBtn>
-          <NavBtn active={page==="eventos"} onClick={() => setPage("eventos")}>Eventos do Plantel</NavBtn>
-          <NavBtn active={page==="relatorios"} onClick={() => setPage("relatorios")}>Relatório & Exportação</NavBtn>
-          <NavBtn active={page==="pesquisa"} onClick={() => setPage("pesquisa")}>Pesquisa & Filtros</NavBtn>
-          <NavBtn active={page==="backup"} onClick={() => setPage("backup")}>Backup & Restauração</NavBtn>
-        </ul>
-      </nav>
-
-      {/* Título da página */}
-      <div className="px-6 md:px-10 py-6">
-        <h1 className="text-3xl md:text-4xl font-extrabold tracking-wide text-stone-900">
-          {PAGE_TITLE[page]}
-        </h1>
-      </div>
-
-      {/* Conteúdo da página (somente conteúdo, sem cabeçalho interno) */}
+      {/* CONTEÚDO */}
       <div className="px-6 md:px-10 pb-12">
-         {page === "cadastro" && <CadastroAve />}
-         {page === "cruzamento" && <RegistrarCruzamento />}
-         {page === "eventos" && <EventosPlantel />} {/* <-- aqui */}
-         {page === "relatorios" && <Placeholder text="Em breve: relatórios e exportação." />}
-         {page === "pesquisa" && <Placeholder text="Em breve: pesquisa avançada com filtros." />}
-         {page === "backup" && <Placeholder text="Em breve: backup local e restauração." />}
+        {renderPage()}
       </div>
     </div>
   );
 }
+
+/* ========= TOPO ========= */
+
+function TopBar({
+  page,
+  onChangePage,
+}: {
+  page: Page;
+  onChangePage: (p: Page) => void;
+}) {
+  return (
+    <header className="w-full flex items-center justify-between px-4 md:px-8 pt-2 pb-2 gap-2">
+      {/* ESQUERDA */}
+      <div className="flex items-center gap-3 md:gap-4">
+        <img
+          src={IMG_LOGO}
+          alt="Recanto Imperial GSB"
+          className="w-32 h-32 md:w-40 md:h-40 drop-shadow-xl"
+        />
+        <img
+          src={IMG_NAME}
+          alt="Recanto Imperial GSB Manager"
+          className="w-[240px] md:w-[360px] h-auto object-contain drop-shadow-xl"
+        />
+      </div>
+
+      {/* CENTRO */}
+      <div className="relative flex-1 flex justify-center px-1">
+        <img
+          src={IMG_WOOD}
+          alt="Menu"
+          className="w-[400px] md:w-[900px] h-auto object-contain drop-shadow-lg"
+        />
+
+        <nav className="absolute inset-0 flex items-center justify-center px-2">
+          <ul className="flex gap-1 md:gap-2 text-[10px] md:text-xs font-extrabold tracking-[0.18em] uppercase whitespace-normal select-none leading-tight">
+            {NAV_ITEMS.map((item) => (
+              <NavBtn
+                key={item.key}
+                active={page === item.key}
+                onClick={() => onChangePage(item.key)}
+              >
+                {item.label}
+              </NavBtn>
+            ))}
+          </ul>
+        </nav>
+      </div>
+
+      {/* DIREITA */}
+      <div className="flex items-center gap-3 md:gap-4">
+        <img
+          src={IMG_BRASIL}
+          alt="Brasil"
+          className="w-16 h-16 md:w-20 md:h-20 drop-shadow-xl"
+        />
+        <img
+          src={IMG_MINAS}
+          alt="Minas Gerais"
+          className="w-16 h-16 md:w-20 md:h-20 drop-shadow-xl"
+        />
+      </div>
+    </header>
+  );
+}
+
+/* ========= NAV BUTTON ========= */
 
 function NavBtn({
   active,
@@ -76,25 +168,34 @@ function NavBtn({
 }: {
   active: boolean;
   onClick: () => void;
-  children: React.ReactNode;
+  children: ReactNode;
 }) {
   return (
-    <li>
+    <li className="leading-tight text-center">
       <button
         onClick={onClick}
-        className={`inline-flex items-center rounded-xl px-3 py-2 text-sm font-semibold transition
-        ${active ? "bg-amber-600 text-white shadow" : "bg-amber-100 hover:bg-amber-200 text-amber-900 border border-amber-300"}`}
+        className={`
+          uppercase tracking-[0.18em] font-extrabold 
+          px-2 md:px-3 py-1.5 
+          text-[9px] md:text-[10px]
+          whitespace-normal break-words
+          transition-all duration-150 rounded-md text-center
+          drop-shadow-[0_2px_0_rgba(0,0,0,0.9)]
+          ${
+            active
+              ? "text-yellow-300 bg-amber-800 shadow-inner"
+              : "text-white hover:text-yellow-200 hover:bg-amber-700/70"
+          }
+        `}
       >
-        {children}
+        {String(children)
+          .split("\n")
+          .map((line, i) => (
+            <span key={i} className="block">
+              {line}
+            </span>
+          ))}
       </button>
     </li>
-  );
-}
-
-function Placeholder({ text }: { text: string }) {
-  return (
-    <div className="rounded-3xl border-2 border-amber-200 bg-[rgb(248,241,227)] shadow-md p-8">
-      <p className="text-stone-700">{text}</p>
-    </div>
   );
 }

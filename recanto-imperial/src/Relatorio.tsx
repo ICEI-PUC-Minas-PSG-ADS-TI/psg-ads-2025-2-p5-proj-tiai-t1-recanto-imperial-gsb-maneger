@@ -1,7 +1,9 @@
 import { useMemo, useState, type ReactNode, type FormEvent } from "react";
 
-/** Tipos compartilhados */
+/* ---------------- TIPOS ---------------- */
+
 type Sexo = "Macho" | "Fêmea" | "Indefinido";
+
 type Ave = {
   anilha: string;
   nome: string;
@@ -9,34 +11,36 @@ type Ave = {
   sexo: Sexo;
   ativo: boolean;
 };
+
 type Cruzamento = {
   id: string;
   macho: string;
   femea: string;
-  data: string;       // yyyy-mm-dd
+  data: string;
   observacao: string;
 };
 
-/** --------- Componente principal --------- */
+/* ---------------- COMPONENTE PRINCIPAL ---------------- */
+
 export default function RelatorioExportacao() {
-  /** mock – substitua depois pelo seu backend */
   const [aves] = useState<Ave[]>([
     { anilha: "GSB001", nome: "Turmalina", linhagem: "Galo Esmeralda", sexo: "Fêmea", ativo: true },
-    { anilha: "GSB002", nome: "Ônix",      linhagem: "Galo Esmeralda", sexo: "Macho",  ativo: true },
-    { anilha: "GSB003", nome: "Jade",      linhagem: "Safira",         sexo: "Fêmea", ativo: false },
+    { anilha: "GSB002", nome: "Ônix", linhagem: "Galo Esmeralda", sexo: "Macho", ativo: true },
+    { anilha: "GSB003", nome: "Jade", linhagem: "Safira", sexo: "Fêmea", ativo: false },
   ]);
 
   const [cruzamentos] = useState<Cruzamento[]>([
-    { id: genId(), macho: "Aruanã", femea: "Esmeralda", data: "2025-10-12", observacao: "Baia de número 2 busca ativa" },
+    { id: genId(), macho: "Aruanã", femea: "Esmeralda", data: "2025-10-12", observacao: "Baia número 2" },
     { id: genId(), macho: "Aruanã", femea: "Esmeralda", data: "2025-10-12", observacao: "Cobertura assistida" },
-    { id: genId(), macho: "Fênix",  femea: "Turmalina", data: "2025-09-01", observacao: "Cobertura natural" },
+    { id: genId(), macho: "Fênix", femea: "Turmalina", data: "2025-09-01", observacao: "Cobertura natural" },
   ]);
 
-  /** filtros */
   const [buscaAves, setBuscaAves] = useState("");
   const [buscaCruz, setBuscaCruz] = useState("");
   const [buscaArvore, setBuscaArvore] = useState("");
-  const [selecionada, setSelecionada] = useState<string>(""); // anilha/nome da árvore
+  const [selecionada, setSelecionada] = useState("");
+
+  /* ---------------- FILTROS ---------------- */
 
   const avesFiltradas = useMemo(() => {
     const q = normalize(buscaAves);
@@ -54,145 +58,151 @@ export default function RelatorioExportacao() {
     );
   }, [cruzamentos, buscaCruz]);
 
-  /** árvore: procura por nome/anilha simples e monta uma árvore “dummy” */
   const arvore = useMemo(() => {
     const base =
       aves.find(a => normalize(a.nome).includes(normalize(buscaArvore))) ||
       aves.find(a => normalize(a.anilha).includes(normalize(buscaArvore)));
+
     setSelecionada(base ? `${base.anilha} - ${base.nome}` : "");
-    // Estrutura 1-2-4-1 (somente o layout do protótipo)
+
     return buildDummyTree(base ? base.nome : "—");
   }, [aves, buscaArvore]);
 
-  /** exportações */
-  function exportCSV(nomeArquivo: string, headers: string[], rows: string[][]) {
+  /* ---------------- EXPORTAÇÃO ---------------- */
+
+  function exportCSV(nome: string, headers: string[], rows: string[][]) {
     const csv = [headers.join(","), ...rows.map(r => r.map(safeCSV).join(","))].join("\n");
     const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
     const url = URL.createObjectURL(blob);
+
     const a = document.createElement("a");
     a.href = url;
-    a.download = `${nomeArquivo}.csv`;
+    a.download = `${nome}.csv`;
     a.click();
     URL.revokeObjectURL(url);
   }
 
   function exportAves() {
-    exportCSV(
-      "tabela_aves",
+    exportCSV("tabela_aves",
       ["Anilha", "Nome", "Linhagem", "Sexo", "Status"],
       avesFiltradas.map(a => [a.anilha, a.nome, a.linhagem, a.sexo, a.ativo ? "Ativo" : "Inativo"])
     );
   }
 
   function exportCruz() {
-    exportCSV(
-      "historico_cruzamentos",
+    exportCSV("historico_cruzamentos",
       ["Macho", "Fêmea", "Data", "Observação"],
       cruzFiltrados.map(c => [c.macho, c.femea, formatBR(c.data), c.observacao])
     );
   }
 
   function exportArvore() {
-    exportCSV(
-      "arvore_genealogica",
+    exportCSV("arvore_genealogica",
       ["Nível", "Rótulo"],
       arvore.flatMap((nivel, idx) => nivel.map(lbl => [String(idx + 1), lbl]))
     );
   }
 
+  /* ---------------- LAYOUT ---------------- */
+
   return (
     <div className="space-y-12">
-      {/* ============== TABELA DE AVES ============== */}
+
+      {/* -------- TABELA DE AVES -------- */}
       <Card>
         <SectionHeader title="TABELA DE AVES">
-          <SearchBox value={buscaAves} onChange={setBuscaAves} placeholder="Ex. galo doido" />
+          <SearchBox value={buscaAves} onChange={setBuscaAves} />
         </SectionHeader>
 
-        <div className="mt-3 overflow-auto rounded-2xl border border-amber-200 bg-white/60">
+        <TableWrapper>
           <table className="w-full text-left">
-            <thead className="bg-amber-100/80">
-              <tr className="text-stone-800">
+            <thead className="bg-amber-200/70">
+              <tr className="text-stone-900">
                 <Th>ANILHA</Th><Th>NOME</Th><Th>LINHAGEM</Th><Th>SEXO</Th><Th>STATUS</Th>
                 <Th className="text-right pr-4">AÇÕES</Th>
               </tr>
             </thead>
+
             <tbody>
               {avesFiltradas.map(a => (
-                <tr key={a.anilha} className="border-b last:border-0 border-amber-100">
+                <tr key={a.anilha} className="border-b border-amber-100 last:border-0">
                   <Td>{a.anilha}</Td>
                   <Td>{a.nome}</Td>
                   <Td>{a.linhagem}</Td>
                   <Td>{a.sexo}</Td>
                   <Td>
-                    <span className={`inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold ${a.ativo ? "bg-emerald-100 text-emerald-800" : "bg-stone-200 text-stone-700"}`}>
+                    <span className={`px-3 py-1 rounded-full text-xs font-bold ${
+                      a.ativo ? "bg-emerald-200 text-emerald-800" : "bg-stone-300 text-stone-800"
+                    }`}>
                       {a.ativo ? "Ativo" : "Inativo"}
                     </span>
                   </Td>
+
                   <Td className="text-right pr-3">
                     <div className="inline-flex gap-2">
-                      <GhostBtn>ver</GhostBtn>
-                      <GhostBtn>editar</GhostBtn>
-                      <GhostBtn>excluir</GhostBtn>
+                      <GhostBtn>VER</GhostBtn>
+                      <GhostBtn>EDITAR</GhostBtn>
+                      <GhostBtn>EXCLUIR</GhostBtn>
                     </div>
                   </Td>
                 </tr>
               ))}
+
               {avesFiltradas.length === 0 && (
                 <tr><td colSpan={6} className="py-10 text-center text-stone-500">Nenhuma ave encontrada.</td></tr>
               )}
             </tbody>
           </table>
-        </div>
+        </TableWrapper>
 
-        <div className="flex justify-center mt-5">
-          <ExportBtn onClick={exportAves}>EXPORTAR</ExportBtn>
-        </div>
+        <Center><ExportBtn onClick={exportAves}>EXPORTAR</ExportBtn></Center>
       </Card>
 
-      {/* ============== HISTÓRICO DE CRUZAMENTOS ============== */}
+      {/* -------- HISTÓRICO DE CRUZAMENTOS -------- */}
       <Card>
         <SectionHeader title="HISTÓRICO DE CRUZAMENTOS">
-          <SearchBox value={buscaCruz} onChange={setBuscaCruz} placeholder="Ex. galo doido" />
+          <SearchBox value={buscaCruz} onChange={setBuscaCruz} />
         </SectionHeader>
 
-        <div className="mt-3 overflow-auto rounded-2xl border border-amber-200 bg-white/60">
+        <TableWrapper>
           <table className="w-full text-left">
-            <thead className="bg-amber-100/80">
-              <tr className="text-stone-800">
+            <thead className="bg-amber-200/70">
+              <tr className="text-stone-900">
                 <Th>MACHO</Th><Th>FÊMEA</Th><Th>DATA</Th><Th>OBSERVAÇÃO</Th>
               </tr>
             </thead>
+
             <tbody>
               {cruzFiltrados.map(c => (
-                <tr key={c.id} className="border-b last:border-0 border-amber-100">
+                <tr key={c.id} className="border-b border-amber-100 last:border-0">
                   <Td>{c.macho}</Td>
                   <Td>{c.femea}</Td>
                   <Td>{formatBR(c.data)}</Td>
-                  <Td className="max-w-[520px] truncate">{c.observacao}</Td>
+                  <Td className="max-w-[540px] truncate">{c.observacao}</Td>
                 </tr>
               ))}
+
               {cruzFiltrados.length === 0 && (
                 <tr><td colSpan={4} className="py-10 text-center text-stone-500">Nenhum cruzamento encontrado.</td></tr>
               )}
             </tbody>
           </table>
-        </div>
+        </TableWrapper>
 
-        <div className="flex justify-center mt-5">
-          <ExportBtn onClick={exportCruz}>EXPORTAR</ExportBtn>
-        </div>
+        <Center><ExportBtn onClick={exportCruz}>EXPORTAR</ExportBtn></Center>
       </Card>
 
-      {/* ============== ÁRVORE GENEALÓGICA ============== */}
+      {/* -------- ÁRVORE GENEALÓGICA -------- */}
       <Card>
-        <h3 className="text-xl font-extrabold text-stone-800 mb-2">ARVORE GENEALÓGICA</h3>
+        <h3 className="text-xl font-extrabold text-stone-900 mb-2 tracking-wide">ÁRVORE GENEALÓGICA</h3>
 
-        <form className="grid grid-cols-1 md:grid-cols-[1fr,140px] gap-3 items-end" onSubmit={(e: FormEvent) => e.preventDefault()}>
+        <form className="grid grid-cols-1 md:grid-cols-[1fr,140px] gap-3 items-end" onSubmit={(e) => e.preventDefault()}>
           <div>
             <label className="font-extrabold text-stone-800">NOME DA AVE</label>
-            <SearchBox value={buscaArvore} onChange={setBuscaArvore} placeholder="Ex. galo doido" />
+            <SearchBox value={buscaArvore} onChange={setBuscaArvore} />
           </div>
-          <button type="submit" className="h-[42px] md:h-[44px] rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold tracking-wide">
+
+          <button className="h-[44px] rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold tracking-wide">
             BUSCAR
           </button>
         </form>
@@ -201,19 +211,22 @@ export default function RelatorioExportacao() {
           <GenealogiaVis tree={arvore} selecionada={selecionada} />
         </div>
 
-        <div className="flex justify-center mt-5">
-          <ExportBtn onClick={exportArvore}>EXPORTAR</ExportBtn>
-        </div>
+        <Center><ExportBtn onClick={exportArvore}>EXPORTAR</ExportBtn></Center>
       </Card>
+
     </div>
   );
 }
 
-/* ========= Subcomponentes/UI ========= */
+/* ---------------- COMPONENTES DE UI ---------------- */
 
 function Card({ children }: { children: ReactNode }) {
   return (
-    <div className="rounded-[28px] border-2 border-amber-200 bg-[rgb(248,241,227)] shadow-md p-6">
+    <div className="
+      rounded-[28px] border-2 border-amber-300 bg-[rgb(248,241,227)]
+      shadow-[0_15px_40px_rgba(0,0,0,0.45)]
+      p-6
+    ">
       {children}
     </div>
   );
@@ -221,21 +234,38 @@ function Card({ children }: { children: ReactNode }) {
 
 function SectionHeader({ title, children }: { title: string; children?: ReactNode }) {
   return (
-    <div className="flex items-center justify-between gap-4 flex-wrap mb-2">
-      <h3 className="text-xl font-extrabold text-stone-800">{title}</h3>
+    <div className="flex items-center justify-between flex-wrap mb-2 gap-4">
+      <h3 className="
+        text-xl font-extrabold text-stone-900 tracking-wide uppercase
+        drop-shadow-[0_2px_0_rgba(0,0,0,0.4)]
+      ">
+        {title}
+      </h3>
+
       {children}
     </div>
   );
 }
 
-function SearchBox({ value, onChange, placeholder }: { value: string; onChange: (v: string) => void; placeholder?: string; }) {
+function SearchBox({
+  value,
+  onChange,
+  placeholder,
+}: {
+  value: string;
+  onChange: (v: string) => void;
+  placeholder?: string;
+}) {
   return (
-    <div className="flex items-center gap-2 rounded-2xl border border-amber-200 bg-white/80 px-3 py-2 min-w-[260px]">
+    <div className="
+      flex items-center gap-2 rounded-2xl border border-amber-300
+      bg-white/80 px-3 py-2 min-w-[260px] shadow-inner
+    ">
       <input
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder || "Buscar..."}
-        className="w-full bg-transparent outline-none"
+        className="w-full bg-transparent outline-none font-medium"
       />
     </div>
   );
@@ -243,39 +273,82 @@ function SearchBox({ value, onChange, placeholder }: { value: string; onChange: 
 
 function ExportBtn({ onClick, children }: { onClick: () => void; children: ReactNode }) {
   return (
-    <button onClick={onClick} className="inline-flex items-center justify-center rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold tracking-wide px-6 py-2">
+    <button
+      onClick={onClick}
+      className="
+        px-6 py-2 rounded-2xl bg-emerald-600 text-white 
+        font-extrabold tracking-wide shadow-[0_4px_0_rgba(0,0,0,0.45)]
+        hover:bg-emerald-700 active:translate-y-[1px]
+      "
+    >
       {children}
     </button>
   );
 }
 
-function GhostBtn({ children, onClick }: { children: ReactNode; onClick?: () => void }) {
+function GhostBtn({ children }: { children: ReactNode }) {
   return (
-    <button onClick={onClick} className="px-3 py-1 rounded-xl border border-amber-200 bg-white/70 hover:bg-amber-50 text-sm">
+    <button className="
+      px-3 py-1 rounded-xl border border-amber-300 bg-white/70
+      hover:bg-amber-100 text-sm font-semibold
+    ">
       {children}
     </button>
   );
 }
+
+function TableWrapper({ children }: { children: ReactNode }) {
+  return (
+    <div className="
+      mt-3 overflow-auto rounded-2xl border border-amber-300
+      bg-white/60 shadow-inner
+    ">
+      {children}
+    </div>
+  );
+}
+
+const Center = ({ children }: { children: ReactNode }) => (
+  <div className="flex justify-center mt-4">{children}</div>
+);
 
 function Th({ children, className = "" }: { children: ReactNode; className?: string }) {
-  return <th className={`px-4 py-3 text-sm font-bold tracking-wide ${className}`}>{children}</th>;
-}
-function Td({ children, className = "" }: { children: ReactNode; className?: string }) {
-  return <td className={`px-4 py-3 align-middle ${className}`}>{children}</td>;
+  return (
+    <th className={`px-4 py-3 text-sm font-extrabold tracking-wide ${className}`}>
+      {children}
+    </th>
+  );
 }
 
-/* ========= Genealogia (mock visual) ========= */
+function Td({ children, className = "" }: { children: ReactNode; className?: string }) {
+  return <td className={`px-4 py-3 align-middle font-medium ${className}`}>{children}</td>;
+}
+
+/* ---------------- ÁRVORE GENEALÓGICA ---------------- */
 
 function GenealogiaVis({ tree, selecionada }: { tree: string[][]; selecionada: string }) {
   return (
     <div className="w-full min-w-[720px] mx-auto text-center">
-      {selecionada && <div className="mb-3 text-stone-700">Selecionada: <b>{selecionada}</b></div>}
+      {selecionada && (
+        <div className="mb-3 text-stone-800 font-semibold">
+          Selecionada: <b>{selecionada}</b>
+        </div>
+      )}
+
       <div className="flex flex-col items-center gap-6">
         {tree.map((nivel, idx) => (
           <div key={idx} className="flex items-center justify-center gap-6">
             {nivel.map((label, i) => (
-              <div key={i} className="w-40 h-12 rounded-xl bg-white shadow border border-amber-200 flex items-center justify-center">
-                <span className="text-sm font-semibold text-stone-700 truncate px-2">{label}</span>
+              <div
+                key={i}
+                className="
+                  w-40 h-12 rounded-xl bg-white shadow border border-amber-300
+                  flex items-center justify-center px-3
+                "
+              >
+                <span className="text-sm font-semibold text-stone-800 truncate">
+                  {label}
+                </span>
               </div>
             ))}
           </div>
@@ -285,7 +358,7 @@ function GenealogiaVis({ tree, selecionada }: { tree: string[][]; selecionada: s
   );
 }
 
-/* ========= utils ========= */
+/* ---------------- FUNÇÕES AUXILIARES ---------------- */
 
 function genId() {
   return `${Date.now()}-${Math.floor(Math.random() * 1e6)}`;
@@ -301,17 +374,13 @@ function formatBR(iso: string) {
 }
 
 function safeCSV(s: string) {
-  // envolve com aspas e escapa aspas internas
-  if (s == null) return '""';
-  const v = String(s).replace(/"/g, '""');
-  return `"${v}"`;
+  return `"${String(s).replace(/"/g, '""')}"`;
 }
 
 function buildDummyTree(root: string): string[][] {
-  // apenas para layout semelhante ao protótipo
   return [
-    ["Avo (M)", "Avo (F)", "Avo2 (M)", "Avo2 (F)"],   // 4
-    ["Pai", "Mãe"],                                   // 2
-    [root],                                           // 1
-  ].reverse(); // exibe de cima pra baixo: 4 → 2 → 1 (ajuste conforme preferir)
+    ["Avo (M)", "Avo (F)", "Avo2 (M)", "Avo2 (F)"],
+    ["Pai", "Mãe"],
+    [root],
+  ];
 }
