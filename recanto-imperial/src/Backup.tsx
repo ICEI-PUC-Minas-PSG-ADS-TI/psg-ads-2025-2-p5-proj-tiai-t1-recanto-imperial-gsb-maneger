@@ -32,7 +32,6 @@ export default function Backup() {
   return (
     <div className="w-full max-w-5xl mx-auto space-y-10">
 
-      {/* CARD: AÇÕES DE BACKUP */}
       <div
         className="
           rounded-[32px] border-[3px] border-amber-300 
@@ -52,7 +51,6 @@ export default function Backup() {
         </div>
 
         <div className="mt-6 flex flex-col md:flex-row items-stretch justify-center gap-8">
-          {/* Criar backup */}
           <div className="flex-1 flex flex-col items-center text-center">
             <button
               onClick={criarBackup}
@@ -73,7 +71,6 @@ export default function Backup() {
             </p>
           </div>
 
-          {/* Restaurar backup */}
           <div className="flex-1 flex flex-col items-center text-center">
             <button
               onClick={restaurarBackup}
@@ -95,7 +92,6 @@ export default function Backup() {
         </div>
       </div>
 
-      {/* CARD: LOGS */}
       <div
         className="
           rounded-[32px] border-[3px] border-amber-300 
