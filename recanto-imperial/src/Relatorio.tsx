@@ -1,7 +1,5 @@
 import { useMemo, useState, type ReactNode, type FormEvent } from "react";
 
-/* ---------------- TIPOS ---------------- */
-
 type Sexo = "Macho" | "Fêmea" | "Indefinido";
 
 type Ave = {
@@ -20,7 +18,6 @@ type Cruzamento = {
   observacao: string;
 };
 
-/* ---------------- COMPONENTE PRINCIPAL ---------------- */
 
 export default function RelatorioExportacao() {
   const [aves] = useState<Ave[]>([
@@ -374,3 +371,4 @@ function buildDummyTree(root: string): string[][] {
     [root],
   ];
 }
+
