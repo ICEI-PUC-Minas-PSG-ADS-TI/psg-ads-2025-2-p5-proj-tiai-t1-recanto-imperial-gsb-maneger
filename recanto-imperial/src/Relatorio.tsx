@@ -1,5 +1,6 @@
 import { useMemo, useState, type ReactNode, type FormEvent } from "react";
 
+/* ---------------- TIPOS ---------------- */
 
 type Sexo = "Macho" | "Fêmea" | "Indefinido";
 
@@ -19,6 +20,7 @@ type Cruzamento = {
   observacao: string;
 };
 
+/* ---------------- COMPONENTE PRINCIPAL ---------------- */
 
 export default function RelatorioExportacao() {
   const [aves] = useState<Ave[]>([
@@ -347,7 +349,6 @@ function GenealogiaVis({ tree, selecionada }: { tree: string[][]; selecionada: s
     </div>
   );
 }
-
 
 function genId() {
   return `${Date.now()}-${Math.floor(Math.random() * 1e6)}`;
