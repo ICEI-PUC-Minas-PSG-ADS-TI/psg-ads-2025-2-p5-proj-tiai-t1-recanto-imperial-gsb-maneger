@@ -6,6 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
+        //verificar o localhost selecionado
         target: "http://localhost:5000",
         changeOrigin: true,
         secure: false,
