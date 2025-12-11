@@ -4,33 +4,28 @@ Esta seção apresenta como o grupo organizou o trabalho ao longo do semestre, c
 
 ---
 
-## 2.1 Sprints do Projeto 
+### 2.1 Organização da Equipe por Sprint
 
-O projeto será realizado em **4 sprints**, cada uma com foco específico:
+Durante o projeto, um integrante foi responsável pela liderança e organização da sprint (PO/coordenação), enquanto os demais membros atuaram em papéis técnicos de acordo com suas competências.
 
-| Sprint         | Objetivo                                                                                 | Produtos Esperados                               |
-|----------------|------------------------------------------------------------------------------------------|--------------------------------------------------|
-| **Sprint 1**   | Entrevista com a empresa e contextualização do problema                                | Preenchimento da introdução e contextualização no `README.md` |
-| **Sprint 2**   | Levantamento de requisitos e criação de protótipos                                     | Quadro de requisitos (funcionais e não funcionais), personas e wireframes |
-| **Sprint 3**   | Desenvolvimento da ferramenta e preparação para apresentação parcial                    | Primeira versão funcional do sistema + Apresentação Parcial |
-| **Sprint 4**   | Finalização do sistema, testes, apresentação final e relatório no sistema APC           | Versão final do sistema + Apresentação Final + Relatório Individual no APC dentro do SGA |
+**Papéis gerais da equipe**
 
----
+- **Messias Junio** – Product Owner (PO), QA, documentação técnica e desenvolvimento back-end (API e services).
+- **Luis Henrique Nicodemos** – Desenvolvimento back-end, modelagem e gerenciamento de banco de dados.
+- **Gabriel Marinho** – Desenvolvimento front-end, experiência do usuário (UX/UI), prototipação e testes.
+- **Derick** – Modelagem e gerenciamento do banco de dados (modelo lógico e físico, integração com API).
+- **Todos** – Organização do repositório, revisão coletiva de artefatos e preparação de apresentações.
 
-## Organização da Equipe por Sprint
+**Distribuição de papéis por sprint (conforme execução do projeto)**
 
-Durante o projeto, um integrante será escolhido como **Líder do Grupo** em cada sprint. Os demais membros assumirão papéis técnicos de acordo com suas competências:
+| Sprint  | Período           | Líder / PO                | Principais Papéis Técnicos                                                                 |
+|--------|-------------------|---------------------------|--------------------------------------------------------------------------------------------|
+| Sprint 1 | 29/07 a 16/08    | **Messias Junio**         | Gabriel – Front-end / Relator; Luis – Back-end / Escritor técnico; Todos – Revisão inicial |
+| Sprint 2 | 19/08 a 06/09    | **Messias Junio** (PO/QA) | Messias – Requisitos + Wireframes; Gabriel – UX/Diagramas; Luis – Histórias de usuário; Derick – Modelo físico BD; Todos – Validação com cliente |
+| Sprint 3 | 09/09 a 30/09    | **Messias Junio** (PO/QA) | Gabriel – Front-end (telas e fluxos); Luis – Back-end (rotas e BD); Messias – Testes iniciais e services; Todos – Apresentação parcial |
+| Sprint 4 | 01/10 a 11/12    | **Messias Junio** (PO/QA) | Messias – Testes integrados e qualidade da API; Luis – Integração BD + API; Derick – Modelo físico e ajustes do BD; Gabriel – Interface final e feedback de UX; Todos – Entrega final no SGA/GitHub |
 
-- **Messias Junio** – Documentação técnica, análise de requisitos e integração do sistema.  
-- **Luis Henrique Nicodemos** – Desenvolvimento back-end e modelagem de banco de dados.  
-- **Gabriel Marinho** – Desenvolvimento front-end, experiência do usuário (UX/UI) e testes.  
-
-Exemplo de papéis por sprint (pode ser revezado ou adaptado):
-
-- **Sprint 1**: Líder – Messias; Front-end – Gabriel; Back-end – Luis.  
-- **Sprint 2**: Líder – Luis; Front-end – Gabriel; Documentação – Messias.  
-- **Sprint 3**: Líder – Gabriel; Front-end – Gabriel; Back-end – Luis; Apoio – Messias.  
-- **Sprint 4**: Líder – Messias; QA/Testes – Gabriel; Back-end – Luis.  
+> Observação: As funções foram revezadas e adaptadas conforme a necessidade de cada sprint, mantendo Messias como PO/QE central na coordenação do projeto.
 
 ---
 
@@ -132,20 +127,20 @@ Caso a equipe não utilize o GitHub Projects, este quadro servirá para informar
 | Responsável          | Função no Grupo | Tarefa                                    | Início | Prazo | Status | Entrega   |
 |-----------------------|-----------------|-------------------------------------------|--------|-------|--------|-----------|
 | Messias Junio        | PO / QA / Documentação / Back-end Dev | Testes iniciais e validação funcional Criação de Classes e Services    | 18/09  | 24/09 | ✔️      | APi + README.md |
-| Gabriel Marinho       | Front-end Dev   | Desenvolver telas e seus fluxogramas           | 09/09  | 17/09 | ❌      | Protótipo |
-| Luis Henrique Nicodemos | Back-end Dev  | Gerenciar banco de dados e rotas básicas       | 10/09  | 20/09 | ❌      | Código    |
+| Gabriel Marinho       | Front-end Dev   | Desenvolver telas e seus fluxogramas           | 09/09  | 17/09 | ✔️      | Protótipo |
+| Luis Henrique Nicodemos | Back-end Dev  | Gerenciar banco de dados e rotas básicas       | 10/09  | 20/09 | ✔️      | Código    |
 | Todos                | Organização     | Preparar apresentação parcial              | 25/09  | 30/09 | ❌      | Slides    |
 
 ---
 
 ### 🔴 Sprint 4 – Finalização e Relatório Final  
 
-**Período estimado:** 01/10 a 10/10  
+**Período estimado:** 01/10 a 11/12  
 **Objetivo:** Concluir o sistema, realizar testes integrados e entregar relatório final (APC/SGA).  
 
 | Responsável          | Função no Grupo | Tarefa                                   | Início | Prazo | Status | Entrega   |
 |-----------------------|-----------------|------------------------------------------|--------|-------|--------|-----------|
-| Messias Junio        | PO / QA / Documentação / Back-end Dev | Testar sistema completo e consolidar a qualidade da API | 06/10 | 11/12 | ✔️ | README.md + APC + Backend |
+| Messias Junio        | PO / QA / Documentação / Back-end Dev | Testar sistema completo e consolidar a qualidade da API | 06/10 | 11/12 | ✔️ | README.md + API + Backend |
 | Luis Henrique Nicodemos | Dev - BD  | Gerenciar banco de dados e linkar com a API         | 01/10  |  11/12 | ❌      | Código    |
 | Derick                    | Dev - BD      | Gerenciar banco de dados e linkar com a API                     | 22/08  |  11/12  |  ❌| Modelo físico (diagramas/imagens) |
 | Gabriel Marinho       | Front-end Dev  | Finalizar interface e aplicar feedback UX | 02/10  |  11/12 | ❌      | Protótipo |
