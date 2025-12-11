@@ -272,7 +272,8 @@ Se o projeto adotar NoSQL, a entrega deve incluir:
 
 Foram executados testes em **todos os endpoints** expostos no Swagger da API, cobrindo operações de consulta, cadastro, atualização, exclusão, genealogia e geração de relatórios PDF.
 
-![0.png](attachment:4948b0a9-52bf-47b6-8743-d003ba02b347:0.png)
+
+<img width="1919" height="1037" alt="0" src="https://github.com/user-attachments/assets/97387610-d569-4cf1-8440-521fa2f9ccf0" />
 
 ---
 
@@ -296,7 +297,8 @@ Foram executados testes em **todos os endpoints** expostos no Swagger da API, co
 
 **Imagem do teste:**
 
-![1.png](attachment:b7a26bc4-3a4f-4d26-8ab9-8967c6e29a5a:1.png)
+<img width="1057" height="1338" alt="1" src="https://github.com/user-attachments/assets/a048120e-e0fc-430c-9677-c0f36e37c3f9" />
+
 
 ---
 
@@ -339,7 +341,8 @@ Foram executados testes em **todos os endpoints** expostos no Swagger da API, co
 
 **Imagem do teste:**
 
-![2.png](attachment:72cd8ff0-05e7-48b8-bdb5-b82c5f22d4ae:2.png)
+<img width="1058" height="1551" alt="2" src="https://github.com/user-attachments/assets/a3780e99-bd51-4806-aab4-89c52e5e73c9" />
+
 
 ---
 
@@ -356,7 +359,7 @@ Foram executados testes em **todos os endpoints** expostos no Swagger da API, co
 
 **Imagem do teste:**
 
-![3.png](attachment:55a8716a-f2ba-4378-a978-c987d398c3af:3.png)
+<img width="1047" height="1226" alt="3" src="https://github.com/user-attachments/assets/b77b2dcc-007c-486f-8b73-203e63ce0deb" />
 
 ---
 
@@ -390,7 +393,8 @@ Foram executados testes em **todos os endpoints** expostos no Swagger da API, co
 
 **Imagem do teste:**
 
-![4.png](attachment:523e312e-b10d-49c5-8181-a2c425ec23e6:4.png)
+<img width="1045" height="1639" alt="4" src="https://github.com/user-attachments/assets/be76ca12-0743-4eb0-8e69-c0d939aa2bbd" />
+
 
 ---
 
@@ -407,7 +411,8 @@ Foram executados testes em **todos os endpoints** expostos no Swagger da API, co
 
 **Imagem do teste:**
 
-![5.png](attachment:5ad7968d-9dcc-426f-886e-c42872679723:5.png)
+<img width="1057" height="1060" alt="5" src="https://github.com/user-attachments/assets/a4088bbb-c212-498c-b99f-82573c76c1bb" />
+
 
 ---
 
@@ -424,7 +429,8 @@ Foram executados testes em **todos os endpoints** expostos no Swagger da API, co
 
 **Imagem do teste:**
 
-![6.png](attachment:d7542cf9-00be-4948-ae31-e05bc9fa0435:6.png)
+<img width="1052" height="1237" alt="6" src="https://github.com/user-attachments/assets/766439bf-bdc2-40b1-b2fd-c56abbe396e2" />
+
 
 ---
 
@@ -452,7 +458,8 @@ Foram executados testes em **todos os endpoints** expostos no Swagger da API, co
 
 **Imagem do teste:**
 
-![7.png](attachment:595ed9af-7f54-442b-9e17-573eaf9d6209:7.png)
+<img width="1044" height="1475" alt="7" src="https://github.com/user-attachments/assets/001f3ed9-4ff5-4375-8dba-f38c986b382d" />
+
 
 ---
 
@@ -494,7 +501,8 @@ Foram executados testes em **todos os endpoints** expostos no Swagger da API, co
 
 **Imagem do teste:**
 
-![8.png](attachment:d3b4ada9-8871-42ac-ad33-c7f5e7639d07:8.png)
+<img width="1040" height="1783" alt="8" src="https://github.com/user-attachments/assets/fddbedd7-a5b2-4dcf-a370-b66764a6dd21" />
+
 
 ---
 
@@ -511,7 +519,8 @@ Foram executados testes em **todos os endpoints** expostos no Swagger da API, co
 
 **Imagem do teste:**
 
-![9.png](attachment:deacf42b-0e4c-46e0-bafc-0aab813c43ae:9.png)
+<img width="1040" height="1555" alt="9" src="https://github.com/user-attachments/assets/27374e2c-c3b4-4c1f-b9a9-1e6281ff9405" />
+
 
 ---
 
@@ -528,7 +537,8 @@ Foram executados testes em **todos os endpoints** expostos no Swagger da API, co
 
 **Imagem do teste:**
 
-![10.png](attachment:965f1108-b940-414f-9265-13bd8d0c643b:10.png)
+<img width="1045" height="816" alt="10" src="https://github.com/user-attachments/assets/b179d1ca-6082-4fe4-8a8e-a81140f59c34" />
+
 
 ---
 
@@ -547,7 +557,8 @@ Foram executados testes em **todos os endpoints** expostos no Swagger da API, co
 
 **Imagem do teste:**
 
-![11.png](attachment:849546d8-3c95-4641-a06c-38446ca9b57a:11.png)
+
+<img width="1041" height="1087" alt="11" src="https://github.com/user-attachments/assets/95859d1d-8ff2-44f9-9015-bcd346b978a0" />
 
 ---
 
@@ -573,8 +584,7 @@ Foram executados testes em **todos os endpoints** expostos no Swagger da API, co
 - **Retorno:** Evento criado com `id: 3`, associando ao registro da ave `A001`.
 
 **Imagem do teste:**
-
-![12.png](attachment:a138eebb-e4b1-48dd-b6b3-c6d8a2421e89:12.png)
+<img width="1046" height="1363" alt="12" src="https://github.com/user-attachments/assets/acc98ff5-000e-4a10-9d8a-6c6b620bb920" />
 
 ---
 
@@ -590,7 +600,8 @@ Foram executados testes em **todos os endpoints** expostos no Swagger da API, co
 
 **Imagem do teste:**
 
-![13.png](attachment:85a1afea-3533-461a-a5f6-d30bdb4eb66d:13.png)
+<img width="1036" height="816" alt="13" src="https://github.com/user-attachments/assets/0395cb9f-0c74-4b5e-8a77-33b075a2e550" />
+
 
 ---
 
@@ -607,7 +618,8 @@ Foram executados testes em **todos os endpoints** expostos no Swagger da API, co
 
 **Imagem do teste:**
 
-![14.png](attachment:14e18e45-a2c9-410a-9a2c-0ceed3e4df5e:14.png)
+<img width="1041" height="958" alt="14" src="https://github.com/user-attachments/assets/8324ac2a-513d-469b-bef9-b93d858c5eeb" />
+
 
 ---
 
@@ -629,8 +641,7 @@ Foram executados testes em **todos os endpoints** expostos no Swagger da API, co
     - Avós paternos e maternos (`avoPaterno`, `avaPaterna`, `avoMaterno`, `avaMaterna`) retornando `null` (não cadastrados).
 
 **Imagem do teste:**
-
-![15.png](attachment:61c7f3c2-df64-4edc-b27a-0b2186d9965e:15.png)
+<img width="1040" height="1056" alt="15" src="https://github.com/user-attachments/assets/2acd1217-f9eb-46df-8071-f952b83aad66" />
 
 ---
 
@@ -646,8 +657,7 @@ Foram executados testes em **todos os endpoints** expostos no Swagger da API, co
 - **Retorno:** Mesmo resultado de genealogia do teste por id, agora usando a anilha.
 
 **Imagem do teste:**
-
-![16.png](attachment:6a88e307-92e6-424b-aa44-150b81d66823:16.png)
+<img width="1034" height="1054" alt="16" src="https://github.com/user-attachments/assets/458d019f-9535-47ba-9382-2f1878e45f54" />
 
 ---
 
@@ -674,7 +684,8 @@ Foram executados testes em **todos os endpoints** expostos no Swagger da API, co
 
 **Imagem do teste:**
 
-![17.png](attachment:c1e8d8df-829f-4870-8f9b-7e8284bac386:17.png)
+<img width="1040" height="855" alt="17" src="https://github.com/user-attachments/assets/284a48a7-6892-410b-b08d-5f2904447a4b" />
+
 
 ---
 
