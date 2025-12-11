@@ -60,8 +60,9 @@ As orientações incluirão:
 
 # 💻 Código
 
+<ol>
 <li><a href="docs/RecantoIMperial_UI"> User Interface </a></li>
 <li><a href="docs/RecantoIMperial_API"> User Aplication </a></li>
 <li><a href="docs/db"> Banco de Dados </a></li>
-
+</ol>
 
