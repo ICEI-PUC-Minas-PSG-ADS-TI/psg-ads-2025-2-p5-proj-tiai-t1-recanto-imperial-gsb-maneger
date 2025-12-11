@@ -93,6 +93,23 @@ Tela do Swagger que apresenta:
 <img width="1438" height="276" alt="Captura de tela 2025-12-11 171001" src="https://github.com/user-attachments/assets/5dee0a04-4094-442f-8669-09499fc1b0fd" />
 
 
+5.3.4 Tela Cadastrar Ave
+<img width="1837" height="865" alt="Captura de tela 2025-12-11 175308" src="https://github.com/user-attachments/assets/740cd620-0aec-49e9-af31-b93a3d0df1fd" />
+
+5.3.5 Tela Registrar Cruzamento
+<img width="1844" height="869" alt="Captura de tela 2025-12-11 175337" src="https://github.com/user-attachments/assets/83035c9f-e2b4-4ddd-a6f8-6cc5729cfbd5" />
+
+5.3.6 Tela Eventos do Plantel
+<img width="1862" height="877" alt="Captura de tela 2025-12-11 175402" src="https://github.com/user-attachments/assets/12b476ac-edfd-45e1-a4ca-9cff9f6ccf3a" />
+
+5.3.7 Tela Relatórios e Exportação
+<img width="1834" height="871" alt="Captura de tela 2025-12-11 175416" src="https://github.com/user-attachments/assets/875ae14e-12fd-4ef0-b95f-2f8111fd7605" />
+<img width="1837" height="872" alt="Captura de tela 2025-12-11 175427" src="https://github.com/user-attachments/assets/7355c822-1d93-4611-8b7b-cb3553a36de9" />
+
+5.3.8 Tela Backup e Restauração
+<img width="1857" height="877" alt="Captura de tela 2025-12-11 175442" src="https://github.com/user-attachments/assets/2d3f7ed3-7312-4645-9886-27a3a226aa1e" />
+
+
 ---
 
 > **📢 AVISO IMPORTANTE – ATUALIZAÇÃO DE PROGRESSO**  
