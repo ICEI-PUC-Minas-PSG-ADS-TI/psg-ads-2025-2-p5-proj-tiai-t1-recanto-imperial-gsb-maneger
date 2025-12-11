@@ -131,9 +131,9 @@ Caso a equipe não utilize o GitHub Projects, este quadro servirá para informar
 
 | Responsável          | Função no Grupo | Tarefa                                    | Início | Prazo | Status | Entrega   |
 |-----------------------|-----------------|-------------------------------------------|--------|-------|--------|-----------|
-| Gabriel Marinho       | Front-end Dev   | Desenvolver tela de login e home           | 09/09  | 17/09 | ❌      | Protótipo |
-| Luis Henrique Nicodemos | Back-end Dev  | Criar banco de dados e rotas básicas       | 10/09  | 20/09 | ❌      | Código    |
-| Messias Junio        | QA/Documentação | Testes iniciais e validação funcional      | 18/09  | 24/09 | ❌      | README.md |
+| Gabriel Marinho       | Front-end Dev   | Desenvolver telas e seus fluxogramas           | 09/09  | 17/09 | ❌      | Protótipo |
+| Luis Henrique Nicodemos | Back-end Dev  | Gerenciar banco de dados e rotas básicas       | 10/09  | 20/09 | ❌      | Código    |
+| Messias Junio        | QA/Documentação/ Dev Back-end | Testes iniciais e validação funcional Criação de Classes e Services    | 18/09  | 24/09 | ✔️      | APi + README.md |
 | Todos                | Organização     | Preparar apresentação parcial              | 25/09  | 30/09 | ❌      | Slides    |
 
 ---
@@ -145,9 +145,9 @@ Caso a equipe não utilize o GitHub Projects, este quadro servirá para informar
 
 | Responsável          | Função no Grupo | Tarefa                                   | Início | Prazo | Status | Entrega   |
 |-----------------------|-----------------|------------------------------------------|--------|-------|--------|-----------|
-| Luis Henrique Nicodemos | Back-end Dev  | Finalizar rotinas de persistência         | 01/10  | 08/10 | ❌      | Código    |
+| Luis Henrique Nicodemos | Bd Dev  | Finalizar rotinas de persistência         | 01/10  | 08/10 | ❌      | Código    |
 | Gabriel Marinho       | Front-end Dev  | Finalizar interface e aplicar feedback UX | 02/10  | 10/10 | ❌      | Protótipo |
-| Messias Junio        | QA/Documentação | Testar sistema completo e consolidar relatório | 06/10 | 10/10 | ❌      | README.md + APC |
+| Messias Junio        | PO / QA / Documentação / Back-end Dev | Testar sistema completo e consolidar relatório e Concluir a qualidade do backend| 06/10 | 11/12 | ✔️      | README.md + APC + Backend |
 | Todos                | Organização     | Entregar versão final e relatório no SGA  | 08/10  | 10/10 | ❌      | GitHub/SGA |
 
 ---
