@@ -42,7 +42,7 @@ No escopo desta entrega, a interface utilizada para interação com o back-end �
 | Tela Swagger – Eventos (CRUD)                       | 🟢 Concluída     | 11/12/2025         | -                                  |
 | Tela Swagger – Genealogia (por ID e por anilha)     | 🟢 Concluída     | 11/12/2025         | -                                  |
 | Tela Swagger – Relatórios (Ficha da Ave em PDF)     | 🟢 Concluída     | 11/12/2025         | -                                  |
-| Interface gráfica própria (frontend web do sistema) | 🔴 Não iniciada  | -                  | Fora do escopo desta entrega       |
+| Interface gráfica própria (frontend web do sistema) | 🟢 Concluíd      | 11/12/2025         | -                                  |
 
 Legenda: 🟢 Concluído | 🟡 Em andamento | 🔴 Não iniciado
 
