@@ -1,0 +1,17 @@
+# Build
+bin/
+obj/
+.vs/
+
+# Arquivo de banco local (SQLite)
+recanto.db
+*.db
+*.db-shm
+*.db-wal
+
+# Relatórios gerados em runtime
+relatorios/
+
+# Coisas de usuário/local
+*.user
+*.suo
