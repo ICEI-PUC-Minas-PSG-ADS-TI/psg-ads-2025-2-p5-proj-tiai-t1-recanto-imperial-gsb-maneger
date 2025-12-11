@@ -126,7 +126,7 @@ Caso a equipe não utilize o GitHub Projects, este quadro servirá para informar
 
 | Responsável          | Função no Grupo | Tarefa                                    | Início | Prazo | Status | Entrega   |
 |-----------------------|-----------------|-------------------------------------------|--------|-------|--------|-----------|
-| Messias Junio        | PO / QA / Documentação / Back-end Dev | Testes iniciais e validação funcional Criação de Classes e Services    | 18/09  | 24/09 | ✔️      | APi + README.md |
+| Messias Junio        | PO / QA / Documentação / Back-end Dev | Testes Swagger e validação funcional Criação da API | 18/09  | 24/09 | ✔️      | APi + README.md |
 | Gabriel Marinho       | Front-end Dev   | Desenvolver telas e seus fluxogramas           | 09/09  | 17/09 | ✔️      | Protótipo |
 | Luis Henrique Nicodemos | Back-end Dev  | Gerenciar banco de dados e rotas básicas       | 10/09  | 20/09 | ✔️      | Código    |
 | Todos                | Organização     | Preparar apresentação parcial              | 25/09  | 30/09 | ✔️      | Slides    |
@@ -140,7 +140,7 @@ Caso a equipe não utilize o GitHub Projects, este quadro servirá para informar
 
 | Responsável          | Função no Grupo | Tarefa                                   | Início | Prazo | Status | Entrega   |
 |-----------------------|-----------------|------------------------------------------|--------|-------|--------|-----------|
-| Messias Junio        | PO / QA / Documentação / Back-end Dev | Testar sistema completo e consolidar a qualidade da API | 06/10 | 11/12 | ✔️ | README.md + API + Backend |
+| Messias Junio        | PO / QA / Documentação / Back-end Dev | Entregar e Testar o sistema completo e consolidar a qualidade da API | 06/10 | 11/12 | ✔️ | README.md + API + Backend |
 | Luis Henrique Nicodemos | Dev - BD  | Gerenciar banco de dados e linkar com a API         | 01/10  |  11/12 | ⌛      | Código    |
 | Derick                    | Dev - BD      | Gerenciar banco de dados e linkar com a API                     | 22/08  |  11/12  |  ⌛| Modelo físico (diagramas/imagens) |
 | Gabriel Marinho       | Front-end Dev  | Finalizar interface e aplicar feedback UX | 02/10  |  11/12 | ⌛      | Protótipo |
