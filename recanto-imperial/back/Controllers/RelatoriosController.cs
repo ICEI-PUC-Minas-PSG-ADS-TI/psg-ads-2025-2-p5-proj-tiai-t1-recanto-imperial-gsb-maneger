@@ -18,7 +18,7 @@ namespace RecantoImperial.Api.Controllers
         }
 
         [HttpPost("ficha-ave/{aveId:int}")]
-        public async Task<IActionResult> GerarFichaAve(int aveId, [FromQuery] string destinoPasta = null)
+        public async Task<IActionResult> GerarFichaAve(int aveId, [FromQuery] string? destinoPasta = null)
         {
             destinoPasta ??= Path.Combine(AppContext.BaseDirectory, "relatorios");
             try

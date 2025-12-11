@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using RecantoImperial.Api.Models;
 using RecantoImperial.Api.Services.Interfaces;
+using RecantoImperial.Api.Models;
 using System;
 using System.IO;
 using System.Threading.Tasks;
@@ -9,39 +9,44 @@ namespace RecantoImperial.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class BackupsController : ControllerBase
+    public class BackupController : ControllerBase
     {
         private readonly IBackupService _backupService;
 
-        public BackupsController(IBackupService backupService)
+        public BackupController(IBackupService backupService)
         {
             _backupService = backupService;
         }
 
-        // GET: api/Backups
+        // GET: api/Backup
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-          var lista = await _backupService.GetAllAsync();
-          return Ok(lista);
+            var lista = await _backupService.GetAllAsync();
+            return Ok(lista);
         }
 
-        // POST: api/Backups
-        // Gera um novo backup
+        // POST: api/Backup
         [HttpPost]
-        public async Task<IActionResult> Create([FromQuery] string? destinoPasta = null)
+        public async Task<IActionResult> Create()
         {
             try
             {
-                destinoPasta ??= Path.Combine(AppContext.BaseDirectory, "backups");
+                // Pasta "backups" dentro do diretório da aplicação
+                string pasta = Path.Combine(AppContext.BaseDirectory, "backups");
 
-                if (!Directory.Exists(destinoPasta))
-                    Directory.CreateDirectory(destinoPasta);
+                // Cria a pasta se não existir
+                if (!Directory.Exists(pasta))
+                    Directory.CreateDirectory(pasta);
 
-                var fileName = $"backup-{DateTime.UtcNow:yyyyMMdd-HHmmss}.db";
-                var caminhoCompleto = Path.Combine(destinoPasta, fileName);
+                // Nome do arquivo ex: backup-20251211-143500.db
+                string fileName = $"backup-{DateTime.Now:yyyyMMdd-HHmmss}.db";
 
-                Backup b = await _backupService.CreateBackupAsync(caminhoCompleto);
+                // Caminho final
+                string destinoCompleto = Path.Combine(pasta, fileName);
+
+                Backup b = await _backupService.CreateBackupAsync(destinoCompleto);
+
                 return Ok(b);
             }
             catch (Exception ex)

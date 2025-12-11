@@ -19,7 +19,19 @@ namespace RecantoImperial.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll() => Ok(await _service.GetAllAsync());
+        public async Task<IActionResult> GetAll()
+        {
+            var lista = await _service.GetAllAsync();
+            return Ok(lista);
+        }
+
+        [HttpGet("{id:int}")]
+        public async Task<IActionResult> Get(int id)
+        {
+            var item = await _service.GetByIdAsync(id);
+            if (item == null) return NotFound();
+            return Ok(item);
+        }
 
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CreateEventoDto dto)
@@ -31,29 +43,18 @@ namespace RecantoImperial.Api.Controllers
                     AveId = dto.AveId,
                     TipoEvento = dto.TipoEvento,
                     Observacoes = dto.Observacoes,
-                    Data = string.IsNullOrWhiteSpace(dto.Data) ? DateTime.UtcNow : DateTime.Parse(dto.Data)
+                    Data = string.IsNullOrWhiteSpace(dto.Data)
+                        ? DateTime.UtcNow
+                        : DateTime.Parse(dto.Data)
                 };
 
-                var created = await _service.CreateAsync(evento);
-                return CreatedAtAction(nameof(Get), new { id = created.Id }, created);
+                var criado = await _service.CreateAsync(evento);
+                return Ok(criado);
             }
-            catch (KeyNotFoundException) { return NotFound(); }
-        }
-
-        [HttpDelete("{id:int}")]
-        public async Task<IActionResult> Delete(int id)
-        {
-            var ok = await _service.DeleteAsync(id);
-            if (!ok) return NotFound();
-            return NoContent();
-        }
-
-        [HttpGet("{id:int}")]
-        public async Task<IActionResult> Get(int id)
-        {
-            var e = await _service.GetByIdAsync(id);
-            if (e == null) return NotFound();
-            return Ok(e);
+            catch (Exception ex)
+            {
+                return BadRequest(new { error = ex.Message });
+            }
         }
     }
 }

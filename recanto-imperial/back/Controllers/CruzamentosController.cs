@@ -1,9 +1,9 @@
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using RecantoImperial.Api.Dtos;
 using RecantoImperial.Api.Models;
 using RecantoImperial.Api.Services.Interfaces;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace RecantoImperial.Api.Controllers
 {
@@ -19,29 +19,31 @@ namespace RecantoImperial.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll() => Ok(await _service.GetAllAsync());
+        public async Task<ActionResult<IEnumerable<Cruzamento>>> Get()
+        {
+            var lista = await _service.ListarAsync();
+            return Ok(lista);
+        }
 
         [HttpGet("{id:int}")]
-        public async Task<IActionResult> Get(int id)
+        public async Task<ActionResult<Cruzamento>> GetById(int id)
         {
-            var c = await _service.GetByIdAsync(id);
-            if (c == null) return NotFound();
-            return Ok(c);
+            var cruz = await _service.ObterPorIdAsync(id);
+            if (cruz == null) return NotFound();
+            return Ok(cruz);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] CreateCruzamentoDto dto)
+        public async Task<ActionResult<Cruzamento>> Post([FromBody] CreateCruzamentoDto dto)
         {
-            var cruzamento = new Cruzamento { Observacoes = dto.Observacoes };
-            var aves = dto.Aves.Select(a => (a.AveId, a.Papel));
-            var created = await _service.CreateAsync(cruzamento, aves);
-            return CreatedAtAction(nameof(Get), new { id = created.Id }, created);
+            var cruz = await _service.CriarAsync(dto);
+            return CreatedAtAction(nameof(GetById), new { id = cruz.Id }, cruz);
         }
 
         [HttpDelete("{id:int}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var ok = await _service.DeleteAsync(id);
+            var ok = await _service.ExcluirAsync(id);
             if (!ok) return NotFound();
             return NoContent();
         }

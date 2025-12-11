@@ -11,5 +11,8 @@ namespace RecantoImperial.Api.Dtos
         public decimal? Peso { get; set; }
         public string FotoPath { get; set; }
         public string StatusDescricao { get; set; }
+        public int? PaiId { get; set; }
+        public int? MaeId { get; set; }
+
     }
 }
