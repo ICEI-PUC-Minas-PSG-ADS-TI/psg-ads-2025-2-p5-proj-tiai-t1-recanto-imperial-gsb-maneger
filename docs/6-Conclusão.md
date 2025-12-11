@@ -1,24 +1,24 @@
 ## 6. Conclusão
 
-O desenvolvimento do sistema **Recanto Imperial GSB Manager** proporcionou uma solução prática e direcionada para a gestão de um criatório de galinhas da raça Sertaneja Balão (GSB).  
-A implementação das principais funcionalidades — como cadastro de aves, registro de cruzamentos, geração de relatórios e acompanhamento por dashboards — permitiu melhorar a organização dos dados do plantel e garantir maior confiabilidade no controle genético.
+O desenvolvimento do sistema **Recanto Imperial GSB Manager** resultou em uma solução completa para a gestão de um criatório de galinhas da raça Sertaneja Balão (GSB), integrando **API**, **banco de dados** e **interface gráfica** em um mesmo ecossistema.  
+O conjunto dessas camadas permitiu organizar de forma estruturada as informações do plantel, apoiar o controle genético e facilitar o acompanhamento do desempenho das aves.
 
-Entre os resultados alcançados, destacam-se:
-- Centralização das informações do criatório em um único sistema.  
-- Rastreabilidade das aves por meio do histórico de cruzamentos e eventos (nascimento, óbito, venda).  
-- Automação de relatórios em PDF, facilitando auditorias, documentação e compartilhamento de informações.  
-- Interface simples e responsiva, adequada a usuários com pouca experiência em tecnologia.  
+Entre os principais resultados obtidos, destacam-se:
 
-Apesar dos avanços, o projeto apresenta algumas **limitações**:  
-- O sistema funciona apenas em ambiente local, não permitindo, nesta versão, acesso remoto ou multiusuário.  
-- Recursos de análise avançada de dados (como predição de linhagens) ainda não foram implementados.  
-- A exportação e importação de dados é restrita ao backup via SQLite, não havendo integração direta com sistemas externos.  
+- **Centralização de dados do criatório** em um sistema único, com cadastro estruturado de aves, cruzamentos e eventos associados.  
+- **Rastreabilidade completa das aves**, permitindo consultar histórico de origem, cruzamentos (pai, mãe e filhos) e acontecimentos relevantes (nascimento, venda, óbito etc.).  
+- **API REST documentada via Swagger**, oferecendo endpoints claros, testáveis e prontos para integração com a interface gráfica e outras aplicações.  
+- **Geração automática de relatórios em PDF**, possibilitando registrar e compartilhar facilmente informações detalhadas de cada ave.  
+- **Interface gráfica web**, desenvolvida pela equipe, que consome a API e torna o sistema acessível e intuitivo para o usuário final, inclusive para quem tem pouca familiaridade com tecnologia.  
+- **Uso de banco de dados relacional**, garantindo consistência dos dados e base sólida para evolução futura do sistema.
 
-Como **trabalhos futuros**, recomenda-se:  
-- Evoluir a aplicação para ambiente web, com acesso em nuvem e autenticação segura.  
-- Criar módulos de análise genética com apoio de inteligência artificial para sugerir cruzamentos ideais.  
-- Expandir o sistema para suportar múltiplos criatórios em uma mesma plataforma (modelo SaaS).  
-- Implementar relatórios gráficos mais interativos e personalizáveis.  
+A arquitetura adotada facilita a **evolução e manutenção** do projeto. A API foi estruturada em camadas (models, serviços, controladores), o que favorece a inclusão de novas regras de negócio e integrações, enquanto a interface gráfica possibilita uma experiência mais amigável e visualmente organizada.
 
-Em síntese, o sistema contribuiu para modernizar os processos de gestão do criatório, trazendo ganhos em organização, confiabilidade e eficiência.  
-Os pontos de melhoria identificados servem como base para novas versões, garantindo que o projeto possa crescer em funcionalidade e robustez no futuro.
+Como possibilidades de evolução, o sistema se mostra preparado para:
+
+- Ampliar módulos de relatórios e dashboards, oferecendo visualizações ainda mais ricas para apoio à tomada de decisão.  
+- Incorporar recursos de análise de desempenho do plantel e apoio à seleção de matrizes e reprodutores.  
+- Estender o uso para múltiplos criatórios, transformando a solução em uma plataforma escalável para diferentes produtores.  
+
+Em síntese, o **Recanto Imperial GSB Manager** cumpre o objetivo de modernizar a gestão do criatório, trazendo organização, rastreabilidade e confiabilidade aos dados.  
+O trabalho desenvolvido estabelece uma base sólida para que o sistema continue crescendo em funcionalidades, mantendo-se alinhado às necessidades reais do manejo e da melhoria genética da raça GSB.
