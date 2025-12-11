@@ -12,14 +12,13 @@ import CruzamentoApi, {
   type CreateCruzamentoRequest,
 } from "./api/cruzamentoApi";
 
-
-
 type ThProps = { children: ReactNode; className?: string };
 type TdProps = { children: ReactNode; className?: string };
 
 type FormState = {
   machoId: string;
   femeaId: string;
+  filhoId: string;      // opcional
   observacao: string;
 };
 
@@ -27,11 +26,9 @@ type CruzamentoView = {
   id: number;
   macho: string;
   femea: string;
-  data: string;        
+  data: string;
   observacao: string;
 };
-
-
 
 export default function RegistrarCruzamento() {
   const [busca, setBusca] = useState("");
@@ -41,6 +38,7 @@ export default function RegistrarCruzamento() {
   const [form, setForm] = useState<FormState>({
     machoId: "",
     femeaId: "",
+    filhoId: "",
     observacao: "",
   });
 
@@ -71,8 +69,9 @@ export default function RegistrarCruzamento() {
     );
   }, [busca, historico]);
 
-
-  function onChangeField(e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
+  function onChangeField(
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) {
     const { name, value } = e.target;
     setForm((old) => ({ ...old, [name]: value }));
   }
@@ -80,25 +79,43 @@ export default function RegistrarCruzamento() {
   async function salvar(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
 
-    if (!form.machoId.trim() || !form.femeaId.trim() || !form.observacao.trim()) {
-      alert("Preencha todos os campos obrigatórios.");
+    if (!form.machoId.trim() || !form.femeaId.trim()) {
+      alert("Preencha ao menos os IDs de Pai (Macho) e Mãe (Fêmea).");
+      return;
+    }
+
+    if (!form.observacao.trim()) {
+      alert("Preencha a observação.");
       return;
     }
 
     const machoId = Number(form.machoId);
     const femeaId = Number(form.femeaId);
+    const filhoId = form.filhoId.trim() ? Number(form.filhoId) : null;
 
     if (!Number.isFinite(machoId) || !Number.isFinite(femeaId)) {
-      alert("Os campos de Macho e Fêmea devem ser números válidos.");
+      alert("Os campos de Pai (Macho) e Mãe (Fêmea) devem ser números válidos.");
       return;
+    }
+
+    if (filhoId !== null && !Number.isFinite(filhoId)) {
+      alert("O campo de Filhote deve ser um número válido, se preenchido.");
+      return;
+    }
+
+    const aves: CreateCruzamentoRequest["aves"] = [
+      // IMPORTANTE: papéis esperados pelo backend/validator
+      { aveId: machoId, papel: "Pai" },
+      { aveId: femeaId, papel: "Mae" },
+    ];
+
+    if (filhoId && filhoId > 0) {
+      aves.push({ aveId: filhoId, papel: "Filho" });
     }
 
     const payload: CreateCruzamentoRequest = {
       observacoes: form.observacao.trim(),
-      aves: [
-        { aveId: machoId, papel: "Macho" },
-        { aveId: femeaId, papel: "Fêmea" },
-      ],
+      aves,
     };
 
     try {
@@ -106,27 +123,28 @@ export default function RegistrarCruzamento() {
       const criado = await CruzamentoApi.criar(payload);
       const view = mapToView(criado);
       setHistorico((prev) => [view, ...prev]);
-      setForm({ machoId: "", femeaId: "", observacao: "" });
+      setForm({ machoId: "", femeaId: "", filhoId: "", observacao: "" });
       alert("Cruzamento registrado com sucesso!");
     } catch (err) {
       console.error(err);
-      alert("Erro ao salvar cruzamento. Verifique se as aves existem.");
+      alert(
+        "Erro ao salvar cruzamento. Verifique se as aves selecionadas existem e estão válidas no backend."
+      );
     } finally {
       setLoading(false);
     }
   }
 
-
   return (
     <div className="grid grid-cols-1 xl:grid-cols-[440px,1fr,360px] gap-6">
-      
+      {/* FORMULÁRIO */}
       <div className="rounded-3xl border-2 border-amber-200 bg-[rgb(248,241,227)] shadow-md p-6">
         <h2 className="text-xl font-extrabold text-amber-800 mb-4">
           NOVO CRUZAMENTO
         </h2>
 
         <form onSubmit={salvar} className="space-y-3">
-          <Campo label="MACHO (ID da ave) *">
+          <Campo label="PAI (ID da ave - Macho) *">
             <input
               name="machoId"
               value={form.machoId}
@@ -136,12 +154,22 @@ export default function RegistrarCruzamento() {
             />
           </Campo>
 
-          <Campo label="FÊMEA (ID da ave) *">
+          <Campo label="MÃE (ID da ave - Fêmea) *">
             <input
               name="femeaId"
               value={form.femeaId}
               onChange={onChangeField}
               placeholder="Ex. 2"
+              className="mt-1 w-full rounded-xl border border-amber-200 bg-white/80 px-3 py-2 outline-none"
+            />
+          </Campo>
+
+          <Campo label="FILHOTE (ID da ave - opcional)">
+            <input
+              name="filhoId"
+              value={form.filhoId}
+              onChange={onChangeField}
+              placeholder="Ex. 3"
               className="mt-1 w-full rounded-xl border border-amber-200 bg-white/80 px-3 py-2 outline-none"
             />
           </Campo>
@@ -177,8 +205,8 @@ export default function RegistrarCruzamento() {
           <table className="w-full text-left">
             <thead className="bg-amber-100/80">
               <tr>
-                <Th>MACHO</Th>
-                <Th>FÊMEA</Th>
+                <Th>MACHO (PAI)</Th>
+                <Th>FÊMEA (MÃE)</Th>
                 <Th>DATA</Th>
                 <Th>OBSERVAÇÃO</Th>
               </tr>
@@ -194,11 +222,16 @@ export default function RegistrarCruzamento() {
 
               {!loading &&
                 filtrados.map((c) => (
-                  <tr key={c.id} className="border-b border-amber-100 last:border-0">
+                  <tr
+                    key={c.id}
+                    className="border-b border-amber-100 last:border-0"
+                  >
                     <Td>{c.macho}</Td>
                     <Td>{c.femea}</Td>
                     <Td>{c.data}</Td>
-                    <Td className="max-w-[420px] truncate">{c.observacao}</Td>
+                    <Td className="max-w-[420px] truncate">
+                      {c.observacao}
+                    </Td>
                   </tr>
                 ))}
 
@@ -216,9 +249,7 @@ export default function RegistrarCruzamento() {
 
       {/* BUSCA */}
       <div className="rounded-3xl border-2 border-amber-200 bg-[rgb(248,241,227)] shadow-md p-6">
-        <div className="font-extrabold text-amber-800 text-xl mb-4">
-          BUSCA
-        </div>
+        <div className="font-extrabold text-amber-800 text-xl mb-4">BUSCA</div>
         <div className="flex items-center gap-2 rounded-2xl border border-amber-200 bg-white/80 px-3 py-2">
           <input
             value={busca}
@@ -232,23 +263,22 @@ export default function RegistrarCruzamento() {
   );
 }
 
-
+/* ===== Helpers ===== */
 
 function mapToView(c: CruzamentoDto): CruzamentoView {
-  const machoAves = c.cruzamentoAves.filter((a) =>
-    a.papel.toLowerCase().includes("macho")
+  const paiAves = c.cruzamentoAves.filter((a) =>
+    a.papel?.toLowerCase().includes("pai")
   );
-
-  const femeaAves = c.cruzamentoAves.filter((a) =>
-    a.papel.toLowerCase().includes("fêmea") ||
-    a.papel.toLowerCase().includes("femea")
-  );
+  const maeAves = c.cruzamentoAves.filter((a) => {
+    const p = (a.papel || "").toLowerCase();
+    return p.includes("mae") || p.includes("mãe");
+  });
 
   const macho =
-    machoAves.map((a) => a.ave?.nome || `Ave #${a.aveId}`).join(", ") || "—";
+    paiAves.map((a) => a.ave?.nome || `Ave #${a.aveId}`).join(", ") || "—";
 
   const femea =
-    femeaAves.map((a) => a.ave?.nome || `Ave #${a.aveId}`).join(", ") || "—";
+    maeAves.map((a) => a.ave?.nome || `Ave #${a.aveId}`).join(", ") || "—";
 
   return {
     id: c.id,
@@ -261,7 +291,7 @@ function mapToView(c: CruzamentoDto): CruzamentoView {
 
 function formatarDataBR(iso: string) {
   if (!iso) return "-";
-  const date = iso.split("T")[0]; // pega só yyyy-mm-dd
+  const date = iso.split("T")[0];
   const [y, m, d] = date.split("-");
   return `${d}/${m}/${y}`;
 }

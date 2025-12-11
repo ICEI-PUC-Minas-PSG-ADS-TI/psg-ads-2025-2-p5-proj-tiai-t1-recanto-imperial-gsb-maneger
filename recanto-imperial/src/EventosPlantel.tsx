@@ -1,31 +1,54 @@
-import { useMemo, useState, type ChangeEvent, type FormEvent } from "react";
+import {
+  useEffect,
+  useMemo,
+  useState,
+  type ChangeEvent,
+  type FormEvent,
+} from "react";
+import { EventoApi, type EventoDto } from "./api/eventosApi";
 
 type EventoTipo = "Nascimento" | "Óbito" | "Venda";
 
 interface Evento {
-  id: string;
+  id: number;
   tipo: EventoTipo;
-  data: string;        
+  data: string; // yyyy-MM-dd
   descricao: string;
-  detalhes?: string;   
+  detalhes?: string;
 }
 
 export default function EventosPlantel() {
   const [aba, setAba] = useState<EventoTipo>("Nascimento");
   const [filtro, setFiltro] = useState({ data: "", descricao: "" });
 
-  const [historico] = useState<Evento[]>([
-    { id: genId(), tipo: "Nascimento", data: "2025-09-16", descricao: "Nova ave registrada", detalhes: "Nova ave registrada no sistema." },
-    { id: genId(), tipo: "Nascimento", data: "2025-09-16", descricao: "Registro automático", detalhes: "Inclusão automática do sistema." },
-    { id: genId(), tipo: "Óbito",       data: "2025-08-03", descricao: "Ave 302", detalhes: "Causa natural." },
-    { id: genId(), tipo: "Venda",       data: "2025-07-22", descricao: "Lote 12", detalhes: "Venda para criador parceiro." },
-  ]);
+  const [historico, setHistorico] = useState<Evento[]>([]);
+  const [carregando, setCarregando] = useState(false);
+
+  // Carrega eventos do backend
+  useEffect(() => {
+    async function carregar() {
+      try {
+        setCarregando(true);
+        const itens = await EventoApi.listar();
+        setHistorico(itens.map(mapToEventoView));
+      } catch (err) {
+        console.error("Erro ao carregar eventos:", err);
+        alert("Erro ao carregar eventos do plantel.");
+      } finally {
+        setCarregando(false);
+      }
+    }
+    carregar();
+  }, []);
 
   const filtrados = useMemo(() => {
     return historico.filter((e) => {
       if (e.tipo !== aba) return false;
       if (filtro.data && e.data !== filtro.data) return false;
-      if (filtro.descricao && !e.descricao.toLowerCase().includes(filtro.descricao.toLowerCase()))
+      if (
+        filtro.descricao &&
+        !e.descricao.toLowerCase().includes(filtro.descricao.toLowerCase())
+      )
         return false;
       return true;
     });
@@ -38,15 +61,18 @@ export default function EventosPlantel() {
 
   function onBuscar(e: FormEvent) {
     e.preventDefault();
+    // filtros já são aplicados automaticamente pelo useMemo
   }
 
   return (
     <div className="w-full flex justify-center">
       <div className="max-w-5xl w-full">
-
-        
+        {/* Abas */}
         <div className="flex items-center justify-center gap-6 mb-8 flex-wrap">
-          <AbaButton active={aba === "Nascimento"} onClick={() => setAba("Nascimento")}>
+          <AbaButton
+            active={aba === "Nascimento"}
+            onClick={() => setAba("Nascimento")}
+          >
             NASCIMENTO
           </AbaButton>
           <AbaButton active={aba === "Óbito"} onClick={() => setAba("Óbito")}>
@@ -57,11 +83,14 @@ export default function EventosPlantel() {
           </AbaButton>
         </div>
 
-        <div className="
+        <div
+          className="
           rounded-[32px] border-[3px] border-amber-300 
           bg-[rgb(250,240,220)]/95 shadow-[0_18px_40px_rgba(0,0,0,0.45)]
           p-8
-        ">
+        "
+        >
+          {/* Filtros */}
           <form
             onSubmit={onBuscar}
             className="grid grid-cols-1 md:grid-cols-[240px,1fr,140px] gap-6 items-end"
@@ -104,33 +133,43 @@ export default function EventosPlantel() {
             </button>
           </form>
 
+          {/* Lista */}
           <div className="mt-8 space-y-5">
-            {filtrados.map((e) => (
-              <LinhaEvento
-                key={e.id}
-                tipo={e.tipo}
-                data={e.data}
-                titulo={tituloEvento(e)}
-                subtitulo={e.detalhes || "-"}
-              />
-            ))}
+            {carregando && (
+              <div className="rounded-2xl bg-amber-50 border border-amber-300 p-5 text-center text-stone-700">
+                Carregando eventos...
+              </div>
+            )}
 
-            {filtrados.length === 0 && (
-              <div className="
+            {!carregando &&
+              filtrados.map((e) => (
+                <LinhaEvento
+                  key={e.id}
+                  tipo={e.tipo}
+                  data={e.data}
+                  titulo={tituloEvento(e)}
+                  subtitulo={e.detalhes || "-"}
+                />
+              ))}
+
+            {!carregando && filtrados.length === 0 && (
+              <div
+                className="
                 rounded-2xl bg-amber-50 border border-amber-300 
                 p-5 text-stone-700 text-center
-              ">
+              "
+              >
                 Nenhum evento encontrado para os filtros aplicados.
               </div>
             )}
           </div>
         </div>
-
       </div>
     </div>
   );
 }
 
+/* ===== Helpers de UI ===== */
 
 function AbaButton({
   active,
@@ -147,9 +186,10 @@ function AbaButton({
       className={`
         px-6 py-3 rounded-2xl font-extrabold uppercase tracking-[0.14em]
         transition-all duration-150 shadow-[0_3px_0_rgba(0,0,0,0.7)]
-        ${active
-          ? "bg-amber-700 text-yellow-200 shadow-inner"
-          : "bg-amber-500/70 text-white hover:bg-amber-600"
+        ${
+          active
+            ? "bg-amber-700 text-yellow-200 shadow-inner"
+            : "bg-amber-500/70 text-white hover:bg-amber-600"
         }
       `}
     >
@@ -184,10 +224,12 @@ function LinhaEvento({
       `}
     >
       <div className="flex flex-wrap items-center justify-between">
-        <h3 className="
+        <h3
+          className="
           font-black tracking-[0.16em] text-stone-900 
           drop-shadow-[0_2px_0_rgba(0,0,0,0.3)]
-        ">
+        "
+        >
           {titulo.toUpperCase()}
         </h3>
 
@@ -214,12 +256,41 @@ function tituloEvento(e: Evento) {
   }
 }
 
+/* ===== Mapeamento e formatações ===== */
+
 function formatarDataBR(iso: string) {
   if (!iso) return "-";
-  const [y, m, d] = iso.split("-");
+  // se vier "2025-12-11" ou "2025-12-11T10:20:30"
+  const soData = iso.split("T")[0];
+  const [y, m, d] = soData.split("-");
   return `${d}/${m}/${y}`;
 }
 
-function genId() {
-  return `${Date.now()}-${Math.floor(Math.random() * 1e6)}`;
+// Converte o DTO do backend para o formato usado na tela
+function mapToEventoView(dto: EventoDto): Evento {
+  const tipo = mapTipo(dto.tipoEvento);
+
+  // normalizar data para yyyy-MM-dd
+  const dataIso = dto.data?.split("T")[0] ?? "";
+
+  return {
+    id: dto.id,
+    tipo,
+    data: dataIso,
+    descricao: dto.observacoes || dto.tipoEvento || "",
+    detalhes: `Ave #${dto.aveId} - ${dto.observacoes || "Sem detalhes"}`,
+  };
+}
+
+// Converte string do backend -> EventoTipo
+function mapTipo(raw: string): EventoTipo {
+  const t = (raw || "").toLowerCase();
+
+  if (t.includes("nasc")) return "Nascimento";
+  if (t.includes("obito") || t.includes("óbito") || t.includes("morte"))
+    return "Óbito";
+  if (t.includes("vend")) return "Venda";
+
+  // fallback: considera nascimento
+  return "Nascimento";
 }

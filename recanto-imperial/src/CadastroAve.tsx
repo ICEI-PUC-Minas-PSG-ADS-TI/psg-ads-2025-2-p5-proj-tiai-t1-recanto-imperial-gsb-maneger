@@ -6,8 +6,12 @@ import {
   type FormEvent,
   type ReactNode,
 } from "react";
-import { AveApi, type AveDto, type CreateAveRequest } from "./api/avesApi";
-
+import {
+  AveApi,
+  type AveDto,
+  type CreateAveRequest,
+  type UpdateAveRequest,
+} from "./api/avesApi";
 
 type Sexo = "Macho" | "Femea";
 
@@ -25,12 +29,13 @@ type FormAve = {
   ativo: boolean;
 };
 
-
 export default function CadastroAve() {
   const [busca, setBusca] = useState("");
   const [lista, setLista] = useState<AveDto[]>([]);
   const [carregando, setCarregando] = useState(false);
   const [salvando, setSalvando] = useState(false);
+
+  const [editId, setEditId] = useState<number | null>(null);
 
   const [form, setForm] = useState<FormAve>({
     anilha: gerarAnilha(),
@@ -45,7 +50,6 @@ export default function CadastroAve() {
     sexo: "Femea",
     ativo: true,
   });
-
 
   useEffect(() => {
     async function carregar() {
@@ -63,17 +67,15 @@ export default function CadastroAve() {
     carregar();
   }, []);
 
-
   const filtrados = useMemo(() => {
     const q = normalizar(busca);
     if (!q) return lista;
     return lista.filter((a) =>
-      [a.anilha, a.nome, a.linhagem]
+      [a.id, a.anilha, a.nome, a.linhagem]
         .filter(Boolean)
         .some((v) => normalizar(String(v)).includes(q))
     );
   }, [busca, lista]);
-
 
   function gerarAnilha() {
     return `GSB${String(Math.floor(1 + Math.random() * 999)).padStart(3, "0")}`;
@@ -86,6 +88,22 @@ export default function CadastroAve() {
       .replace(/[\u0300-\u036f]/g, "");
   }
 
+  function resetForm() {
+    setForm({
+      anilha: gerarAnilha(),
+      nome: "",
+      linhagem: "",
+      pai: "",
+      mae: "",
+      crista: "",
+      plumagem: "",
+      peso: undefined,
+      nascimento: "",
+      sexo: "Femea",
+      ativo: true,
+    });
+    setEditId(null);
+  }
 
   function onFieldChange(e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) {
     const el = e.currentTarget;
@@ -114,7 +132,7 @@ export default function CadastroAve() {
     setForm((old) => ({ ...old, [name]: el.value }));
   }
 
-  async function salvarNovaAve(e: FormEvent<HTMLFormElement>) {
+  async function salvarAve(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
 
     if (
@@ -128,41 +146,100 @@ export default function CadastroAve() {
       return;
     }
 
-    const payload: CreateAveRequest = {
-      anilha: form.anilha,
-      nome: form.nome.trim(),
-      linhagem: form.linhagem.trim(),
-      sexo: form.sexo, 
-      dataNascimento: form.nascimento,
-      peso: form.peso ?? null,
-      fotoPath: "", 
-    };
+    const isEdicao = editId !== null;
 
     try {
       setSalvando(true);
-      const criada = await AveApi.criar(payload);
 
-      setLista((prev) => [criada, ...prev]);
+      if (!isEdicao) {
+        // ===== CRIAR NOVA AVE =====
+        const payload: CreateAveRequest = {
+          anilha: form.anilha,
+          nome: form.nome.trim(),
+          linhagem: form.linhagem.trim(),
+          sexo: form.sexo,
+          dataNascimento: form.nascimento,
+          peso: form.peso ?? null,
+          fotoPath: "",
 
-      setForm({
-        anilha: gerarAnilha(),
-        nome: "",
-        linhagem: "",
-        pai: "",
-        mae: "",
-        crista: "",
-        plumagem: "",
-        peso: undefined,
-        nascimento: "",
-        sexo: "Femea",
-        ativo: true,
-      });
+          paiId: form.pai ? Number(form.pai) : null,
+          maeId: form.mae ? Number(form.mae) : null,
+        };
+        
+        const criada = await AveApi.criar(payload);
+        setLista((prev) => [criada, ...prev]);
+        resetForm();
+      } else {
+        // ===== EDITAR AVE EXISTENTE =====
+        const existente = lista.find((a) => a.id === editId);
+        if (!existente) {
+          alert("Ave não encontrada para edição.");
+          setEditId(null);
+          return;
+        }
+
+        const payload: UpdateAveRequest = {
+          id: editId,
+          anilha: form.anilha,
+          nome: form.nome.trim(),
+          linhagem: form.linhagem.trim(),
+          sexo: form.sexo,
+          dataNascimento: form.nascimento || null,
+          peso: form.peso ?? null,
+          fotoPath: existente.fotoPath ?? "",
+          statusDescricao: form.ativo ? "Ativa" : (existente.statusDescricao ?? "Inativa"),
+        };
+
+        const atualizada = await AveApi.atualizar(editId, payload);
+        setLista((prev) =>
+          prev.map((a) => (a.id === atualizada.id ? atualizada : a))
+        );
+        resetForm();
+      }
     } catch (err: any) {
       console.error(err);
       alert("Erro ao salvar ave na API.");
     } finally {
       setSalvando(false);
     }
+  }
+
+  function iniciarEdicao(ave: AveDto) {
+    setEditId(ave.id);
+
+    setForm({
+      anilha: ave.anilha,
+      nome: ave.nome ?? "",
+      linhagem: ave.linhagem ?? "",
+      pai: "",
+      mae: "",
+      crista: "",
+      plumagem: "",
+      peso: ave.peso ?? undefined,
+      nascimento: ave.dataNascimento
+        ? ave.dataNascimento.split("T")[0]
+        : "",
+      sexo:
+        ave.sexo === "Macho" || ave.sexo === "Femea" ? (ave.sexo as Sexo) : "Femea",
+      ativo: ave.statusDescricao === "Ativa",
+    });
+  }
+
+  function cancelarEdicao() {
+    resetForm();
+  }
+
+  function verAve(ave: AveDto) {
+    alert(
+      [
+        `ID: ${ave.id}`,
+        `Anilha: ${ave.anilha}`,
+        `Nome: ${ave.nome ?? "-"}`,
+        `Linhagem: ${ave.linhagem ?? "-"}`,
+        `Sexo: ${ave.sexo ?? "-"}`,
+        `Status: ${ave.statusDescricao ?? "-"}`,
+      ].join("\n")
+    );
   }
 
   async function remover(id: number) {
@@ -176,15 +253,24 @@ export default function CadastroAve() {
     }
   }
 
-
   return (
     <div className="grid grid-cols-1 lg:grid-cols-[420px,1fr] gap-6">
+      {/* FORMULÁRIO */}
       <div className="rounded-3xl border-2 border-amber-200 bg-[rgb(248,241,227)] shadow-md p-6">
         <h2 className="text-xl font-extrabold text-amber-800 mb-4">
-          CADASTRAR NOVA AVE
+          {editId ? "EDITAR AVE" : "CADASTRAR NOVA AVE"}
         </h2>
 
-        <form onSubmit={salvarNovaAve} className="space-y-3">
+        <form onSubmit={salvarAve} className="space-y-3">
+          <Campo label="ANILHA">
+            <input
+              name="anilha"
+              value={form.anilha}
+              onChange={onFieldChange}
+              className="mt-1 w-full rounded-xl border border-amber-200 bg-white/80 px-3 py-2 outline-none"
+            />
+          </Campo>
+
           <Campo label="NOME / ID*">
             <input
               name="nome"
@@ -303,16 +389,33 @@ export default function CadastroAve() {
             </div>
           </div>
 
-          <button
-            type="submit"
-            disabled={salvando}
-            className="w-full rounded-2xl bg-amber-600 hover:bg-amber-700 disabled:opacity-70 text-white font-semibold px-4 py-3 transition-colors shadow-sm"
-          >
-            {salvando ? "SALVANDO..." : "SALVAR NOVA AVE"}
-          </button>
+          <div className="flex flex-wrap gap-3 pt-2">
+            <button
+              type="submit"
+              disabled={salvando}
+              className="flex-1 min-w-[160px] rounded-2xl bg-amber-600 hover:bg-amber-700 disabled:opacity-70 text-white font-semibold px-4 py-3 transition-colors shadow-sm"
+            >
+              {salvando
+                ? "SALVANDO..."
+                : editId
+                ? "SALVAR ALTERAÇÕES"
+                : "SALVAR NOVA AVE"}
+            </button>
+
+            {editId && (
+              <button
+                type="button"
+                onClick={cancelarEdicao}
+                className="min-w-[140px] rounded-2xl border border-amber-300 bg-white/80 text-stone-800 font-semibold px-4 py-3"
+              >
+                Cancelar edição
+              </button>
+            )}
+          </div>
         </form>
       </div>
 
+      {/* TABELA */}
       <div className="rounded-3xl border-2 border-amber-200 bg-[rgb(248,241,227)] shadow-md p-6">
         <div className="flex items-center justify-between gap-4 flex-wrap">
           <h2 className="text-xl font-extrabold text-amber-800">
@@ -323,7 +426,7 @@ export default function CadastroAve() {
             <input
               value={busca}
               onChange={(e) => setBusca(e.target.value)}
-              placeholder="Ex. galo doido"
+              placeholder="Ex. 1, Galo Turmalina..."
               className="w-full bg-transparent outline-none"
             />
           </div>
@@ -338,6 +441,7 @@ export default function CadastroAve() {
             <table className="w-full text-left">
               <thead className="bg-amber-100/80">
                 <tr className="text-stone-800">
+                  <Th>ID</Th>
                   <Th>ANILHA</Th>
                   <Th>NOME</Th>
                   <Th>LINHAGEM</Th>
@@ -353,6 +457,7 @@ export default function CadastroAve() {
                     key={a.id}
                     className="border-b last:border-0 border-amber-100"
                   >
+                    <Td>{a.id}</Td>
                     <Td>{a.anilha}</Td>
                     <Td>{a.nome}</Td>
                     <Td>{a.linhagem}</Td>
@@ -370,15 +475,21 @@ export default function CadastroAve() {
                     </Td>
                     <Td className="pr-2 text-right">
                       <div className="inline-flex items-center justify-end gap-2">
-                        <button className="px-3 py-2 rounded-xl border border-amber-200 bg-white/80">
+                        <button
+                          onClick={() => verAve(a)}
+                          className="px-3 py-2 rounded-xl border border-amber-200 bg-white/80 text-sm"
+                        >
                           Ver
                         </button>
-                        <button className="px-3 py-2 rounded-xl border border-amber-200 bg-white/80">
+                        <button
+                          onClick={() => iniciarEdicao(a)}
+                          className="px-3 py-2 rounded-xl border border-amber-200 bg-white/80 text-sm"
+                        >
                           Editar
                         </button>
                         <button
                           onClick={() => remover(a.id)}
-                          className="px-3 py-2 rounded-xl border border-amber-200 bg-white/80"
+                          className="px-3 py-2 rounded-xl border border-amber-200 bg-white/80 text-sm"
                         >
                           Excluir
                         </button>
@@ -390,7 +501,7 @@ export default function CadastroAve() {
                 {filtrados.length === 0 && (
                   <tr>
                     <td
-                      colSpan={6}
+                      colSpan={7}
                       className="py-8 text-center text-stone-500"
                     >
                       Nenhuma ave encontrada.
@@ -406,6 +517,7 @@ export default function CadastroAve() {
   );
 }
 
+/* ===== componentes bobinhos de UI ===== */
 
 function Th({
   children,
