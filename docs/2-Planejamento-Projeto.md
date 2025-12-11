@@ -103,7 +103,7 @@ Caso a equipe não utilize o GitHub Projects, este quadro servirá para informar
 
 | Responsável          | Função no Grupo   | Tarefa                                              | Início | Prazo | Status | Entrega       |
 |-----------------------|-------------------|-----------------------------------------------------|--------|-------|--------|---------------|
-| Messias Junio        | Líder/Documentação | Agendar e conduzir entrevista com o cliente         | 29/07  | 02/08 | ✔️      | Link/print    |
+| Messias Junio        | PO / QA / Documentação / Back-end Dev | Agendar e conduzir entrevista com o cliente         | 29/07  | 02/08 | ✔️      | Link/print    |
 | Gabriel Marinho       | Front-end/Relator  | Descrever o contexto e problemas atuais             | 01/08  | 05/08 | ✔️      | contexto.md     |
 | Luis Henrique Nicodemos | Back-end/Escritor técnico | Redigir proposta de sistema com base nos dados | 05/08  | 08/08 | ✔️      | contexto.md     |
 | Todos                | Organização       | Revisar e validar conteúdo publicado                | 08/08  | 16/08 | ✔️      | GitHub Repo   |
@@ -117,7 +117,7 @@ Caso a equipe não utilize o GitHub Projects, este quadro servirá para informar
 
 | Responsável               | Função no Grupo | Tarefa                                               | Início  | Prazo  | Status | Entrega             |
 |---------------------------|----------------|-----------------------------------------------------|---------|--------|--------|-------------------|
-| Messias Junio             | Documentação   | Elaborar lista de requisitos e criar wireframes das principais telas | 19/08  | 23/08  | ✔️     | Documentação + Wireframes |
+| Messias Junio             | PO / QA / Documentação / Back-end Dev | Elaborar lista de requisitos e criar wireframes das principais telas | 19/08  | 23/08  | ✔️     | Documentação + Wireframes |
 | Gabriel Marinho           | UX Designer    | Diagramas de classes e modelo de dados             | 20/08  | 27/08  | ✔️     | Diagramas de classe |
 | Luis Henrique Nicodemos   | Back-end       | Documentar histórias de usuário                    | 22/08  | 29/08  | ✔️     | Modelagem Relacional e Logica (README.md) |
 | Derick                    | Back-end       | Modelo físico do banco de dados                    | 22/08  | 29/08  | ✔️     | Modelo físico (diagramas/imagens) |
@@ -131,9 +131,9 @@ Caso a equipe não utilize o GitHub Projects, este quadro servirá para informar
 
 | Responsável          | Função no Grupo | Tarefa                                    | Início | Prazo | Status | Entrega   |
 |-----------------------|-----------------|-------------------------------------------|--------|-------|--------|-----------|
+| Messias Junio        | PO / QA / Documentação / Back-end Dev | Testes iniciais e validação funcional Criação de Classes e Services    | 18/09  | 24/09 | ✔️      | APi + README.md |
 | Gabriel Marinho       | Front-end Dev   | Desenvolver telas e seus fluxogramas           | 09/09  | 17/09 | ❌      | Protótipo |
 | Luis Henrique Nicodemos | Back-end Dev  | Gerenciar banco de dados e rotas básicas       | 10/09  | 20/09 | ❌      | Código    |
-| Messias Junio        | QA/Documentação/ Dev Back-end | Testes iniciais e validação funcional Criação de Classes e Services    | 18/09  | 24/09 | ✔️      | APi + README.md |
 | Todos                | Organização     | Preparar apresentação parcial              | 25/09  | 30/09 | ❌      | Slides    |
 
 ---
@@ -145,10 +145,11 @@ Caso a equipe não utilize o GitHub Projects, este quadro servirá para informar
 
 | Responsável          | Função no Grupo | Tarefa                                   | Início | Prazo | Status | Entrega   |
 |-----------------------|-----------------|------------------------------------------|--------|-------|--------|-----------|
-| Luis Henrique Nicodemos | Bd Dev  | Finalizar rotinas de persistência         | 01/10  | 08/10 | ❌      | Código    |
-| Gabriel Marinho       | Front-end Dev  | Finalizar interface e aplicar feedback UX | 02/10  | 10/10 | ❌      | Protótipo |
-| Messias Junio        | PO / QA / Documentação / Back-end Dev | Testar sistema completo e consolidar relatório e Concluir a qualidade do backend| 06/10 | 11/12 | ✔️      | README.md + APC + Backend |
-| Todos                | Organização     | Entregar versão final e relatório no SGA  | 08/10  | 10/10 | ❌      | GitHub/SGA |
+| Messias Junio        | PO / QA / Documentação / Back-end Dev | Testar sistema completo e consolidar a qualidade da API | 06/10 | 11/12 | ✔️ | README.md + APC + Backend |
+| Luis Henrique Nicodemos | Dev - BD  | Gerenciar banco de dados e linkar com a API         | 01/10  |  11/12 | ❌      | Código    |
+| Derick                    | Dev - BD      | Gerenciar banco de dados e linkar com a API                     | 22/08  |  11/12  |  ❌| Modelo físico (diagramas/imagens) |
+| Gabriel Marinho       | Front-end Dev  | Finalizar interface e aplicar feedback UX | 02/10  |  11/12 | ❌      | Protótipo |
+| Todos                | Organização     | Entregar versão final e relatório no SGA  | 08/10  |  11/12 | ❌      | GitHub/SGA |
 
 ---
 
