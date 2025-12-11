@@ -141,10 +141,10 @@ Caso a equipe não utilize o GitHub Projects, este quadro servirá para informar
 | Responsável          | Função no Grupo | Tarefa                                   | Início | Prazo | Status | Entrega   |
 |-----------------------|-----------------|------------------------------------------|--------|-------|--------|-----------|
 | Messias Junio        | PO / QA / Documentação / Back-end Dev | Entregar e Testar o sistema completo e consolidar a qualidade da API | 06/10 | 11/12 | ✔️ | README.md + API + Backend |
-| Luis Henrique Nicodemos | Dev - BD  | Gerenciar banco de dados e linkar com a API         | 01/10  |  11/12 | ⌛      | Código    |
-| Derick                    | Dev - BD      | Gerenciar banco de dados e linkar com a API                     | 22/08  |  11/12  |  ⌛| Modelo físico (diagramas/imagens) |
+| Luis Henrique Nicodemos | Dev - BD  | Gerenciar banco de dados e linkar com a API         | 01/10  |  11/12 | ✔️      | Código    |
+| Derick                    | Dev - BD      | Gerenciar banco de dados e linkar com a API                     | 22/08  |  11/12  |  ✔️| Modelo físico (diagramas/imagens) |
 | Gabriel Marinho       | Front-end Dev  | Finalizar interface e aplicar feedback UX | 02/10  |  11/12 | ✔️      | Protótipo |
-| Todos                | Organização     | Entregar versão final e relatório no SGA  | 08/10  |  11/12 | ⌛      | GitHub/SGA |
+| Todos                | Organização     | Entregar versão final e relatório no SGA  | 08/10  |  11/12 | ✔️      | GitHub/SGA |
 
 ---
 
