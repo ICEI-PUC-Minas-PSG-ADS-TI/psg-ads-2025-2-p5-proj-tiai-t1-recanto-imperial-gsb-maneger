@@ -1,0 +1,774 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\RecantoImperial.Api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RecantoImperial.Api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Validators\\UpdateAveDtoValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Validators\\UpdateAveDtoValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Validators\\CreateEventoDtoValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Validators\\CreateEventoDtoValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Validators\\CreateCruzamentoDtoValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Validators\\CreateCruzamentoDtoValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Validators\\CreateAveDtoValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Validators\\CreateAveDtoValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\RelatorioService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\RelatorioService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\GenealogiaService.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\GenealogiaService.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\EventoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\EventoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\CruzamentoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\CruzamentoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\BackupService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\BackupService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\AveService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\AveService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Models\\Relatorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Relatorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Models\\Evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Models\\Cruzamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Cruzamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Models\\Backup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Backup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Models\\Ave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Ave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Migrations\\20251210173143_InitialCreate.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251210173143_InitialCreate.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Migrations\\20251210173143_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251210173143_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Migrations\\AppDbContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\AppDbContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Migrations\\.gitkeep||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\.gitkeep||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Mappings\\AutoMapperProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Mappings\\AutoMapperProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Interfaces\\IRelatorioService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Interfaces\\IRelatorioService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Interfaces\\IGenealogiaService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Interfaces\\IGenealogiaService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Interfaces\\IEventoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Interfaces\\IEventoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Interfaces\\ICruzamentoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Interfaces\\ICruzamentoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Interfaces\\IBackupService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Interfaces\\IBackupService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Interfaces\\IAveService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Interfaces\\IAveService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Dtos\\UpdateAveDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dtos\\UpdateAveDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Dtos\\GenealogiaDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dtos\\GenealogiaDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Dtos\\CreateEventoDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dtos\\CreateEventoDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Dtos\\CreateCruzamentoDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dtos\\CreateCruzamentoDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Dtos\\CreateAveDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dtos\\CreateAveDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Dtos\\AveDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dtos\\AveDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Controllers\\RelatoriosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\RelatoriosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Controllers\\GenealogiaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\GenealogiaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Controllers\\EventosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\EventosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Controllers\\CruzamentosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\CruzamentosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Controllers\\AvesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\AvesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Models\\CruzamentoAve.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\CruzamentoAve.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\Interfaces\\IGenealogiaService.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interfaces\\IGenealogiaService.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\Interfaces\\IRelatorioService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interfaces\\IRelatorioService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-10T20:54:20.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20251210173143_InitialCreate.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Migrations\\20251210173143_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251210173143_InitialCreate.Designer.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Migrations\\20251210173143_InitialCreate.Designer.cs",
+              "RelativeToolTip": "Migrations\\20251210173143_InitialCreate.Designer.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T20:37:09.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20251210173143_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Migrations\\20251210173143_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251210173143_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Migrations\\20251210173143_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20251210173143_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T20:37:08.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T20:37:07.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IRelatorioService.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Interfaces\\IRelatorioService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IRelatorioService.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Interfaces\\IRelatorioService.cs",
+              "RelativeToolTip": "Interfaces\\IRelatorioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T20:36:52.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IEventoService.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Interfaces\\IEventoService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IEventoService.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Interfaces\\IEventoService.cs",
+              "RelativeToolTip": "Interfaces\\IEventoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T20:36:49.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IBackupService.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Interfaces\\IBackupService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IBackupService.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Interfaces\\IBackupService.cs",
+              "RelativeToolTip": "Interfaces\\IBackupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T20:36:46.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IAveService.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Interfaces\\IAveService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IAveService.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Interfaces\\IAveService.cs",
+              "RelativeToolTip": "Interfaces\\IAveService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T20:36:44.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CruzamentoAve.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Models\\CruzamentoAve.cs",
+              "RelativeDocumentMoniker": "Models\\CruzamentoAve.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Models\\CruzamentoAve.cs",
+              "RelativeToolTip": "Models\\CruzamentoAve.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T19:48:43.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ICruzamentoService.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Interfaces\\ICruzamentoService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICruzamentoService.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Interfaces\\ICruzamentoService.cs",
+              "RelativeToolTip": "Interfaces\\ICruzamentoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T19:23:20.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GenealogiaService.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\GenealogiaService.cs",
+              "RelativeDocumentMoniker": "Services\\GenealogiaService.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\GenealogiaService.cs",
+              "RelativeToolTip": "Services\\GenealogiaService.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T19:19:39.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IGenealogiaService.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Interfaces\\IGenealogiaService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IGenealogiaService.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Interfaces\\IGenealogiaService.cs",
+              "RelativeToolTip": "Interfaces\\IGenealogiaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T19:07:14.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IRelatorioService.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\Interfaces\\IRelatorioService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IRelatorioService.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\Interfaces\\IRelatorioService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IRelatorioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T19:03:42.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAANEAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T18:59:28.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "GenealogiaController.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Controllers\\GenealogiaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GenealogiaController.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Controllers\\GenealogiaController.cs",
+              "RelativeToolTip": "Controllers\\GenealogiaController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T18:57:28.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IGenealogiaService.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\Interfaces\\IGenealogiaService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IGenealogiaService.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\Interfaces\\IGenealogiaService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IGenealogiaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T18:56:16.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GenealogiaDtos.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Dtos\\GenealogiaDtos.cs",
+              "RelativeDocumentMoniker": "Dtos\\GenealogiaDtos.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Dtos\\GenealogiaDtos.cs",
+              "RelativeToolTip": "Dtos\\GenealogiaDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T18:55:09.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": ".gitkeep",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Migrations\\.gitkeep",
+              "RelativeDocumentMoniker": "Migrations\\.gitkeep",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Migrations\\.gitkeep",
+              "RelativeToolTip": "Migrations\\.gitkeep",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-13T18:54:32.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-13T18:54:25.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-11-13T18:51:16.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-13T18:51:11.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateAveDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Validators\\UpdateAveDtoValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\UpdateAveDtoValidator.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Validators\\UpdateAveDtoValidator.cs",
+              "RelativeToolTip": "Validators\\UpdateAveDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:34.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateEventoDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Validators\\CreateEventoDtoValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\CreateEventoDtoValidator.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Validators\\CreateEventoDtoValidator.cs",
+              "RelativeToolTip": "Validators\\CreateEventoDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:34.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateCruzamentoDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Validators\\CreateCruzamentoDtoValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\CreateCruzamentoDtoValidator.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Validators\\CreateCruzamentoDtoValidator.cs",
+              "RelativeToolTip": "Validators\\CreateCruzamentoDtoValidator.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:33.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateAveDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Validators\\CreateAveDtoValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\CreateAveDtoValidator.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Validators\\CreateAveDtoValidator.cs",
+              "RelativeToolTip": "Validators\\CreateAveDtoValidator.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:33.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RelatorioService.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\RelatorioService.cs",
+              "RelativeDocumentMoniker": "Services\\RelatorioService.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\RelatorioService.cs",
+              "RelativeToolTip": "Services\\RelatorioService.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:32.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EventoService.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\EventoService.cs",
+              "RelativeDocumentMoniker": "Services\\EventoService.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\EventoService.cs",
+              "RelativeToolTip": "Services\\EventoService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:31.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CruzamentoService.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\CruzamentoService.cs",
+              "RelativeDocumentMoniker": "Services\\CruzamentoService.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\CruzamentoService.cs",
+              "RelativeToolTip": "Services\\CruzamentoService.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:30.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BackupService.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\BackupService.cs",
+              "RelativeDocumentMoniker": "Services\\BackupService.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\BackupService.cs",
+              "RelativeToolTip": "Services\\BackupService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:30.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AveService.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\AveService.cs",
+              "RelativeDocumentMoniker": "Services\\AveService.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Services\\AveService.cs",
+              "RelativeToolTip": "Services\\AveService.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAAALwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:29.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Relatorio.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Models\\Relatorio.cs",
+              "RelativeDocumentMoniker": "Models\\Relatorio.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Models\\Relatorio.cs",
+              "RelativeToolTip": "Models\\Relatorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:27.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Models\\Evento.cs",
+              "RelativeDocumentMoniker": "Models\\Evento.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Models\\Evento.cs",
+              "RelativeToolTip": "Models\\Evento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:26.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Cruzamento.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Models\\Cruzamento.cs",
+              "RelativeDocumentMoniker": "Models\\Cruzamento.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Models\\Cruzamento.cs",
+              "RelativeToolTip": "Models\\Cruzamento.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:25.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Backup.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Models\\Backup.cs",
+              "RelativeDocumentMoniker": "Models\\Backup.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Models\\Backup.cs",
+              "RelativeToolTip": "Models\\Backup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:25.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Ave.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Models\\Ave.cs",
+              "RelativeDocumentMoniker": "Models\\Ave.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Models\\Ave.cs",
+              "RelativeToolTip": "Models\\Ave.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:24.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Mappings\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "Mappings\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Mappings\\AutoMapperProfile.cs",
+              "RelativeToolTip": "Mappings\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:24.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UpdateAveDto.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Dtos\\UpdateAveDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UpdateAveDto.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Dtos\\UpdateAveDto.cs",
+              "RelativeToolTip": "Dtos\\UpdateAveDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:22.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CreateEventoDto.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Dtos\\CreateEventoDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\CreateEventoDto.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Dtos\\CreateEventoDto.cs",
+              "RelativeToolTip": "Dtos\\CreateEventoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:22.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CreateCruzamentoDto.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Dtos\\CreateCruzamentoDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\CreateCruzamentoDto.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Dtos\\CreateCruzamentoDto.cs",
+              "RelativeToolTip": "Dtos\\CreateCruzamentoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:21.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CreateAveDto.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Dtos\\CreateAveDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\CreateAveDto.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Dtos\\CreateAveDto.cs",
+              "RelativeToolTip": "Dtos\\CreateAveDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:20.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AveDto.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Dtos\\AveDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\AveDto.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Dtos\\AveDto.cs",
+              "RelativeToolTip": "Dtos\\AveDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:20.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RelatoriosController.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Controllers\\RelatoriosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RelatoriosController.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Controllers\\RelatoriosController.cs",
+              "RelativeToolTip": "Controllers\\RelatoriosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:18.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:14.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EventosController.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Controllers\\EventosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventosController.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Controllers\\EventosController.cs",
+              "RelativeToolTip": "Controllers\\EventosController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:49:10.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RecantoImperial.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\RecantoImperial.Api.csproj",
+              "RelativeDocumentMoniker": "RecantoImperial.Api.csproj",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\RecantoImperial.Api.csproj",
+              "RelativeToolTip": "RecantoImperial.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-13T18:48:08.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CruzamentosController.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Controllers\\CruzamentosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CruzamentosController.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Controllers\\CruzamentosController.cs",
+              "RelativeToolTip": "Controllers\\CruzamentosController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:46:29.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AvesController.cs",
+              "DocumentMoniker": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Controllers\\AvesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AvesController.cs",
+              "ToolTip": "C:\\Users\\messias.silva\\Desktop\\RecantoImperial.Api\\Controllers\\AvesController.cs",
+              "RelativeToolTip": "Controllers\\AvesController.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAEYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:46:22.115Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
