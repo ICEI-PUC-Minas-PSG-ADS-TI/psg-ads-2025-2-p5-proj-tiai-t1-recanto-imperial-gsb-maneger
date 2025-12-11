@@ -1,172 +1,345 @@
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\appsettings.json
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-Black.ttf
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-BlackItalic.ttf
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-Bold.ttf
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-BoldItalic.ttf
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-ExtraBold.ttf
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-ExtraBoldItalic.ttf
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-ExtraLight.ttf
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-ExtraLightItalic.ttf
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-Italic.ttf
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-Light.ttf
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-LightItalic.ttf
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-Medium.ttf
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-MediumItalic.ttf
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-Regular.ttf
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-SemiBold.ttf
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-SemiBoldItalic.ttf
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-Thin.ttf
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-ThinItalic.ttf
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\LatoFont\OFL.txt
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\RecantoImperial.Api.exe
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\RecantoImperial.Api.deps.json
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\RecantoImperial.Api.runtimeconfig.json
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\RecantoImperial.Api.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\RecantoImperial.Api.pdb
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\AutoMapper.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\FluentValidation.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\Humanizer.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\Mono.TextTemplating.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\QuestPDF.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\SQLitePCLRaw.core.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\System.CodeDom.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\System.Composition.AttributedModel.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\System.Composition.Convention.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\System.Composition.Hosting.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\System.Composition.Runtime.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\System.Composition.TypedParts.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-arm64\native\libQuestPdfSkia.so
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-arm64\native\libqpdf.so
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libQuestPdfSkia.so
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libqpdf.so
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-x64\native\libQuestPdfSkia.so
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-x64\native\libqpdf.so
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\osx-arm64\native\libqpdf.dylib
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\osx-x64\native\libQuestPdfSkia.dylib
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\osx-x64\native\libqpdf.dylib
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x64\native\QuestPdfSkia.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x64\native\libgcc_s_seh-1.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x64\native\libstdc++-6.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x64\native\libwinpthread-1.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x64\native\qpdf.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x86\native\QuestPdfSkia.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x86\native\libgcc_s_dw2-1.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x86\native\libstdc++-6.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x86\native\libwinpthread-1.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x86\native\qpdf.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\obj\Debug\net8.0\RecantoImperial.Api.csproj.AssemblyReference.cache
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\obj\Debug\net8.0\RecantoImperial.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\obj\Debug\net8.0\RecantoImperial.Api.AssemblyInfoInputs.cache
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\obj\Debug\net8.0\RecantoImperial.Api.AssemblyInfo.cs
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\obj\Debug\net8.0\RecantoImperial.Api.csproj.CoreCompileInputs.cache
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\obj\Debug\net8.0\RecantoImperial.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\obj\Debug\net8.0\RecantoImperial.Api.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\obj\Debug\net8.0\staticwebassets\msbuild.RecantoImperial.Api.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\obj\Debug\net8.0\staticwebassets\msbuild.build.RecantoImperial.Api.props
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.RecantoImperial.Api.props
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.RecantoImperial.Api.props
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\obj\Debug\net8.0\scopedcss\bundle\RecantoImperial.Api.styles.css
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\obj\Debug\net8.0\RecantoI.001C1D4B.Up2Date
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\obj\Debug\net8.0\RecantoImperial.Api.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\obj\Debug\net8.0\refint\RecantoImperial.Api.dll
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\obj\Debug\net8.0\RecantoImperial.Api.pdb
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\obj\Debug\net8.0\RecantoImperial.Api.genruntimeconfig.cache
-C:\Users\svizz\Desktop\Trabalho Recanto\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\recanto-imperial\back\obj\Debug\net8.0\ref\RecantoImperial.Api.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\appsettings.json
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\LatoFont\Lato-Black.ttf
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\LatoFont\Lato-BlackItalic.ttf
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\LatoFont\Lato-Bold.ttf
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\LatoFont\Lato-BoldItalic.ttf
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\LatoFont\Lato-ExtraBold.ttf
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\LatoFont\Lato-ExtraLight.ttf
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\LatoFont\Lato-Italic.ttf
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\LatoFont\Lato-Light.ttf
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\LatoFont\Lato-LightItalic.ttf
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\LatoFont\Lato-Medium.ttf
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\LatoFont\Lato-MediumItalic.ttf
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\LatoFont\Lato-Regular.ttf
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\LatoFont\Lato-SemiBold.ttf
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\LatoFont\Lato-Thin.ttf
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\LatoFont\Lato-ThinItalic.ttf
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\LatoFont\OFL.txt
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\RecantoImperial.Api.exe
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\RecantoImperial.Api.deps.json
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\RecantoImperial.Api.runtimeconfig.json
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\RecantoImperial.Api.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\RecantoImperial.Api.pdb
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\Humanizer.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\QuestPDF.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\linux-arm64\native\libQuestPdfSkia.so
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\linux-arm64\native\libqpdf.so
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libQuestPdfSkia.so
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libqpdf.so
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\linux-x64\native\libQuestPdfSkia.so
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\linux-x64\native\libqpdf.so
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\osx-arm64\native\libqpdf.dylib
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\osx-x64\native\libqpdf.dylib
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\win-x64\native\QuestPdfSkia.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\win-x64\native\libgcc_s_seh-1.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\win-x64\native\libstdc++-6.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\win-x64\native\libwinpthread-1.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\win-x64\native\qpdf.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\win-x86\native\QuestPdfSkia.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\win-x86\native\libgcc_s_dw2-1.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\win-x86\native\libstdc++-6.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\win-x86\native\libwinpthread-1.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\win-x86\native\qpdf.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\obj\Debug\net8.0\RecantoImperial.Api.csproj.AssemblyReference.cache
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\obj\Debug\net8.0\RecantoImperial.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\obj\Debug\net8.0\RecantoImperial.Api.AssemblyInfoInputs.cache
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\obj\Debug\net8.0\RecantoImperial.Api.AssemblyInfo.cs
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\obj\Debug\net8.0\RecantoImperial.Api.csproj.CoreCompileInputs.cache
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\obj\Debug\net8.0\RecantoImperial.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\obj\Debug\net8.0\RecantoImperial.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\obj\Debug\net8.0\staticwebassets\msbuild.RecantoImperial.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\obj\Debug\net8.0\staticwebassets\msbuild.build.RecantoImperial.Api.props
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.RecantoImperial.Api.props
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.RecantoImperial.Api.props
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\obj\Debug\net8.0\scopedcss\bundle\RecantoImperial.Api.styles.css
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\obj\Debug\net8.0\RecantoI.001C1D4B.Up2Date
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\obj\Debug\net8.0\RecantoImperial.Api.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\obj\Debug\net8.0\refint\RecantoImperial.Api.dll
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\obj\Debug\net8.0\RecantoImperial.Api.pdb
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\obj\Debug\net8.0\RecantoImperial.Api.genruntimeconfig.cache
+C:\Users\messias.silva\Desktop\RecantoImperial.Api\obj\Debug\net8.0\ref\RecantoImperial.Api.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-Black.ttf
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-BlackItalic.ttf
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-Bold.ttf
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-BoldItalic.ttf
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-ExtraBold.ttf
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-ExtraLight.ttf
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-Italic.ttf
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-Light.ttf
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-LightItalic.ttf
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-Medium.ttf
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-MediumItalic.ttf
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-Regular.ttf
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-SemiBold.ttf
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-Thin.ttf
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\LatoFont\Lato-ThinItalic.ttf
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\LatoFont\OFL.txt
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\appsettings.json
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\RecantoImperial.Api.exe
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\RecantoImperial.Api.deps.json
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\RecantoImperial.Api.runtimeconfig.json
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\RecantoImperial.Api.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\RecantoImperial.Api.pdb
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\Humanizer.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\QuestPDF.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-arm64\native\libQuestPdfSkia.so
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-arm64\native\libqpdf.so
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libQuestPdfSkia.so
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libqpdf.so
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-x64\native\libQuestPdfSkia.so
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-x64\native\libqpdf.so
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\osx-arm64\native\libqpdf.dylib
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\osx-x64\native\libqpdf.dylib
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x64\native\QuestPdfSkia.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x64\native\libgcc_s_seh-1.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x64\native\libstdc++-6.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x64\native\libwinpthread-1.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x64\native\qpdf.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x86\native\QuestPdfSkia.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x86\native\libgcc_s_dw2-1.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x86\native\libstdc++-6.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x86\native\libwinpthread-1.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x86\native\qpdf.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\obj\Debug\net8.0\RecantoImperial.Api.csproj.AssemblyReference.cache
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\obj\Debug\net8.0\RecantoImperial.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\obj\Debug\net8.0\RecantoImperial.Api.AssemblyInfoInputs.cache
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\obj\Debug\net8.0\RecantoImperial.Api.AssemblyInfo.cs
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\obj\Debug\net8.0\RecantoImperial.Api.csproj.CoreCompileInputs.cache
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\obj\Debug\net8.0\RecantoImperial.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\obj\Debug\net8.0\RecantoImperial.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\obj\Debug\net8.0\RecantoImperial.Api.sourcelink.json
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\obj\Debug\net8.0\staticwebassets\msbuild.RecantoImperial.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\obj\Debug\net8.0\staticwebassets\msbuild.build.RecantoImperial.Api.props
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.RecantoImperial.Api.props
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.RecantoImperial.Api.props
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\obj\Debug\net8.0\scopedcss\bundle\RecantoImperial.Api.styles.css
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\obj\Debug\net8.0\RecantoI.001C1D4B.Up2Date
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\obj\Debug\net8.0\RecantoImperial.Api.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\obj\Debug\net8.0\refint\RecantoImperial.Api.dll
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\obj\Debug\net8.0\RecantoImperial.Api.pdb
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\obj\Debug\net8.0\RecantoImperial.Api.genruntimeconfig.cache
+C:\Users\svizz\Desktop\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\recanto-imperial\back\obj\Debug\net8.0\ref\RecantoImperial.Api.dll

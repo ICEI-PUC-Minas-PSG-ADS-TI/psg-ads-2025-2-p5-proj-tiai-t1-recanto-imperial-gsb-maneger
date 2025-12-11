@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6vIzyA4hN0vMLaJE7jNiuK1k8GjwLdMxYgAtGXOKgbdAHM312kV9vjDYVBC3x5fcp4KSqpyHCLHffIu+J2nd1g==",
+  "dgSpecHash": "ArMRtLoGkfOfvYANCr3/6dtm6380Tt23T6/t0sTAdCrfMedSrnq4V/pd4eF5IMXCpVTC5R+xhfByyg5QMRfIjA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\svizz\\Desktop\\Trabalho Recanto\\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\\recanto-imperial\\back\\RecantoImperial.Api.csproj",
+  "projectFilePath": "C:\\Users\\svizz\\Desktop\\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\\recanto-imperial\\back\\RecantoImperial.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\svizz\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\svizz\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

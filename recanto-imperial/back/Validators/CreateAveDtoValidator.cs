@@ -12,13 +12,20 @@ namespace RecantoImperial.Api.Validators
                 .NotEmpty().WithMessage("Anilha é obrigatória.")
                 .MaximumLength(50);
 
-            RuleFor(x => x.Nome).MaximumLength(100);
-            RuleFor(x => x.Linhagem).MaximumLength(100);
+            RuleFor(x => x.Nome)
+                .MaximumLength(100);
+
+            RuleFor(x => x.Linhagem)
+                .MaximumLength(100);
 
             RuleFor(x => x.Sexo)
                 .NotEmpty().WithMessage("Sexo é obrigatório.")
-                .Must(s => s == "Macho" || s == "Femea")
-                .WithMessage("Sexo deverá ser 'Macho' ou 'Femea'.");
+                .Must(s =>
+                    string.Equals(s, "Macho", StringComparison.OrdinalIgnoreCase) ||
+                    string.Equals(s, "Femea", StringComparison.OrdinalIgnoreCase) ||
+                    string.Equals(s, "Fêmea", StringComparison.OrdinalIgnoreCase)
+                )
+                .WithMessage("Sexo deverá ser 'Macho' ou 'Fêmea'.");
 
             RuleFor(x => x.DataNascimento)
                 .Must(BeAValidDate).When(x => !string.IsNullOrWhiteSpace(x.DataNascimento))

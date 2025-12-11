@@ -1,11 +1,12 @@
-using Microsoft.EntityFrameworkCore;
-using RecantoImperial.Api.Data;
-using RecantoImperial.Api.Models;
-using RecantoImperial.Api.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using RecantoImperial.Api.Data;
+using RecantoImperial.Api.Dtos;
+using RecantoImperial.Api.Models;
+using RecantoImperial.Api.Services.Interfaces;
 
 namespace RecantoImperial.Api.Services
 {
@@ -18,71 +19,100 @@ namespace RecantoImperial.Api.Services
             _ctx = ctx;
         }
 
-        public async Task<Cruzamento> CreateAsync(Cruzamento cruzamento, IEnumerable<(int aveId, string papel)> aves)
-        {
-            var aveIds = aves.Select(a => a.aveId).ToList();
-            var avesDb = await _ctx.Aves.Where(a => aveIds.Contains(a.Id)).ToListAsync();
-
-            if (avesDb.Count != aveIds.Count)
-                throw new InvalidOperationException("Uma ou mais aves não estão cadastradas.");
-
-            var inativas = avesDb.Where(a => a.Status != StatusAve.Ativa).ToList();
-            if (inativas.Any())
-                throw new InvalidOperationException("Todas as aves do cruzamento devem estar ativas.");
-
-            using var tx = await _ctx.Database.BeginTransactionAsync();
-            try
-            {
-                await _ctx.Cruzamentos.AddAsync(cruzamento);
-                await _ctx.SaveChangesAsync();
-
-                foreach (var (aveId, papel) in aves)
-                {
-                    var ca = new CruzamentoAves
-                    {
-                        CruzamentoId = cruzamento.Id,
-                        AveId = aveId,
-                        Papel = papel
-                    };
-                    await _ctx.CruzamentoAves.AddAsync(ca);
-                }
-
-                await _ctx.SaveChangesAsync();
-                await tx.CommitAsync();
-
-                return await GetByIdAsync(cruzamento.Id);
-            }
-            catch
-            {
-                await tx.RollbackAsync();
-                throw;
-            }
-        }
-
-        public async Task<bool> DeleteAsync(int id)
-        {
-            var c = await _ctx.Cruzamentos.FindAsync(id);
-            if (c == null) return false;
-            _ctx.Cruzamentos.Remove(c);
-            await _ctx.SaveChangesAsync();
-            return true;
-        }
-
-        public async Task<IEnumerable<Cruzamento>> GetAllAsync()
+        public async Task<List<Cruzamento>> ListarAsync()
         {
             return await _ctx.Cruzamentos
                 .Include(c => c.CruzamentoAves)
-                .ThenInclude(ca => ca.Ave)
+                    .ThenInclude(ca => ca.Ave)
                 .AsNoTracking()
                 .ToListAsync();
         }
 
-        public async Task<Cruzamento> GetByIdAsync(int id)
+        public async Task<Cruzamento?> ObterPorIdAsync(int id)
         {
             return await _ctx.Cruzamentos
                 .Include(c => c.CruzamentoAves)
-                .ThenInclude(ca => ca.Ave)
+                    .ThenInclude(ca => ca.Ave)
+                .AsNoTracking()
                 .FirstOrDefaultAsync(c => c.Id == id);
+        }
+
+        public async Task<Cruzamento> CriarAsync(CreateCruzamentoDto dto)
+        {
+
+            if (dto.Aves is null || dto.Aves.Count < 3)
+                throw new InvalidOperationException("Um cruzamento deve ter Pai, Mãe e pelo menos um Filho.");
+
+            if (dto.Aves.Count(a => a.Papel == "Pai") != 1)
+                throw new InvalidOperationException("O cruzamento deve ter exatamente um Pai.");
+
+            if (dto.Aves.Count(a => a.Papel == "Mae") != 1)
+                throw new InvalidOperationException("O cruzamento deve ter exatamente uma Mãe.");
+
+            if (!dto.Aves.Any(a => a.Papel == "Filho"))
+                throw new InvalidOperationException("O cruzamento deve ter pelo menos um Filho.");
+
+            var idsAves = dto.Aves
+                .Select(a => a.AveId)
+                .Distinct()
+                .ToList();
+
+            var avesBanco = await _ctx.Aves
+                .Where(a => idsAves.Contains(a.Id))
+                .ToDictionaryAsync(a => a.Id);
+
+            if (avesBanco.Count != idsAves.Count)
+            {
+                throw new InvalidOperationException(
+                    "Uma ou mais aves informadas no cruzamento não existem no cadastro.");
+            }
+
+            var cruzamento = new Cruzamento
+            {
+                Data = DateTime.UtcNow.Date,
+                Observacoes = dto.Observacoes ?? string.Empty,
+                CruzamentoAves = new List<CruzamentoAves>()
+            };
+
+            foreach (var item in dto.Aves)
+            {
+                if (!avesBanco.TryGetValue(item.AveId, out var ave))
+                    throw new InvalidOperationException($"Ave com Id {item.AveId} não encontrada.");
+
+                var ca = new CruzamentoAves
+                {
+                    Cruzamento = cruzamento,
+                    AveId = ave.Id,
+                    Papel = item.Papel
+                };
+
+                cruzamento.CruzamentoAves.Add(ca);
+            }
+
+            _ctx.Cruzamentos.Add(cruzamento);
+            await _ctx.SaveChangesAsync();
+
+            await _ctx.Entry(cruzamento)
+                .Collection(c => c.CruzamentoAves)
+                .Query()
+                .Include(ca => ca.Ave)
+                .LoadAsync();
+
+            return cruzamento;
+        }
+
+        public async Task<bool> ExcluirAsync(int id)
+        {
+            var cruz = await _ctx.Cruzamentos
+                .Include(c => c.CruzamentoAves)
+                .FirstOrDefaultAsync(c => c.Id == id);
+
+            if (cruz == null)
+                return false;
+
+            _ctx.Cruzamentos.Remove(cruz);
+            await _ctx.SaveChangesAsync();
+            return true;
         }
     }
 }

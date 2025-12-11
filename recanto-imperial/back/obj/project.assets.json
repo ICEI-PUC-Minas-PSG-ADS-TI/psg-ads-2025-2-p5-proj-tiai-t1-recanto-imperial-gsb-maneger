@@ -3416,11 +3416,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\svizz\\Desktop\\Trabalho Recanto\\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\\recanto-imperial\\back\\RecantoImperial.Api.csproj",
+      "projectUniqueName": "C:\\Users\\svizz\\Desktop\\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\\recanto-imperial\\back\\RecantoImperial.Api.csproj",
       "projectName": "RecantoImperial.Api",
-      "projectPath": "C:\\Users\\svizz\\Desktop\\Trabalho Recanto\\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\\recanto-imperial\\back\\RecantoImperial.Api.csproj",
+      "projectPath": "C:\\Users\\svizz\\Desktop\\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\\recanto-imperial\\back\\RecantoImperial.Api.csproj",
       "packagesPath": "C:\\Users\\svizz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\svizz\\Desktop\\Trabalho Recanto\\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger\\recanto-imperial\\back\\obj\\",
+      "outputPath": "C:\\Users\\svizz\\Desktop\\psg-ads-2025-2-p5-proj-tiai-t1-recanto-imperial-gsb-maneger-Gabriel-front\\recanto-imperial\\back\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\svizz\\AppData\\Roaming\\NuGet\\NuGet.Config"
