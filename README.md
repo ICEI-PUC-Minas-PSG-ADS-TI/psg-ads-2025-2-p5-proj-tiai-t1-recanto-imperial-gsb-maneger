@@ -60,23 +60,8 @@ As orientações incluirão:
 
 # 💻 Código
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+<li><a href="docs/RecantoIMperial_UI"> User Interface </a></li>
+<li><a href="docs/RecantoIMperial_API"> User Aplication </a></li>
+<li><a href="docs/db"> Banco de Dados </a></li>
 
----
 
-# 🎤 Apresentação
-
-<li><a href="presentation/README.md"> Apresentação da Solução</a></li>
-
----
-
-## 📌 Histórico de Versões
-
-* **0.1.1**  
-    * CHANGE: Atualização das documentações. Código permaneceu inalterado.  
-
-* **0.1.0**  
-    * Implementação do módulo de cadastro de aves e registro de cruzamentos.  
-
-* **0.0.1**  
-    * Criação do repositório, organização da estrutura e início da modelagem do processo de negócio.  
