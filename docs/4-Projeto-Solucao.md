@@ -261,3 +261,437 @@ Se o projeto adotar NoSQL, a entrega deve incluir:
   "perfil": "admin"
 }
 ```
+### 5 Documentação de Testes – RecantoImperial API (Swagger)
+
+>
+- **Projeto:** RecantoImperial.Api
+- **Versão:** 1.0
+- **Ambiente de teste:** `http://localhost:5000/swagger`
+- **Ferramenta:** Swagger UI – `/swagger/index.html`
+- **Data dos testes:** 11/12/2025
+
+Foram executados testes em **todos os endpoints** expostos no Swagger da API, cobrindo operações de consulta, cadastro, atualização, exclusão, genealogia e geração de relatórios PDF.
+
+![0.png](attachment:4948b0a9-52bf-47b6-8743-d003ba02b347:0.png)
+
+---
+
+## 1. Aves (`/api/Aves`)
+
+### 1.1. Listar todas as aves
+
+**Endpoint:** `GET /api/Aves`
+
+**Objetivo:** Retornar a lista completa de aves cadastradas.
+
+**Resultado do teste:**
+
+- **Status:** `200 OK`
+- **Retorno:** Lista de aves com os registros:
+    - `id: 1` – Anilha `A001`, Nome `Matriz 01`, Sexo `Femea`, Status `Ativa`
+    - `id: 2` – Anilha `A002`, Nome `Galo 01`, Sexo `Macho`, Status `Ativa`
+    - `id: 3` – Anilha `GSB001`, Nome `Turmalina SUPER Atualizada`, com `dataNascimento` e `peso`
+    - `id: 6` – Anilha `A003`, Nome `Matriz Rubi`
+    - `id: 7` – Anilha `A004`, Nome `Galo Onix`
+
+**Imagem do teste:**
+
+![1.png](attachment:b7a26bc4-3a4f-4d26-8ab9-8967c6e29a5a:1.png)
+
+---
+
+### 1.2. Criar ave
+
+**Endpoint:** `POST /api/Aves`
+
+**Objetivo:** Cadastrar uma nova ave.
+
+**Body utilizado no teste:**
+
+```json
+{
+  "anilha": "A004",
+  "nome": "Galo Onix",
+  "linhagem": "Linha Onix",
+  "sexo": "Macho",
+  "dataNascimento": "2025-03-12",
+  "peso": 2.80,
+  "fotoPath": ""
+}
+
+```
+
+**Resultado do teste (segundo envio com mesma anilha):**
+
+- **Status:** `400 Bad Request`
+- **Retorno:**
+
+```json
+{
+  "error": "Anilha 'A004' já cadastrada."
+}
+
+```
+
+**Conclusão:**
+
+- Validação de unicidade da **anilha** funcionando corretamente (retorno 400 quando duplicada).
+
+**Imagem do teste:**
+
+![2.png](attachment:72cd8ff0-05e7-48b8-bdb5-b82c5f22d4ae:2.png)
+
+---
+
+### 1.3. Buscar ave por ID
+
+**Endpoint:** `GET /api/Aves/{id}`
+
+**Exemplo testado:** `GET /api/Aves/1`
+
+**Resultado do teste:**
+
+- **Status:** `200 OK`
+- **Retorno:** Registro da ave `A001 – Matriz 01`, com status `Ativa`.
+
+**Imagem do teste:**
+
+![3.png](attachment:55a8716a-f2ba-4378-a978-c987d398c3af:3.png)
+
+---
+
+### 1.4. Atualizar ave
+
+**Endpoint:** `PUT /api/Aves/{id}`
+
+**Exemplo testado:** `PUT /api/Aves/3`
+
+**Body utilizado:**
+
+```json
+{
+  "id": 3,
+  "anilha": "GSB001",
+  "nome": "Turmalina SUPER Atualizada",
+  "linhagem": "Galo Esmeralda",
+  "sexo": "Femea",
+  "dataNascimento": "2025-01-10",
+  "peso": 2.60,
+  "fotoPath": "",
+  "statusDescricao": "Ativa"
+}
+
+```
+
+**Resultado do teste:**
+
+- **Status:** `200 OK`
+- **Retorno:** Objeto atualizado com os mesmos dados enviados.
+
+**Imagem do teste:**
+
+![4.png](attachment:523e312e-b10d-49c5-8181-a2c425ec23e6:4.png)
+
+---
+
+### 1.5. Deletar ave
+
+**Endpoint:** `DELETE /api/Aves/{id}`
+
+**Exemplo testado:** `DELETE /api/Aves/7`
+
+**Resultado do teste:**
+
+- **Status:** `204 No Content`
+- Nenhum corpo de resposta, indicando exclusão bem-sucedida.
+
+**Imagem do teste:**
+
+![5.png](attachment:5ad7968d-9dcc-426f-886e-c42872679723:5.png)
+
+---
+
+### 1.6. Buscar ave por anilha
+
+**Endpoint:** `GET /api/Aves/by-anilha/{anilha}`
+
+**Exemplo testado:** `GET /api/Aves/by-anilha/A001`
+
+**Resultado do teste:**
+
+- **Status:** `200 OK`
+- **Retorno:** Dados da ave com anilha `A001`.
+
+**Imagem do teste:**
+
+![6.png](attachment:d7542cf9-00be-4948-ae31-e05bc9fa0435:6.png)
+
+---
+
+## 2. Cruzamentos (`/api/Cruzamentos`)
+
+### 2.1. Listar cruzamentos
+
+**Endpoint:** `GET /api/Cruzamentos`
+
+**Objetivo:** Listar todos os cruzamentos com seus respectivos Pai, Mãe e Filhos.
+
+**Resultado do teste:**
+
+- **Status:** `200 OK`
+- **Retorno:** Lista contendo, por exemplo:
+    - Cruzamento `id: 2` – “Cruzamento de teste Turmalina”
+    - Cruzamento `id: 3` – “Cruzamento Turmalina - árvore de teste”
+- Cada cruzamento retorna:
+    - `data`
+    - `observacoes`
+    - Coleção `cruzamentoAves` com:
+        - Ave com `papel: "Pai"`
+        - Ave com `papel: "Mae"`
+        - Ave(s) com `papel: "Filho"`
+
+**Imagem do teste:**
+
+![7.png](attachment:595ed9af-7f54-442b-9e17-573eaf9d6209:7.png)
+
+---
+
+### 2.2. Criar cruzamento
+
+**Endpoint:** `POST /api/Cruzamentos`
+
+**Body utilizado:**
+
+```json
+{
+  "observacoes": "Cruzamento Turmalina - árvore de teste",
+  "aves": [
+    {
+      "aveId": 2,
+      "papel": "Pai"
+    },
+    {
+      "aveId": 1,
+      "papel": "Mae"
+    },
+    {
+      "aveId": 3,
+      "papel": "Filho"
+    }
+  ]
+}
+
+```
+
+**Resultado do teste:**
+
+- **Status:** `201 Created`
+- **Retorno:** Cruzamento criado com:
+    - `id: 3`
+    - `data`: preenchida automaticamente (UTC)
+    - `observacoes`: conforme enviado
+    - `cruzamentoAves`: contendo Pai, Mãe e Filho com as aves ligadas corretamente
+
+**Imagem do teste:**
+
+![8.png](attachment:d3b4ada9-8871-42ac-ad33-c7f5e7639d07:8.png)
+
+---
+
+### 2.3. Buscar cruzamento por ID
+
+**Endpoint:** `GET /api/Cruzamentos/{id}`
+
+**Exemplo testado:** `GET /api/Cruzamentos/2`
+
+**Resultado do teste:**
+
+- **Status:** `200 OK`
+- **Retorno:** Dados completos do cruzamento `id: 2` com suas aves relacionadas.
+
+**Imagem do teste:**
+
+![9.png](attachment:deacf42b-0e4c-46e0-bafc-0aab813c43ae:9.png)
+
+---
+
+### 2.4. Deletar cruzamento
+
+**Endpoint:** `DELETE /api/Cruzamentos/{id}`
+
+**Exemplo testado:** `DELETE /api/Cruzamentos/3`
+
+**Resultado do teste:**
+
+- **Status:** `204 No Content`
+- Cruzamento removido com sucesso.
+
+**Imagem do teste:**
+
+![10.png](attachment:965f1108-b940-414f-9265-13bd8d0c643b:10.png)
+
+---
+
+## 3. Eventos (`/api/Eventos`)
+
+### 3.1. Listar eventos
+
+**Endpoint:** `GET /api/Eventos`
+
+**Resultado do teste:**
+
+- **Status:** `200 OK`
+- **Retorno:** Lista de eventos, por exemplo:
+    - `id: 2` – Evento de **Venda** da ave `A001`
+    - `id: 3` – Outro registro de **Venda** da mesma ave
+
+**Imagem do teste:**
+
+![11.png](attachment:849546d8-3c95-4641-a06c-38446ca9b57a:11.png)
+
+---
+
+### 3.2. Criar evento
+
+**Endpoint:** `POST /api/Eventos`
+
+**Body utilizado:**
+
+```json
+{
+  "aveId": 1,
+  "tipoEvento": "Venda",
+  "observacoes": "Ave vendida para cliente X",
+  "data": "2025-10-12"
+}
+
+```
+
+**Resultado do teste:**
+
+- **Status:** `201 Created`
+- **Retorno:** Evento criado com `id: 3`, associando ao registro da ave `A001`.
+
+**Imagem do teste:**
+
+![12.png](attachment:a138eebb-e4b1-48dd-b6b3-c6d8a2421e89:12.png)
+
+---
+
+### 3.3. Deletar evento
+
+**Endpoint:** `DELETE /api/Eventos/{id}`
+
+**Exemplo testado:** `DELETE /api/Eventos/2`
+
+**Resultado do teste:**
+
+- **Status:** `204 No Content`
+
+**Imagem do teste:**
+
+![13.png](attachment:85a1afea-3533-461a-a5f6-d30bdb4eb66d:13.png)
+
+---
+
+### 3.4. Buscar evento por ID (após exclusão)
+
+**Endpoint:** `GET /api/Eventos/{id}`
+
+**Exemplo testado:** `GET /api/Eventos/2` (após o DELETE)
+
+**Resultado do teste:**
+
+- **Status:** `404 Not Found`
+- **Retorno:** Objeto padrão de problema HTTP, indicando recurso não encontrado.
+
+**Imagem do teste:**
+
+![14.png](attachment:14e18e45-a2c9-410a-9a2c-0ceed3e4df5e:14.png)
+
+---
+
+## 4. Genealogia (`/api/Genealogia`)
+
+### 4.1. Genealogia por ID da ave
+
+**Endpoint:** `GET /api/Genealogia/por-ave/{id}`
+
+**Exemplo testado:** `GET /api/Genealogia/por-ave/3`
+
+**Resultado do teste:**
+
+- **Status:** `200 OK`
+- **Retorno:** Estrutura de genealogia:
+    - `raiz`: Ave `GSB001 – Turmalina SUPER Atualizada`
+    - `pai`: Ave `A002 – Galo 01`
+    - `mae`: Ave `A001 – Matriz 01`
+    - Avós paternos e maternos (`avoPaterno`, `avaPaterna`, `avoMaterno`, `avaMaterna`) retornando `null` (não cadastrados).
+
+**Imagem do teste:**
+
+![15.png](attachment:61c7f3c2-df64-4edc-b27a-0b2186d9965e:15.png)
+
+---
+
+### 4.2. Genealogia por anilha
+
+**Endpoint:** `GET /api/Genealogia/por-anilha/{anilha}`
+
+**Exemplo testado:** `GET /api/Genealogia/por-anilha/GSB001`
+
+**Resultado do teste:**
+
+- **Status:** `200 OK`
+- **Retorno:** Mesmo resultado de genealogia do teste por id, agora usando a anilha.
+
+**Imagem do teste:**
+
+![16.png](attachment:6a88e307-92e6-424b-aa44-150b81d66823:16.png)
+
+---
+
+## 5. Relatórios (`/api/Relatorios`)
+
+### 5.1. Gerar ficha da ave (PDF)
+
+**Endpoint:** `POST /api/Relatorios/ficha-ave/{aveId}`
+
+**Exemplo testado:** `POST /api/Relatorios/ficha-ave/1`
+
+**Parâmetros:**
+
+- `aveId` (path): `1`
+- `destinoPasta` (query): **não informado** (deixa usar o padrão da aplicação)
+
+**Resultado do teste:**
+
+- **Status:** `200 OK`
+- **Retorno:** Objeto contendo:
+    - `caminho`: Caminho completo do PDF gerado, ex:
+        - `C:\Users\messias.silva\Desktop\RecantoImperial.Api\bin\Debug\net8.0\relatorios\Ficha_Ave_A001_20251211194803.pdf`
+    - `id`: identificador do registro de relatório (ex: `3`).
+
+**Imagem do teste:**
+
+![17.png](attachment:c1e8d8df-829f-4870-8f9b-7e8284bac386:17.png)
+
+---
+
+## 6. Conclusão dos Testes
+
+- Todos os endpoints documentados em Swagger foram exercitados:
+    - CRUD de **Aves**
+    - CRUD de **Cruzamentos**
+    - CRUD de **Eventos**
+    - Consultas de **Genealogia** por `id` e `anilha`
+    - Geração de **Relatório PDF de ficha de ave**
+- As regras principais foram validadas:
+    - **Anilha única** ao cadastrar aves.
+    - Cruzamento com Pai, Mãe e pelo menos um Filho.
+    - Respostas `404` após remoção de recursos.
+    - Geração correta de PDF e caminho retornado no corpo.
+
+As imagens do Swagger anexadas a este documento ilustram cada uma das chamadas descritas acima, servindo como evidência visual do funcionamento da API na versão atual.
+
+---
